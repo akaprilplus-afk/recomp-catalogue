@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-5",
+  "catalogueVersion": "2026.11.18-6",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 650,
-    "Fully Playable": 64,
-    "Mostly Playable": 322,
-    "Early Development": 264,
-    "otherProjects": 238
+    "rated": 690,
+    "Fully Playable": 68,
+    "Mostly Playable": 354,
+    "Early Development": 268,
+    "otherProjects": 246
   },
   "games": [
     {
@@ -36,7 +36,7 @@
       "year": 2003,
       "console": "Original Xbox",
       "status": "Fully Playable",
-      "project": "DOAXVB Native PC Port",
+      "project": "NoRain211/doaxbv-re",
       "release": "v0.6.2 (2026-11-02)",
       "method": "Custom static recompiler + hand-written Windows runtime",
       "gameVersion": "Supported USA Xbox ISO",
@@ -44,7 +44,7 @@
       "filesUrl": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.2",
       "verified": "2026-11-18",
       "notes": "Source 2026-10-10 (reviewed 2026-10-10): Adds Linux/Steam Deck and macOS build paths, high-refresh presentation and texture replacement, plus renderer/transition fixes. Linux/macOS only reached menus in smoke tests; 0.5.3 remains recommended pending a full RC playtest.\n\nEarlier source evidence: FULL audit passed. The maintainer explicitly labels the port 'Fully playable as of 0.4 Beta.' Current player-session coverage includes every stage, Casino, Hotel, Shops, saving/reloading, and a vacation ending into a new one. Rendering fidelity and some individual item/activity variants remain unverified, but there is no stated progression blocker.",
-      "projectUrl": "https://github.com/NoRain211/doaxvb-re",
+      "projectUrl": "https://github.com/NoRain211/doaxbv-re",
       "history": [
         {
           "date": "2026-11-18",
@@ -61,6 +61,14 @@
           "new": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.2",
           "source": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.2",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/NoRain211/doaxvb-re",
+          "new": "https://github.com/NoRain211/doaxbv-re",
+          "source": "https://github.com/NoRain211/doaxbv-re",
+          "note": "Repository renamed (same commits); link updated."
         }
       ]
     },
@@ -14410,6 +14418,1406 @@
           "note": "Rated by Claude: all modes including career modes work -> Fully Playable (maintainer claim)."
         }
       ]
+    },
+    {
+      "id": "ps3-demons-souls",
+      "legacyId": null,
+      "title": "Demon's Souls",
+      "year": 2009,
+      "console": "PlayStation 3",
+      "status": "Fully Playable",
+      "project": "JonathanDC64/Soulbrandt",
+      "release": "v0.1.2 (2026-11-10)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/JonathanDC64/Soulbrandt/releases/tag/v0.1.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Soulbrandt alpha 0.1.2: the game plays from start to finish (a tester has beaten it); own online server; expect bugs.",
+      "projectUrl": "https://github.com/JonathanDC64/Soulbrandt",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/JonathanDC64/Soulbrandt",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/JonathanDC64/Soulbrandt",
+          "note": "Rated by Claude: start-to-finish completion reported -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-rayman-3-hd",
+      "legacyId": null,
+      "title": "Rayman 3 HD",
+      "year": 2012,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "MysteriousAeon/rayman3-hd-recompiled",
+      "release": "v1.2.0 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled/releases/tag/v1.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v1.2.0 with installer and portable builds, mod support and level tools.",
+      "projectUrl": "https://github.com/MysteriousAeon/rayman3-hd-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/MysteriousAeon/rayman3-hd-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/MysteriousAeon/rayman3-hd-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-sonic-riders",
+      "legacyId": null,
+      "title": "Sonic Riders",
+      "year": 2006,
+      "console": "GameCube",
+      "status": "Mostly Playable",
+      "project": "teclilla18/Sonic-Riders-Recomp",
+      "release": "v0.8.6-switch2-alpha.1 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Android; Switch",
+      "filesUrl": "https://github.com/teclilla18/Sonic-Riders-Recomp/releases/tag/v0.8.6-switch2-alpha.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native port for PC, Switch, Android and iOS; several consecutive races completed; alpha with some audio and stutter issues.",
+      "projectUrl": "https://github.com/teclilla18/Sonic-Riders-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/teclilla18/Sonic-Riders-Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/teclilla18/Sonic-Riders-Recomp",
+          "note": "Rated by Claude: races documented, alpha -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-2014-fifa-world-cup-brazil",
+      "legacyId": null,
+      "title": "2014 FIFA World Cup Brazil",
+      "year": 2014,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "HossEz/fifa-world-cup-2014-recompiled",
+      "release": "v0.3.0 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/tag/v0.3.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): installer and launcher; controller and keyboard play; known issues on weak GPUs.",
+      "projectUrl": "https://github.com/HossEz/fifa-world-cup-2014-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/HossEz/fifa-world-cup-2014-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/HossEz/fifa-world-cup-2014-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-naruto-rise-of-a-ninja",
+      "legacyId": null,
+      "title": "Naruto: Rise of a Ninja",
+      "year": 2007,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "jorjbarbosa/naruto-rise-recomp",
+      "release": "v0.4.2-beta (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/jorjbarbosa/naruto-rise-recomp/releases/tag/v0.4.2-beta",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress (beta releases for Windows and Linux); expect bugs, crashes and visual issues.",
+      "projectUrl": "https://github.com/jorjbarbosa/naruto-rise-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jorjbarbosa/naruto-rise-recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jorjbarbosa/naruto-rise-recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-far-cry-instincts",
+      "legacyId": null,
+      "title": "Far Cry Instincts",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "bassobr/Far-Cry-Instincts-Recomp",
+      "release": "v0.9.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Steam Deck (Proton)",
+      "filesUrl": "https://github.com/bassobr/Far-Cry-Instincts-Recomp/releases/tag/v0.9.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): plays from the disc image; up to four controllers, widescreen, view-distance options.",
+      "projectUrl": "https://github.com/bassobr/Far-Cry-Instincts-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/bassobr/Far-Cry-Instincts-Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/bassobr/Far-Cry-Instincts-Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-far-cry-instincts-evolution",
+      "legacyId": null,
+      "title": "Far Cry Instincts Evolution",
+      "year": 2006,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "bassobr/Far-Cry-Instincts-Evolution-Recomp",
+      "release": "v0.1.0 (2026-11-16)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Steam Deck (Proton)",
+      "filesUrl": "https://github.com/bassobr/Far-Cry-Instincts-Evolution-Recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): first release (v0.1.0), same base as the Far Cry Instincts port.",
+      "projectUrl": "https://github.com/bassobr/Far-Cry-Instincts-Evolution-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/bassobr/Far-Cry-Instincts-Evolution-Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/bassobr/Far-Cry-Instincts-Evolution-Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-far-cry-instincts-predator",
+      "legacyId": null,
+      "title": "Far Cry Instincts: Predator",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "bassobr/Far-Cry-Instincts-Predator-Recomp",
+      "release": "v0.9.1 (2026-11-16)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Steam Deck",
+      "filesUrl": "https://github.com/bassobr/Far-Cry-Instincts-Predator-Recomp/releases/tag/v0.9.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): beta; native Windows port covering both campaigns (Instincts and Evolution).",
+      "projectUrl": "https://github.com/bassobr/Far-Cry-Instincts-Predator-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/bassobr/Far-Cry-Instincts-Predator-Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/bassobr/Far-Cry-Instincts-Predator-Recomp",
+          "note": "Rated by Claude: beta covering both campaigns -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "dreamcast-bomberman-online",
+      "legacyId": null,
+      "title": "Bomberman Online",
+      "year": 2001,
+      "console": "Dreamcast",
+      "status": "Mostly Playable",
+      "project": "nvd123-YT/BombermanOnlineRecomp",
+      "release": "nightly-43810813607 (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/nvd123-YT/BombermanOnlineRecomp/releases/tag/nightly-43810813607",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): prebuilt releases with a launcher (disc, online, resolution, controls).",
+      "projectUrl": "https://github.com/nvd123-YT/BombermanOnlineRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/nvd123-YT/BombermanOnlineRecomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/nvd123-YT/BombermanOnlineRecomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-rampage-total-destruction",
+      "legacyId": null,
+      "title": "Rampage: Total Destruction",
+      "year": 2006,
+      "console": "PlayStation 2",
+      "status": "Fully Playable",
+      "project": "jjmhalew/RampageRE",
+      "release": "v1.2.8 (2026-11-11)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; Android",
+      "filesUrl": "https://github.com/jjmhalew/RampageRE/releases/tag/v1.2.8",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable from start to end in the native port.",
+      "projectUrl": "https://github.com/jjmhalew/RampageRE",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jjmhalew/RampageRE",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/jjmhalew/RampageRE",
+          "note": "Rated by Claude: start-to-end documented -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps1-final-fantasy-vii",
+      "legacyId": null,
+      "title": "Final Fantasy VII",
+      "year": 1997,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "jcoker85/FF7Recomp",
+      "release": "v1.0.0 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/FF7Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v1.0.0; supports all three discs with disc changes; optional mods (faster loading etc.).",
+      "projectUrl": "https://github.com/jcoker85/FF7Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/FF7Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/FF7Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement (v1.0.0) -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-midnight-club-ii",
+      "legacyId": null,
+      "title": "Midnight Club II",
+      "year": 2003,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "jcoker85/MC2Recomp",
+      "release": "v0.5 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/MC2Recomp/releases/tag/v0.5",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): launcher-based release; plays as on PS2 with optional enhancements.",
+      "projectUrl": "https://github.com/jcoker85/MC2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/MC2Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/MC2Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-midnight-club-street-racing",
+      "legacyId": null,
+      "title": "Midnight Club: Street Racing",
+      "year": 2000,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "jcoker85/MC1Recomp",
+      "release": "v0.1.4 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/MC1Recomp/releases/tag/v0.1.4",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Career saves to the memory card; widescreen, fixed HUD and 60 FPS.",
+      "projectUrl": "https://github.com/jcoker85/MC1Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/MC1Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/MC1Recomp",
+          "note": "Rated by Claude: career play documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-smugglers-run",
+      "legacyId": null,
+      "title": "Smuggler's Run",
+      "year": 2000,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "jcoker85/SR1Recomp",
+      "release": "v0.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/SR1Recomp/releases/tag/v0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): launcher-based release; Smuggler's Mission uses the memory card.",
+      "projectUrl": "https://github.com/jcoker85/SR1Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/SR1Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/SR1Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-smugglers-run-2-hostile-territory",
+      "legacyId": null,
+      "title": "Smuggler's Run 2: Hostile Territory",
+      "year": 2001,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "jcoker85/SR2Recomp",
+      "release": "v0.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/SR2Recomp/releases/tag/v0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Missions, Turf Wars, Checkpoint Races and two-player not yet played through.",
+      "projectUrl": "https://github.com/jcoker85/SR2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/SR2Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/SR2Recomp",
+          "note": "Rated by Claude: partly played, several modes untested -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-twisted-metal",
+      "legacyId": null,
+      "title": "Twisted Metal",
+      "year": 1995,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "jcoker85/TwistedMetal1234Recomp",
+      "release": "v1.0.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): one project for Twisted Metal 1, 2, III and 4 (own disc image per game).",
+      "projectUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-twisted-metal-iii",
+      "legacyId": null,
+      "title": "Twisted Metal III",
+      "year": 1998,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "jcoker85/TwistedMetal1234Recomp",
+      "release": "v1.0.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): one project for Twisted Metal 1, 2, III and 4 (own disc image per game).",
+      "projectUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-twisted-metal-4",
+      "legacyId": null,
+      "title": "Twisted Metal 4",
+      "year": 1999,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "jcoker85/TwistedMetal1234Recomp",
+      "release": "v1.0.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): one project for Twisted Metal 1, 2, III and 4 (own disc image per game).",
+      "projectUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-teenage-mutant-ninja-turtles-turtles-in-time-re-shelled",
+      "legacyId": null,
+      "title": "Teenage Mutant Ninja Turtles: Turtles in Time Re-Shelled",
+      "year": 2009,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "saulob/tmnt-turtles-in-time-reshelled-recompiled",
+      "release": "v0.2.0 (2026-11-11)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux / Steam Deck experimental",
+      "filesUrl": "https://github.com/saulob/tmnt-turtles-in-time-reshelled-recompiled/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native port with launcher, online play for up to four, optional SNES soundtrack import.",
+      "projectUrl": "https://github.com/saulob/tmnt-turtles-in-time-reshelled-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/saulob/tmnt-turtles-in-time-reshelled-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/saulob/tmnt-turtles-in-time-reshelled-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-twisted-metal-black",
+      "legacyId": null,
+      "title": "Twisted Metal: Black",
+      "year": 2001,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "boubou666/TMB_Recomp",
+      "release": "v0.6.0 (2026-11-11)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/boubou666/TMB_Recomp/releases/tag/v0.6.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable at full speed as a native port (BozoEngine).",
+      "projectUrl": "https://github.com/boubou666/TMB_Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/boubou666/TMB_Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/boubou666/TMB_Recomp",
+          "note": "Rated by Claude: playable, no completion claim -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-el-chavo-kart",
+      "legacyId": null,
+      "title": "El Chavo Kart",
+      "year": 2014,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "saulob/el-chavo-kart-recompiled",
+      "release": "v0.1.0 (2026-11-06)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux / Steam Deck experimental",
+      "filesUrl": "https://github.com/saulob/el-chavo-kart-recompiled/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native port with launcher and added online multiplayer for up to four.",
+      "projectUrl": "https://github.com/saulob/el-chavo-kart-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/saulob/el-chavo-kart-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/saulob/el-chavo-kart-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "n64-mario-party",
+      "legacyId": null,
+      "title": "Mario Party",
+      "year": 1998,
+      "console": "Nintendo 64",
+      "status": "Early Development",
+      "project": "jcoker85/MarioParty123Recomp",
+      "release": "v1.0.0 (2026-11-08)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/MarioParty123Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): status 1.0 for Mario Party 1-3 in one project; boards, minigames and saves not yet checked systematically.",
+      "projectUrl": "https://github.com/jcoker85/MarioParty123Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/MarioParty123Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/jcoker85/MarioParty123Recomp",
+          "note": "Rated by Claude: core gameplay not yet checked -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "n64-mario-party-2",
+      "legacyId": null,
+      "title": "Mario Party 2",
+      "year": 1999,
+      "console": "Nintendo 64",
+      "status": "Early Development",
+      "project": "jcoker85/MarioParty123Recomp",
+      "release": "v1.0.0 (2026-11-08)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jcoker85/MarioParty123Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): status 1.0 for Mario Party 1-3 in one project; boards, minigames and saves not yet checked systematically.",
+      "projectUrl": "https://github.com/jcoker85/MarioParty123Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/MarioParty123Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/jcoker85/MarioParty123Recomp",
+          "note": "Rated by Claude: core gameplay not yet checked -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-nhl-2k8",
+      "legacyId": null,
+      "title": "NHL 2K8",
+      "year": 2007,
+      "console": "Xbox 360",
+      "status": "Fully Playable",
+      "project": "anishchandra24/NHL2K8-Recompiled",
+      "release": "v1.4.0 (2026-11-06)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/anishchandra24/NHL2K8-Recompiled/releases/tag/v1.4.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): works: menus, quick games, franchise mode, tournaments, saving and loading, replays.",
+      "projectUrl": "https://github.com/anishchandra24/NHL2K8-Recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/anishchandra24/NHL2K8-Recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/anishchandra24/NHL2K8-Recompiled",
+          "note": "Rated by Claude: all main modes documented -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-super-street-fighter-ii-turbo-hd-remix",
+      "legacyId": null,
+      "title": "Super Street Fighter II Turbo HD Remix",
+      "year": 2008,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "saulob/ssf2t-hd-remix-recompiled",
+      "release": "v0.4.0 (2026-11-07)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux experimental",
+      "filesUrl": "https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/tag/v0.4.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native port with rollback online play and optional extra fighters.",
+      "projectUrl": "https://github.com/saulob/ssf2t-hd-remix-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/saulob/ssf2t-hd-remix-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/saulob/ssf2t-hd-remix-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-aggressive-inline",
+      "legacyId": null,
+      "title": "Aggressive Inline",
+      "year": 2002,
+      "console": "Original Xbox",
+      "status": "Fully Playable",
+      "project": "AsukaNeo/Aggro-Royale",
+      "release": "v0.9.3-beta (2026-11-03)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/AsukaNeo/Aggro-Royale/releases/tag/v0.9.3-beta",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): beta: plays from start to finish on the GPU renderer; adds new levels.",
+      "projectUrl": "https://github.com/AsukaNeo/Aggro-Royale",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/AsukaNeo/Aggro-Royale",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/AsukaNeo/Aggro-Royale",
+          "note": "Rated by Claude: start-to-finish documented -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-fight-night-round-3",
+      "legacyId": null,
+      "title": "Fight Night Round 3",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "djultra64/Fight-Night-Round-3-Recomp",
+      "release": "v1.0.5 (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux (Vulkan)",
+      "filesUrl": "https://github.com/djultra64/Fight-Night-Round-3-Recomp/releases/tag/v1.0.5",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): regular release 1.0.5; career fights; some intermittent loading and text issues.",
+      "projectUrl": "https://github.com/djultra64/Fight-Night-Round-3-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/djultra64/Fight-Night-Round-3-Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/djultra64/Fight-Night-Round-3-Recomp",
+          "note": "Rated by Claude: career documented with known issues -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-naruto-the-broken-bond",
+      "legacyId": null,
+      "title": "Naruto: The Broken Bond",
+      "year": 2008,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "jorjbarbosa/broken-bond-recomp",
+      "release": "v0.2.0-beta (2026-11-02)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jorjbarbosa/broken-bond-recomp/releases/tag/v0.2.0-beta",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress: menus and the start of Story Mode played; most of the story untested.",
+      "projectUrl": "https://github.com/jorjbarbosa/broken-bond-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jorjbarbosa/broken-bond-recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/jorjbarbosa/broken-bond-recomp",
+          "note": "Rated by Claude: only the start of Story Mode -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps1-wild-9",
+      "legacyId": null,
+      "title": "Wild 9",
+      "year": 1998,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "plinkr/Wild9Recomp",
+      "release": "v0.1.9 (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS; Steam Deck",
+      "filesUrl": "https://github.com/plinkr/Wild9Recomp/releases/tag/v0.1.9",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): widescreen; six languages; USA disc only.",
+      "projectUrl": "https://github.com/plinkr/Wild9Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/plinkr/Wild9Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/plinkr/Wild9Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-top-spin",
+      "legacyId": null,
+      "title": "Top Spin",
+      "year": 2003,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "djultra64/Max-Spin",
+      "release": "v0.1.4 (2026-10-31)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/djultra64/Max-Spin/releases/tag/v0.1.4",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): installer from your own ISO; custom character packages.",
+      "projectUrl": "https://github.com/djultra64/Max-Spin",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/djultra64/Max-Spin",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/djultra64/Max-Spin",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-the-sims-2",
+      "legacyId": null,
+      "title": "The Sims 2",
+      "year": 2005,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "OddTrie/S2Recomp",
+      "release": "v0.1.1 (2026-10-28)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; Steam Deck",
+      "filesUrl": "https://github.com/OddTrie/S2Recomp/releases/tag/v0.1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): release with added online two-player co-op.",
+      "projectUrl": "https://github.com/OddTrie/S2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/OddTrie/S2Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/OddTrie/S2Recomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-marvel-ultimate-alliance",
+      "legacyId": null,
+      "title": "Marvel: Ultimate Alliance",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "saulob/marvel-ultimate-alliance-bundle-recompiled",
+      "release": "v0.2.0 (2026-10-29)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux / Steam Deck experimental",
+      "filesUrl": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): one project for Marvel Ultimate Alliance, its Gold Edition and Marvel Ultimate Alliance 2; no online play.",
+      "projectUrl": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-marvel-ultimate-alliance-2",
+      "legacyId": null,
+      "title": "Marvel: Ultimate Alliance 2",
+      "year": 2009,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "saulob/marvel-ultimate-alliance-bundle-recompiled",
+      "release": "v0.2.0 (2026-10-29)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux / Steam Deck experimental",
+      "filesUrl": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): same project as Marvel: Ultimate Alliance (bundle).",
+      "projectUrl": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "n64-clayfighter-63-1-3",
+      "legacyId": null,
+      "title": "ClayFighter 63⅓",
+      "year": 1997,
+      "console": "Nintendo 64",
+      "status": "Mostly Playable",
+      "project": "djultra64/ClayFighter64",
+      "release": "v2.1.1 (2026-10-27)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/djultra64/ClayFighter64/releases/tag/v2.1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): 'ClayFighter 64': 63⅓ gameplay with the extra Sculptor's Cut fighters merged in.",
+      "projectUrl": "https://github.com/djultra64/ClayFighter64",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/djultra64/ClayFighter64",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/djultra64/ClayFighter64",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-street-fighter-iii-3rd-strike-online-edition",
+      "legacyId": null,
+      "title": "Street Fighter III: 3rd Strike Online Edition",
+      "year": 2011,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "updeshxp/SF3TSOEReborn",
+      "release": "v0.2.0-beta (2026-11-08)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/updeshxp/SF3TSOEReborn/releases/tag/v0.2.0-beta",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): beta; the README covers building and running only.",
+      "projectUrl": "https://github.com/updeshxp/SF3TSOEReborn",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/updeshxp/SF3TSOEReborn",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/updeshxp/SF3TSOEReborn",
+          "note": "Rated by Claude: no documented gameplay -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-2010-fifa-world-cup-south-africa",
+      "legacyId": null,
+      "title": "2010 FIFA World Cup South Africa",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "CalinGraphics/fifa-world-cup-2010-recompiled",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): launcher with play page and control mapping; known issues listed; no tagged release yet.",
+      "projectUrl": "https://github.com/CalinGraphics/fifa-world-cup-2010-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/CalinGraphics/fifa-world-cup-2010-recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/CalinGraphics/fifa-world-cup-2010-recompiled",
+          "note": "Rated by Claude: playable build described, no tagged release -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "n64-international-superstar-soccer-2000",
+      "legacyId": null,
+      "title": "International Superstar Soccer 2000",
+      "year": 2000,
+      "console": "Nintendo 64",
+      "status": "Mostly Playable",
+      "project": "djultra64/ISS2000",
+      "release": "v0.7.1 (2026-10-21)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/djultra64/ISS2000/releases/tag/v0.7.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v0.7.1: Career, training and the original modes run natively; 'in development', alignment issues.",
+      "projectUrl": "https://github.com/djultra64/ISS2000",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/djultra64/ISS2000",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/djultra64/ISS2000",
+          "note": "Rated by Claude: modes run, in development -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-spider-man-edge-of-time",
+      "legacyId": null,
+      "title": "Spider-Man: Edge of Time",
+      "year": 2011,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "goliathret/EdgeOfTimeRecomp",
+      "release": "v1.1 (2026-10-30)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): EdgeOfTimeRecompiled v1.1, guided installer from your own files; its engine is also used by Project 2099 (alternate).",
+      "projectUrl": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/goliathret/EdgeOfTimeRecomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/goliathret/EdgeOfTimeRecomp",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-point-blank",
+      "legacyId": null,
+      "title": "Point Blank",
+      "year": 1998,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "TekRantGaming/Point-Blank-Recompiled",
+      "release": "v1.1.0 (2026-10-04)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/TekRantGaming/Point-Blank-Recompiled/releases/tag/v1.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): light-gun game with the GunCon emulated via mouse; two players.",
+      "projectUrl": "https://github.com/TekRantGaming/Point-Blank-Recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TekRantGaming/Point-Blank-Recompiled",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/TekRantGaming/Point-Blank-Recompiled",
+          "note": "Rated by Claude: released player build with no explicit progress statement -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "n64-blast-corps-power-dozer",
+      "legacyId": null,
+      "title": "Blast Corps",
+      "year": 1997,
+      "console": "Nintendo 64",
+      "status": "Mostly Playable",
+      "project": "djultra64/Power-Dozer",
+      "release": "v0.84 (2026-10-11)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/djultra64/Power-Dozer/releases/tag/v0.84",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): 'Power Dozer' v0.84 beta candidate with a complete PC menu. (A separate review lead for another Blast Corps project stays in otherProjects.)",
+      "projectUrl": "https://github.com/djultra64/Power-Dozer",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/djultra64/Power-Dozer",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/djultra64/Power-Dozer",
+          "note": "Rated by Claude: beta candidate -> Mostly Playable."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -19063,6 +20471,230 @@
           "new": "added",
           "source": "https://github.com/Dubstroy/JFG-Recomp",
           "note": "Moved here from the main entry when the owner approved a primary swap."
+        }
+      ]
+    },
+    {
+      "id": "ps3-demons-souls-leonardorobertomotalvao-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Demon's Souls — Leonardorobertomotalvao, alternate",
+      "console": "PlayStation 3",
+      "year": 2009,
+      "project": "Leonardorobertomotalvao/demons-souls-pc",
+      "projectUrl": "https://github.com/Leonardorobertomotalvao/demons-souls-pc",
+      "release": "v0.2.1-alpha.1 (2026-10-26)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/Leonardorobertomotalvao/demons-souls-pc/releases/tag/v0.2.1-alpha.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): experimental Windows port (BLUS30443); save/load works; verified on one machine.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Leonardorobertomotalvao/demons-souls-pc",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "dreamcast-soulcalibur-voldorium-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Soulcalibur — Voldorium, alternate",
+      "console": "Dreamcast",
+      "year": 1999,
+      "project": "enrique363/Voldorium",
+      "projectUrl": "https://github.com/enrique363/Voldorium",
+      "release": "v1.2.2-test1 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/enrique363/Voldorium/releases/tag/v1.2.2-test1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): whole game runs natively at modern resolutions with online versus.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/enrique363/Voldorium",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox-burnout-3-takedown-takedawn-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Burnout 3: Takedown — Takedawn, alternate",
+      "console": "Original Xbox",
+      "year": 2004,
+      "project": "xenophobentx/Takedawn",
+      "projectUrl": "https://github.com/xenophobentx/Takedawn",
+      "release": "takedawn-0.3.1 (2026-11-06)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/xenophobentx/Takedawn/releases/tag/takedawn-0.3.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): three disc versions supported; online play restored through a lobby server; own music.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/xenophobentx/Takedawn",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox-timesplitters-2-split2-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "TimeSplitters 2 — split2-recomp, alternate",
+      "console": "Original Xbox",
+      "year": 2002,
+      "project": "phobos665/split2-recomp",
+      "projectUrl": "https://github.com/phobos665/split2-recomp",
+      "release": "v0.5.2 (2026-10-27)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/phobos665/split2-recomp/releases/tag/v0.5.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): front end, story mode and System Link deathmatch played (separate from the same author's Split-Again-Recomp).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/phobos665/split2-recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "ps1-ape-escape-nvdemu-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Ape Escape — ApeEscapeRecomp-MacWindows (NVDEMU), alternate",
+      "console": "PlayStation 1",
+      "year": 1999,
+      "project": "NVDEMU/ApeEscapeRecomp-MacWindows",
+      "projectUrl": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindows",
+      "release": "ape-escape-build-485-b0c56c5b989a8b3412c51b14a95aecc76563de90 (2026-11-11)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindows/releases/tag/ape-escape-build-485-b0c56c5b989a8b3412c51b14a95aecc76563de90",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress, but a 100% playthrough can be verified (maintainer). Proposed as the new primary.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindows",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "ps1-twisted-metal-2-jcoker85-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Twisted Metal 2 — TwistedMetal1234Recomp, alternate",
+      "console": "PlayStation 1",
+      "year": 1996,
+      "project": "jcoker85/TwistedMetal1234Recomp",
+      "projectUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+      "release": "v1.0.1 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/jcoker85/TwistedMetal1234Recomp/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): one project for Twisted Metal 1, 2, III and 4.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "n64-mario-party-3-jcoker85-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Mario Party 3 — MarioParty123Recomp, alternate",
+      "console": "Nintendo 64",
+      "year": 2000,
+      "project": "jcoker85/MarioParty123Recomp",
+      "projectUrl": "https://github.com/jcoker85/MarioParty123Recomp",
+      "release": "v1.0.0 (2026-11-08)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/jcoker85/MarioParty123Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): status 1.0 for Mario Party 1-3; boards, minigames and saves not yet checked.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jcoker85/MarioParty123Recomp",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-spider-man-edge-of-time-project-2099-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Spider-Man: Edge of Time — Project 2099, alternate",
+      "console": "Xbox 360",
+      "year": 2011,
+      "project": "GenryTheFox0/Project-2099",
+      "projectUrl": "https://github.com/GenryTheFox0/Project-2099",
+      "release": "android-v1.0.0-beta.1 (2026-10-21)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/GenryTheFox0/Project-2099/releases/tag/android-v1.0.0-beta.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): PC edition built on the goliathret engine (Russian edition, remaster options); also an Android build.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/GenryTheFox0/Project-2099",
+          "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
         }
       ]
     }
