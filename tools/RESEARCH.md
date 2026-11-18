@@ -2,12 +2,20 @@
 
 How the daily RECOMP research task updates `catalogue.json`. Run from the repo root.
 
-## Policy
-1. **Apply automatically** only factual updates: a newer version tag (release field + `filesUrl`), each with a `history[]` entry (date, field, old, new, source link). Set `verified` to the run date on changed entries.
-2. **Propose, don't apply**: new games, rating changes, moving entries between `games` and `otherProjects`, anything excluded, unclear version labels, unreachable repos. Write these to `proposals/YYYY-MM-DD.md`.
-3. Never delete entries. Never change `id` or `legacyId`.
-4. On a run that changes something: bump `catalogueVersion` (`YYYY.MM.DD-1`) and `updated`, recompute `counts` (the apply tool does this), run the verify tool before committing.
-5. Never fill in a version or date from memory. If it can't be confirmed, leave it and say so.
+## Policy (updated 2026-11-18: the owner asked Claude to decide ratings)
+1. **Apply automatically:**
+   - newer version tags (release + `filesUrl`);
+   - **new games**, once confirmed with git: add to `games` with a rating, `legacyId: null`, and `history` entries for the addition and the rating; extra implementations of a game already listed go to `otherProjects` as `alternate`;
+   - **rating changes** (Early Development / Mostly Playable / Fully Playable), judged from the project's own README, release notes or docs using the rating rules in the main README. Only re-rate when there is a clear new statement (e.g. a new release says the game can now be finished). Record a `history` entry with `field: "status"`, old, new, source link and a one-line reason.
+   Every change gets a `history` entry and `verified` set to the run date.
+2. **Never change the rating of an entry with `ownerRated: true`.** The owner checked those games personally. If evidence seems to disagree, mention it in the proposals file instead.
+3. **Propose, don't apply:** unclear version labels, unreachable repos, moving existing entries between `games` and `otherProjects`, anything excluded, consoles not yet covered, and anything doubtful.
+4. Never delete entries. Never change `id` or `legacyId`.
+5. On a run that changes something: bump `catalogueVersion` (`YYYY.MM.DD-1`) and `updated`, recompute `counts`, and run the verify tool before committing.
+6. Never fill in a version or date from memory. If it can't be confirmed, leave it and say so.
+
+## When the owner rates a game
+When the owner says they checked a game and gives its rating: set `status`, set `ownerRated: true`, add a `history` entry (`field: "status"`, note "Rated by the owner"), and run verify with `--owner-change <id>` for that entry only.
 
 ## Which games each day
 - Every day: all Fully Playable games, plus all Original Xbox, Xbox 360, PlayStation 2 and PlayStation 3 games.
@@ -32,8 +40,8 @@ Before applying, glance over the `update` list for anything implausible (a huge 
 ## Finding new projects
 - Read https://recomp.fyi (its terms allow reading, including by an assistant; do **not** copy the table or large parts of it). Use it only to spot candidates.
 - Also: web search for new static recompilation releases; allrecomps.com, recompedia.com, recomp.gg as tip sources.
-- For each candidate: check it is not already in `catalogue.json` (match `projectUrl` and title, in both `games` and `otherProjects`), then confirm it exists with `git ls-remote --tags <url>`. Only confirmed candidates go to proposals, with link and newest version label.
-- Consoles not yet in the catalogue (Switch, Switch 2, DS, 3DS, etc.) are not proposed until the owner decides whether to cover them.
+- For each candidate: check it is not already in `catalogue.json` (match `projectUrl` and title, in both `games` and `otherProjects`), then confirm it exists with `git ls-remote --tags <url>` and read its README (a `--depth 1 --filter=blob:none --no-checkout` clone, then `git show HEAD:README.md`). Confirmed candidates are added and rated (policy 1); for the newest version use `tools/check_tags.py` (sorted by date, not name).
+- Consoles not yet in the catalogue (Switch, Switch 2, DS, 3DS, etc.) are not added until the owner decides whether to cover them.
 
 ## Proposals file
 Only list what is new since earlier `proposals/*.md` files; say how many earlier items are still open rather than repeating them. Plain language, links for everything.

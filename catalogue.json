@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-1",
+  "catalogueVersion": "2026.11.18-2",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 601,
-    "Fully Playable": 55,
-    "Mostly Playable": 297,
+    "rated": 605,
+    "Fully Playable": 57,
+    "Mostly Playable": 299,
     "Early Development": 249,
-    "otherProjects": 222
+    "otherProjects": 224
   },
   "games": [
     {
@@ -12596,6 +12596,146 @@
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
+    },
+    {
+      "id": "xbox-true-crime-new-york-city",
+      "legacyId": null,
+      "title": "True Crime: New York City",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "roz1077/true-crime-new-york-city-recomp",
+      "release": "v0.9.2-beta.4.2 (2026-11-18)",
+      "method": "Xbox XBE Recomp static recompilation to C++ (native, no emulator)",
+      "gameVersion": "Own US NTSC Xbox disc; European PAL discs experimental",
+      "platform": "Windows; Linux / SteamOS native build",
+      "filesUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (README): beta. Widescreen, controller and raw mouse input, texture replacement, save fixes, and mission-specific fixes (e.g. Human Cargo can now be finished reliably). No claim yet that the whole game has been completed. Found by the owner.",
+      "projectUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/roz1077/true-crime-new-york-city-recomp",
+          "note": "New project found by the 2026-11-18 research run."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/roz1077/true-crime-new-york-city-recomp",
+          "note": "Rated by Claude from the project README: beta with mission-level fixes, no start-to-finish claim -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-god-of-war-ascension",
+      "legacyId": null,
+      "title": "God of War: Ascension",
+      "year": 2013,
+      "console": "PlayStation 3",
+      "status": "Fully Playable",
+      "project": "otavix010/gow-ascension-pc",
+      "release": "v2026.11.08 (2026-11-08)",
+      "method": "ps3recomp static recompilation (PPU + SPU code to C/C++, x86-64)",
+      "gameVersion": "Own PS3 disc; the launcher generates the game locally from your copy",
+      "platform": "Windows 10/11 (Direct3D 12); Linux / SteamOS beta via Proton",
+      "filesUrl": "https://github.com/otavix010/gow-ascension-pc/releases/tag/v2026.11.08",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (README, Portuguese section): Windows status 'stable', full campaign played from first to last chapter on 2026-11-08 (engine 0.11.2); videos, menus and saves work. Maintainer claim. The README's older English section still says only chapters 1 and 16 were verified. Alternates: rigaz29/Ascension-R, arnaldolima1/gow-ascension-pc.",
+      "projectUrl": "https://github.com/otavix010/gow-ascension-pc",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/otavix010/gow-ascension-pc",
+          "note": "New project found by the 2026-11-18 research run."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/otavix010/gow-ascension-pc",
+          "note": "Rated by Claude from the project README: maintainer reports the full campaign played start to finish on 2026-11-08 -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-mortal-kombat-shaolin-monks",
+      "legacyId": null,
+      "title": "Mortal Kombat: Shaolin Monks",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Fully Playable",
+      "project": "OAleex/OpenShao",
+      "release": "v0.5.1 (2026-11-10)",
+      "method": "XboxXBERecomp static recompilation (native, no emulator)",
+      "gameVersion": "Own USA or Europe Xbox release (launcher checks the executable, archives and movies)",
+      "platform": "Windows; Linux build from source",
+      "filesUrl": "https://github.com/OAleex/OpenShao/releases/tag/v0.5.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (README): Story Mode and Survival Mode; up to 240 FPS output; restored dialogue; difficulty options. Known issues listed are graphical only, plus the bonus Mortal Kombat II and The Suffering demo not running. Press coverage (criticalhits.com.br) reports the full campaign playable. The catalogue also has the separate PS2 project (ps2 entry).",
+      "projectUrl": "https://github.com/OAleex/OpenShao",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/OAleex/OpenShao",
+          "note": "New project found by the 2026-11-18 research run."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/OAleex/OpenShao",
+          "note": "Rated by Claude: full campaign reported playable (press report), README known issues are graphical/bonus-only -> Fully Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-mortal-kombat-vs-dc-universe",
+      "legacyId": null,
+      "title": "Mortal Kombat vs. DC Universe",
+      "year": 2008,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "KawaiiBunga/MKVDCU-Recomp",
+      "release": "v0.2.1 (2026-09-23)",
+      "method": "Rexglue-based Xbox 360 static recompilation",
+      "gameVersion": "Own Xbox 360 copy (supported XEX)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/tag/v0.2.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (README): tested on one PC; boots and plays full Arcade matches with controller and sound at 60 FPS. Other modes, other hardware and long sessions need more testing (maintainer).",
+      "projectUrl": "https://github.com/KawaiiBunga/MKVDCU-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/KawaiiBunga/MKVDCU-Recomp",
+          "note": "New project found by the 2026-11-18 research run."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/KawaiiBunga/MKVDCU-Recomp",
+          "note": "Rated by Claude from the project README: full Arcade matches documented, other modes untested -> Mostly Playable."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -16803,6 +16943,62 @@
       "notes": "Generic framework fork without an independently identified game-specific implementation. No additional title counted.",
       "section": "REFERENCE / OUT OF SCOPE — outside rated title totals (7)",
       "history": []
+    },
+    {
+      "id": "ps3-god-of-war-ascension-ascension-r-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "God of War: Ascension — Ascension-R, alternate",
+      "console": "PlayStation 3",
+      "year": 2013,
+      "project": "rigaz29/Ascension-R",
+      "projectUrl": "https://github.com/rigaz29/Ascension-R",
+      "release": "v0.1.0-alpha.15 (2026-11-17)",
+      "method": "ps3recomp static recompilation",
+      "gameVersion": "Own PS3 disc",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/rigaz29/Ascension-R/releases/tag/v0.1.0-alpha.15",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (README): alpha; boots, plays cinematics and goes through the menus into levels; not played start to finish. Would rate Early Development. Primary entry: otavix010/gow-ascension-pc.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/rigaz29/Ascension-R",
+          "note": "Alternate implementation found by the 2026-11-18 research run."
+        }
+      ]
+    },
+    {
+      "id": "ps3-god-of-war-ascension-arnaldolima1-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "God of War: Ascension — arnaldolima1 port, alternate",
+      "console": "PlayStation 3",
+      "year": 2013,
+      "project": "arnaldolima1/gow-ascension-pc",
+      "projectUrl": "https://github.com/arnaldolima1/gow-ascension-pc",
+      "release": "No published version yet",
+      "method": "ps3recomp static recompilation",
+      "gameVersion": "Own PS3 disc",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (README, Portuguese): experimental, but a tester (iSamigor) reports playing from start to finish on a high-end PC; slow (~20 fps) on ordinary CPUs; no release published, build yourself. Primary entry: otavix010/gow-ascension-pc.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/arnaldolima1/gow-ascension-pc",
+          "note": "Alternate implementation found by the 2026-11-18 research run."
+        }
+      ]
     }
   ]
 }
