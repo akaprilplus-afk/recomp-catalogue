@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-10",
+  "catalogueVersion": "2026.11.18-11",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 736,
-    "Fully Playable": 69,
-    "Mostly Playable": 371,
+    "rated": 737,
+    "Fully Playable": 68,
+    "Mostly Playable": 373,
     "Early Development": 296,
-    "otherProjects": 252
+    "otherProjects": 259
   },
   "games": [
     {
@@ -113,16 +113,16 @@
       "title": "Def Jam: Fight for NY",
       "year": 2004,
       "console": "Original Xbox",
-      "status": "Fully Playable",
-      "project": "TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
-      "release": "v0.1.11",
-      "method": "Static Xbox executable to C + D3D11/NV2A/audio runtime",
+      "status": "Mostly Playable",
+      "project": "vyanhursky/DefJamFFNY-recomp",
+      "release": "v1.2.0-beta.3 (2026-11-15)",
+      "method": "Static recompilation",
       "gameVersion": "Own supported Original Xbox disc/folder/archive; imports Xbox saves",
-      "platform": "Windows x64",
-      "filesUrl": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation/releases/tag/v0.1.11",
-      "verified": "2026-10-10",
-      "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-09 (reviewed 2026-10-10): Adds an in-game self-updater and much faster/cancellable whole-game enhanced-texture generation; excludes lighting maps from enhancement.\n\nSource 2026-10-07 (reviewed 2026-10-08): Windows package fixes disappearing/animating crowd at the edges of widescreen pictures and setup progress. Intermediate versions add texture controls/upscaling changes. Maintainer tested a fresh import and a fight; no new independent completion evidence.\n\nEarlier source evidence: Full qualification is based on an explicit maintainer claim. No independent complete playthrough was performed in this source review. Source 2026-10-07: New Windows player implementation. Its first release explicitly says title, Story, Battle, fighter select and full matches play end to end; v0.1.1–v0.1.2 fix eyes, move videos and cutscene presentation. Completion evidence is maintainer-authored, not an independent run.",
-      "projectUrl": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+      "platform": "Windows; macOS; Linux; Steam Deck",
+      "filesUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.0-beta.3",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Def Jam: Fight for NY — Recompiled; many releases (latest beta); the README says passing CI does not establish full campaign compatibility.",
+      "projectUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "history": [
         {
           "date": "2026-11-18",
@@ -131,10 +131,56 @@
           "new": true,
           "source": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+          "new": "vyanhursky/DefJamFFNY-recomp",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+          "new": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "v0.1.11",
+          "new": "v1.2.0-beta.3 (2026-11-15)",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation/releases/tag/v0.1.11",
+          "new": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v1.2.0-beta.3",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": "Fully Playable",
+          "new": "Mostly Playable",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Rated by Claude: new primary makes no full-campaign claim -> Mostly Playable (was Fully on the old, now unreachable project)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "xbox-the-lord-of-the-rings-the-two-towers",
@@ -461,15 +507,15 @@
       "year": "",
       "console": "Original Xbox",
       "status": "Mostly Playable",
-      "project": "TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
-      "release": "v0.2.0",
-      "method": "Static Original Xbox executable to C + native runtime",
+      "project": "lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+      "release": "v0.5.1 (2026-11-17)",
+      "method": "Static recompilation",
       "gameVersion": "Own supported Original Xbox disc/files",
       "platform": "Windows",
-      "filesUrl": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation/releases/tag/v0.2.0",
-      "verified": "2026-10-10",
-      "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-08 (reviewed 2026-10-09): Follow-up to yesterday’s v0.1.0 adds draw-distance/object-pool controls, separate fog settings and a CRT filter; the opening flyover measurement is maintainer evidence.\n\nSource 2026-10-07 (reviewed 2026-10-08): The previously empty lead now has source and a Windows player ZIP. The release claims native Story Mode, city/Badlands gameplay, saves and imported Xbox saves; no independently verified campaign completion was found.",
-      "projectUrl": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+      "filesUrl": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-/releases/tag/v0.5.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Hulk Recompiled: native Windows port on Xbox XBE Recomp with render-distance and other options; releases up to v0.5.1.",
+      "projectUrl": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
       "history": [
         {
           "date": "2026-11-18",
@@ -478,10 +524,48 @@
           "new": true,
           "source": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+          "new": "lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "source": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+          "new": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "source": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "v0.2.0",
+          "new": "v0.5.1 (2026-11-17)",
+          "source": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation/releases/tag/v0.2.0",
+          "new": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-/releases/tag/v0.5.1",
+          "source": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "xbox-ninja-gaiden-black",
@@ -490,15 +574,15 @@
       "year": "",
       "console": "Original Xbox",
       "status": "Mostly Playable",
-      "project": "TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
-      "release": "v0.1.0",
-      "method": "Static Original Xbox executable to C + native runtime",
+      "project": "gamboozino/ngbrecomp",
+      "release": "v0.9.74 (2026-11-18)",
+      "method": "Static recompilation",
       "gameVersion": "USA Original Xbox disc/files; title 5443000D",
-      "platform": "Windows 10/11 x64; Direct3D 11",
-      "filesUrl": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation/releases/tag/v0.1.0",
-      "verified": "2026-10-18",
-      "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-09 (reviewed 2026-10-10): New native Windows player release with Story, Missions, saves, widescreen/ultrawide and high-resolution rendering. The maintainer says Chapter 1, part of Chapter 15 and Eternal Legend were tested, while several stages and the whole story remain unchecked.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. New independent gamb​oozino/ngbrecomp alternate (Windows/Linux Vulkan v0.9.13) fixes freezes and path/startup issues. Maintainer explicitly says campaign unfinished; substantial gameplay is not whole-game evidence. Preserve TheSaltTrader primary and avoid duplicate title. Source: https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.13",
-      "projectUrl": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.74",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Ninja Gaiden Black Recompiled, frequent releases (v0.9.x); known issues are minor; Windows tested under Proton and a VM.",
+      "projectUrl": "https://github.com/gamboozino/ngbrecomp",
       "history": [
         {
           "date": "2026-11-18",
@@ -507,10 +591,48 @@
           "new": true,
           "source": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+          "new": "gamboozino/ngbrecomp",
+          "source": "https://github.com/gamboozino/ngbrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+          "new": "https://github.com/gamboozino/ngbrecomp",
+          "source": "https://github.com/gamboozino/ngbrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "v0.1.0",
+          "new": "v0.9.74 (2026-11-18)",
+          "source": "https://github.com/gamboozino/ngbrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation/releases/tag/v0.1.0",
+          "new": "https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.74",
+          "source": "https://github.com/gamboozino/ngbrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/gamboozino/ngbrecomp",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "xbox-timesplitters-future-perfect",
@@ -1544,15 +1666,15 @@
       "year": 2009,
       "console": "Xbox 360",
       "status": "Fully Playable",
-      "project": "Dreey-ui/cars-race-o-rama-recomp",
-      "release": "Source build; project claim",
-      "method": "PPC static recompilation to native C++; Xbox 360 host/runtime",
+      "project": "m1ndcrap/Cars-Race-O-Rama-Recompiled",
+      "release": "v0.1 (2026-03-12)",
+      "method": "Static recompilation",
       "gameVersion": "User-owned game, supported revision per README",
-      "platform": "Windows/Linux or other as documented per project; see source",
-      "filesUrl": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
-      "verified": "2026-10-18",
-      "notes": "Maintainer explicitly claims complete story, races, open world, audio and saves. Windows source build; visual stretching and heavy-scene slowdowns remain. Full rating is a CLAIM, not an independent full run. | Classification: Fully Playable; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
-      "projectUrl": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled/releases/tag/v0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): ReXGlue recompilation; playable from start to finish, with possible slowdowns (maintainer).",
+      "projectUrl": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
       "history": [
         {
           "date": "2026-11-18",
@@ -1561,10 +1683,48 @@
           "new": true,
           "source": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "Dreey-ui/cars-race-o-rama-recomp",
+          "new": "m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "source": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+          "new": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "source": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Source build; project claim",
+          "new": "v0.1 (2026-03-12)",
+          "source": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+          "new": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled/releases/tag/v0.1",
+          "source": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "xbox360-cyber-troopers-virtual-on-oratorio-tangram-ver-5-66",
@@ -3179,15 +3339,15 @@
       "year": "",
       "console": "Xbox 360",
       "status": "Mostly Playable",
-      "project": "vincequene/rockstar-table-tennis-recomp",
-      "release": "Source build; no published player release",
-      "method": "Static Xbox 360 recompilation; title-specific runtime",
+      "project": "davidptrssvea/Table-Tennis-Rockstar-PC",
+      "release": "v1.6.0 (2026-11-16)",
+      "method": "Static recompilation",
       "gameVersion": "Own supported Xbox 360 disc/files",
       "platform": "Windows",
-      "filesUrl": "https://github.com/vincequene/rockstar-table-tennis-recomp",
-      "verified": "2026-10-10",
-      "notes": "Source 2026-10-07 (reviewed 2026-10-08): New Windows source-build project claims gameplay, local saves, controller/keyboard and PC settings. The README says the full game is playable but contradicts itself about System Link: Features says it works, Known limitations says it does not exist. No completion run is provided.",
-      "projectUrl": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+      "filesUrl": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC/releases/tag/v1.6.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Windows PC recompilation v1.6.0 with five languages and two-PC play confirmed working.",
+      "projectUrl": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
       "history": [
         {
           "date": "2026-11-18",
@@ -3196,10 +3356,48 @@
           "new": true,
           "source": "https://github.com/vincequene/rockstar-table-tennis-recomp",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "vincequene/rockstar-table-tennis-recomp",
+          "new": "davidptrssvea/Table-Tennis-Rockstar-PC",
+          "source": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+          "new": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "source": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Source build; no published player release",
+          "new": "v1.6.0 (2026-11-16)",
+          "source": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+          "new": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC/releases/tag/v1.6.0",
+          "source": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "xbox360-wwe-smackdown-vs-raw-2010",
@@ -10150,15 +10348,15 @@
       "year": 2005,
       "console": "PlayStation 2",
       "status": "Mostly Playable",
-      "project": "nateo91/gt4-recompiled",
-      "release": "Public source / no recertified binary",
-      "method": "PS2 MIPS-to-C++ static recompilation; native PS2 hardware runtime",
+      "project": "moesuito/gt4-staticrecomp",
+      "release": "v1.3.0-rc16 (2026-11-09)",
+      "method": "Static recompilation",
       "gameVersion": "User-owned game, supported revision per README",
-      "platform": "Windows/Linux source or builds as documented per project",
-      "filesUrl": "https://github.com/nateo91/gt4-recompiled",
-      "verified": "2026-10-18",
-      "notes": "North American PS2 source-build port documents races on multiple tracks and GPU output. Full GT Mode/progression and broad GPUs untested; optional frame generation requires NVIDIA. | Classification: Mostly Playable; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
-      "projectUrl": "https://github.com/nateo91/gt4-recompiled",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/moesuito/gt4-staticrecomp/releases/tag/v1.3.0-rc16",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): GT4Recomp: native PC, full speed; stable and beta (1.3.0 release candidates) channels; known issues are performance-related.",
+      "projectUrl": "https://github.com/moesuito/gt4-staticrecomp",
       "history": [
         {
           "date": "2026-11-18",
@@ -10167,10 +10365,48 @@
           "new": true,
           "source": "https://github.com/nateo91/gt4-recompiled",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "nateo91/gt4-recompiled",
+          "new": "moesuito/gt4-staticrecomp",
+          "source": "https://github.com/moesuito/gt4-staticrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/nateo91/gt4-recompiled",
+          "new": "https://github.com/moesuito/gt4-staticrecomp",
+          "source": "https://github.com/moesuito/gt4-staticrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Public source / no recertified binary",
+          "new": "v1.3.0-rc16 (2026-11-09)",
+          "source": "https://github.com/moesuito/gt4-staticrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/nateo91/gt4-recompiled",
+          "new": "https://github.com/moesuito/gt4-staticrecomp/releases/tag/v1.3.0-rc16",
+          "source": "https://github.com/moesuito/gt4-staticrecomp",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/moesuito/gt4-staticrecomp",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "ps2-urban-reign",
@@ -12412,7 +12648,7 @@
       "platform": "Windows 10/11 x64 / Direct3D 12",
       "filesUrl": "https://github.com/canersaka/Yakuza-Dead-Souls-EX/releases",
       "verified": "2026-10-05",
-      "notes": "Mostly: intro movies/audio, title, New Game and opening gameplay; lighter tutorial scenes reach 30 fps, crowded scenes around 19–21. No full-game completion claim. Windows source build needs VS2022, CMake 3.21, Ninja/Python 3.10; FFmpeg headers/libs enable movies. Original Japanese release 2011; tested NA disc released 2012.",
+      "notes": "Mostly: intro movies/audio, title, New Game and opening gameplay; lighter tutorial scenes reach 30 fps, crowded scenes around 19–21. No full-game completion claim. Windows source build needs VS2022, CMake 3.21, Ninja/Python 3.10; FFmpeg headers/libs enable movies. Original Japanese release 2011; tested NA disc released 2012.\n\n2026-11-18 (owner): project moved to Discord; no public repository.",
       "projectUrl": "https://github.com/canersaka/Yakuza-Dead-Souls-EX",
       "history": [
         {
@@ -12422,6 +12658,14 @@
           "new": true,
           "source": "https://github.com/canersaka/Yakuza-Dead-Souls-EX",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "notes",
+          "old": null,
+          "new": "moved to Discord",
+          "source": "owner",
+          "note": "Owner reported the project moved to Discord."
         }
       ],
       "unavailable": true,
@@ -12864,15 +13108,15 @@
       "year": 2013,
       "console": "PlayStation 3",
       "status": "Early Development",
-      "project": "Denarmo/Gran-Turismo-6-Recomp",
-      "release": "v1.0.0",
-      "method": "ps3recomp; static PPU translation; incomplete runtime",
+      "project": "xynnpg/GT6PP",
+      "release": "No published version yet",
+      "method": "Static recompilation",
       "gameVersion": "Own supported PS3 Gran Turismo 6 disc/files; acceptance unverified",
-      "platform": "Native source bring-up; package not a verified playable race",
-      "filesUrl": "https://github.com/Denarmo/Gran-Turismo-6-Recomp/releases/tag/v1.0.0",
-      "verified": "2026-10-18",
-      "notes": "Source/event 2026-10-11 UTC (reviewed 2026-10-12): A new public implementation and v1.0.0 package make broad feature claims, but current documentation limits verified native execution to startup/setup and incomplete race imagery. The earlier Pygame presentation was a standalone demo, not recompiled gameplay.\nAdd this implementation as Early. Keep LeVonikke’s inaccessible project as a separate historical lead; do not treat the advertised 4K/ultrawide package as a playable race.\nEvidence basis: Current public README/status and, where present, release assets. Gameplay statements are maintainer claims.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. Work Oct 14–17 source polling returned 404 for this and LeVonikke/GT6-PC-Recomp. This is an accessibility problem, NOT proof that the project has been abandoned or that the advertised player binary works. Keep existing classification and old proof attributed; recheck later. Source: https://github.com/Denarmo/Gran-Turismo-6-Recomp",
-      "projectUrl": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): GT6PP early bring-up: boots, opens a window, loads UI packages; the intro frame is still black.",
+      "projectUrl": "https://github.com/xynnpg/GT6PP",
       "history": [
         {
           "date": "2026-11-18",
@@ -12881,10 +13125,48 @@
           "new": true,
           "source": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "Denarmo/Gran-Turismo-6-Recomp",
+          "new": "xynnpg/GT6PP",
+          "source": "https://github.com/xynnpg/GT6PP",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
+          "new": "https://github.com/xynnpg/GT6PP",
+          "source": "https://github.com/xynnpg/GT6PP",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "v1.0.0",
+          "new": "No published version yet",
+          "source": "https://github.com/xynnpg/GT6PP",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/Denarmo/Gran-Turismo-6-Recomp/releases/tag/v1.0.0",
+          "new": "",
+          "source": "https://github.com/xynnpg/GT6PP",
+          "note": "Replacement project supplied by the owner after the previous repository became unreachable (owner approved swap)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/xynnpg/GT6PP",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "ps3-haze",
@@ -17645,6 +17927,41 @@
           "note": "Rated by Claude: missions documented -> Mostly Playable."
         }
       ]
+    },
+    {
+      "id": "xbox-007-everything-or-nothing",
+      "legacyId": null,
+      "title": "James Bond 007: Everything or Nothing",
+      "year": 2004,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "hk21x/007eon-recomp",
+      "release": "v1.3.2 (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/hk21x/007eon-recomp/releases/tag/v1.3.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): recompiled into EoN.exe and EoNDriving.exe (on-foot and driving missions switch automatically); 60 fps on foot, optional high frame rate in driving missions; slow-motion options.",
+      "projectUrl": "https://github.com/hk21x/007eon-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/hk21x/007eon-recomp",
+          "note": "Link supplied by the owner; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/hk21x/007eon-recomp",
+          "note": "Rated by Claude: both mission types run, no completion claim -> Mostly Playable."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -17796,9 +18113,18 @@
       "platform": "Windows / Apple Silicon Mac setup; Linux/Deck build-from-disc; setup scope qualified",
       "filesUrl": "https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v0.9.3",
       "verified": "2026-10-17",
-      "notes": "Source 2026-10-11 (reviewed 2026-10-11): Adds a Linux/Deck setup path compiling from the player’s own USA disc, with SteamOS dependency setup and audio/timer fixes. A Deck OLED runtime was maintainer-tested; desktop Linux and the complete Gaming Mode/setup flow were not. v0.6.2 added Mac launcher/F1 overlay support.\nUpdate the alternate outside rated totals. Preserve TheSaltTrader primary/history pending access review; do not silently substitute implementations.\n\nEarlier source evidence: Source 2026-10-09 (reviewed 2026-10-10): Adds Apple-Silicon macOS setup and optional HD texture packs. Validation covers setup, title/menu and a fight; Internet playthrough evidence is unchanged.\n\nSource 2026-10-08 (reviewed 2026-10-09): Adds a Windows setup executable that builds locally from the user’s dump. Release validation includes installed title/menu golden checks and a scripted fight, but clean-machine acceptance remains incomplete and gameplay behavior is unchanged from v0.5.0.\n\nSource 2026-10-07 (reviewed 2026-10-08): Source releases add SDL3 gamepads, rumble/hot-plug, keyboard/mouse remapping, a startup launcher and in-game settings overlay. The owner play-tested launcher and fight controls; full Story coverage is still absent and no executable is packaged.\n\nEarlier source evidence: Alternate, Mostly; excluded from rated title totals. Source 2026-10-06: v0.2.3 adds a guard for a rare sound-library crash; v0.2.4 expands two-pad/four-fighter test coverage and explicitly does not change gameplay. This remains source-only and distinct from the new packaged implementation.\n\nEarlier source evidence 2026-10-06: Public October 4 project with maintainer gameplay GIF and an hour-long Story playtest. Menus, Story routes and fights work. v0.2.2 is a testing-harness source release, not a gameplay upgrade or executable; it records a rare Debug sound-library crash.\n\nMIGRATION CHECKPOINT 9 — consolidated 2026-10-18. Work Oct 14–17 source report (not independently game-tested). Def Jam: Fight for NY alternative v0.9.3 reduces audio crackle on Mac by maintainer validation; Windows/Steam Deck were not re-tested for this release, brief audio skips remain. Do not promote this alternate over the existing primary or duplicate the title. Source: https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v0.9.3",
+      "notes": "Source 2026-10-11 (reviewed 2026-10-11): Adds a Linux/Deck setup path compiling from the player’s own USA disc, with SteamOS dependency setup and audio/timer fixes. A Deck OLED runtime was maintainer-tested; desktop Linux and the complete Gaming Mode/setup flow were not. v0.6.2 added Mac launcher/F1 overlay support.\nUpdate the alternate outside rated totals. Preserve TheSaltTrader primary/history pending access review; do not silently substitute implementations.\n\nEarlier source evidence: Source 2026-10-09 (reviewed 2026-10-10): Adds Apple-Silicon macOS setup and optional HD texture packs. Validation covers setup, title/menu and a fight; Internet playthrough evidence is unchanged.\n\nSource 2026-10-08 (reviewed 2026-10-09): Adds a Windows setup executable that builds locally from the user’s dump. Release validation includes installed title/menu golden checks and a scripted fight, but clean-machine acceptance remains incomplete and gameplay behavior is unchanged from v0.5.0.\n\nSource 2026-10-07 (reviewed 2026-10-08): Source releases add SDL3 gamepads, rumble/hot-plug, keyboard/mouse remapping, a startup launcher and in-game settings overlay. The owner play-tested launcher and fight controls; full Story coverage is still absent and no executable is packaged.\n\nEarlier source evidence: Alternate, Mostly; excluded from rated title totals. Source 2026-10-06: v0.2.3 adds a guard for a rare sound-library crash; v0.2.4 expands two-pad/four-fighter test coverage and explicitly does not change gameplay. This remains source-only and distinct from the new packaged implementation.\n\nEarlier source evidence 2026-10-06: Public October 4 project with maintainer gameplay GIF and an hour-long Story playtest. Menus, Story routes and fights work. v0.2.2 is a testing-harness source release, not a gameplay upgrade or executable; it records a rare Debug sound-library crash.\n\nMIGRATION CHECKPOINT 9 — consolidated 2026-10-18. Work Oct 14–17 source report (not independently game-tested). Def Jam: Fight for NY alternative v0.9.3 reduces audio crackle on Mac by maintainer validation; Windows/Steam Deck were not re-tested for this release, brief audio skips remain. Do not promote this alternate over the existing primary or duplicate the title. Source: https://github.com/vyanhursky/DefJamFFNY-recomp/releases/tag/v0.9.3\n\n2026-11-18: this project is now the primary for Def Jam: Fight for NY; entry kept for history.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "notes",
+          "old": null,
+          "new": "now primary",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Became the main entry (owner-supplied replacement)."
+        }
+      ]
     },
     {
       "id": "xbox-ssx-tricky-alternate",
@@ -22700,6 +23026,216 @@
           "new": "added",
           "source": "https://github.com/seamuswilkie31-dev/pc-monsterhunter3-FFXI",
           "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox-def-jam-fight-for-ny-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Def Jam: Fight for NY — TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation, alternate",
+      "console": "Original Xbox",
+      "year": 2004,
+      "project": "TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+      "projectUrl": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+      "release": "v0.1.11",
+      "method": "Static Xbox executable to C + D3D11/NV2A/audio runtime",
+      "gameVersion": "Own supported Original Xbox disc/folder/archive; imports Xbox saves",
+      "platform": "Windows x64",
+      "filesUrl": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation/releases/tag/v0.1.11",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "xbox-the-incredible-hulk-ultimate-destruction-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "The Incredible Hulk: Ultimate Destruction — TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation, alternate",
+      "console": "Original Xbox",
+      "year": "",
+      "project": "TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+      "projectUrl": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+      "release": "v0.2.0",
+      "method": "Static Original Xbox executable to C + native runtime",
+      "gameVersion": "Own supported Original Xbox disc/files",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "xbox-ninja-gaiden-black-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Ninja Gaiden Black — TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation, alternate",
+      "console": "Original Xbox",
+      "year": "",
+      "project": "TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+      "projectUrl": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+      "release": "v0.1.0",
+      "method": "Static Original Xbox executable to C + native runtime",
+      "gameVersion": "USA Original Xbox disc/files; title 5443000D",
+      "platform": "Windows 10/11 x64; Direct3D 11",
+      "filesUrl": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-cars-race-o-rama-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Cars Race-O-Rama — Dreey-ui/cars-race-o-rama-recomp, alternate",
+      "console": "Xbox 360",
+      "year": 2009,
+      "project": "Dreey-ui/cars-race-o-rama-recomp",
+      "projectUrl": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+      "release": "Source build; project claim",
+      "method": "PPC static recompilation to native C++; Xbox 360 host/runtime",
+      "gameVersion": "User-owned game, supported revision per README",
+      "platform": "Windows/Linux or other as documented per project; see source",
+      "filesUrl": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-rockstar-table-tennis-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Rockstar Table Tennis — vincequene/rockstar-table-tennis-recomp, alternate",
+      "console": "Xbox 360",
+      "year": "",
+      "project": "vincequene/rockstar-table-tennis-recomp",
+      "projectUrl": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+      "release": "Source build; no published player release",
+      "method": "Static Xbox 360 recompilation; title-specific runtime",
+      "gameVersion": "Own supported Xbox 360 disc/files",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "ps2-gran-turismo-4-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Gran Turismo 4 — nateo91/gt4-recompiled, alternate",
+      "console": "PlayStation 2",
+      "year": 2005,
+      "project": "nateo91/gt4-recompiled",
+      "projectUrl": "https://github.com/nateo91/gt4-recompiled",
+      "release": "Public source / no recertified binary",
+      "method": "PS2 MIPS-to-C++ static recompilation; native PS2 hardware runtime",
+      "gameVersion": "User-owned game, supported revision per README",
+      "platform": "Windows/Linux source or builds as documented per project",
+      "filesUrl": "https://github.com/nateo91/gt4-recompiled",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/nateo91/gt4-recompiled",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "ps3-gran-turismo-6-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Gran Turismo 6 — Denarmo/Gran-Turismo-6-Recomp, alternate",
+      "console": "PlayStation 3",
+      "year": 2013,
+      "project": "Denarmo/Gran-Turismo-6-Recomp",
+      "projectUrl": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
+      "release": "v1.0.0",
+      "method": "ps3recomp; static PPU translation; incomplete runtime",
+      "gameVersion": "Own supported PS3 Gran Turismo 6 disc/files; acceptance unverified",
+      "platform": "Native source bring-up; package not a verified playable race",
+      "filesUrl": "https://github.com/Denarmo/Gran-Turismo-6-Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable (private, renamed or deleted).",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
+          "note": "Moved here from the main entry when the owner supplied a replacement project."
         }
       ]
     }
