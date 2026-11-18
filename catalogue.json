@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-6",
+  "catalogueVersion": "2026.11.18-7",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
@@ -8,7 +8,7 @@
     "Fully Playable": 68,
     "Mostly Playable": 354,
     "Early Development": 268,
-    "otherProjects": 246
+    "otherProjects": 247
   },
   "games": [
     {
@@ -20695,6 +20695,34 @@
           "new": "added",
           "source": "https://github.com/GenryTheFox0/Project-2099",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-f-zero-gx-ethannicholas-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "F-Zero GX — fzerogx-recomp (Ethan Nicholas), alternate",
+      "console": "GameCube",
+      "year": 2003,
+      "project": "ethannicholas/fzerogx-recomp",
+      "projectUrl": "https://github.com/ethannicholas/fzerogx-recomp",
+      "release": "No published version yet",
+      "method": "gcn-recomp static recompilation",
+      "gameVersion": "Own copy of the game (see the project README)",
+      "platform": "Windows; macOS; Meta Quest 3; Apple Vision Pro",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Complete: fully playable from start to finish with sound and music, on desktop and in VR, no known issues (maintainer). Build from source; no tagged release. Much stronger than the current primary (boots only, last update 2026-09-26); swap proposed.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Found via the owner's recomp.fyi 'Complete' list (tip only); entry written from the project's own README."
         }
       ]
     }
