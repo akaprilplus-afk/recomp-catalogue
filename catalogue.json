@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-3",
+  "catalogueVersion": "2026.11.18-4",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 625,
-    "Fully Playable": 60,
-    "Mostly Playable": 304,
-    "Early Development": 261,
-    "otherProjects": 228
+    "rated": 650,
+    "Fully Playable": 64,
+    "Mostly Playable": 320,
+    "Early Development": 266,
+    "otherProjects": 238
   },
   "games": [
     {
@@ -4652,16 +4652,33 @@
       "year": 2000,
       "console": "Nintendo 64",
       "status": "Mostly Playable",
-      "project": "some-scurvy-dog/banjo-tooie-scurvy-dog-port",
-      "release": "Windows alpha; tag unconfirmed",
+      "project": "some-scurvy-dog/BanjoTooieRecompiled",
+      "release": "v0.1.0-alpha.4.5 (2026-10-27)",
       "method": "N64Recomp / RT64",
       "gameVersion": "USA v1.0 (.z64)",
       "platform": "Windows x64",
-      "filesUrl": "https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port/releases",
-      "verified": "2026-10-03",
+      "filesUrl": "https://github.com/some-scurvy-dog/BanjoTooieRecompiled/releases/tag/v0.1.0-alpha.4.5",
+      "verified": "2026-11-18",
       "notes": "Independent AI-assisted alpha; launcher, gameplay and normal saves. Canonical repository renamed. Evidence: https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port",
-      "projectUrl": "https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port",
-      "history": []
+      "projectUrl": "https://github.com/some-scurvy-dog/BanjoTooieRecompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port",
+          "new": "https://github.com/some-scurvy-dog/BanjoTooieRecompiled",
+          "source": "https://github.com/some-scurvy-dog/BanjoTooieRecompiled",
+          "note": "Repository renamed (same commits); link updated."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Windows alpha; tag unconfirmed",
+          "new": "v0.1.0-alpha.4.5 (2026-10-27)",
+          "source": "https://github.com/some-scurvy-dog/BanjoTooieRecompiled/releases/tag/v0.1.0-alpha.4.5",
+          "note": "Newest version tag on GitHub; date is the tagged code's date."
+        }
+      ]
     },
     {
       "id": "n64-battletanx",
@@ -13436,6 +13453,881 @@
           "note": "Rated by Claude: single-player campaign documented as playable -> Fully Playable (maintainer claim)."
         }
       ]
+    },
+    {
+      "id": "ps2-god-hand",
+      "legacyId": null,
+      "title": "God Hand",
+      "year": 2006,
+      "console": "PlayStation 2",
+      "status": "Fully Playable",
+      "project": "God-Hand-Rearmed/God-Hand-Rearmed",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): beta; plays from the first punch to the credits at 60 fps, expect the odd bug.",
+      "projectUrl": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
+          "note": "Rated by Claude: maintainer says it plays start to credits -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps1-tobal-2",
+      "legacyId": null,
+      "title": "Tobal 2",
+      "year": 1997,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "MatheusLeffa/Tobal2Recomp",
+      "release": "v0.3.0 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/MatheusLeffa/Tobal2Recomp/releases/tag/v0.3.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable: intro, title, Tournament / VS / Training fights; Quest mode, every ending and memory card not verified end to end.",
+      "projectUrl": "https://github.com/MatheusLeffa/Tobal2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/MatheusLeffa/Tobal2Recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/MatheusLeffa/Tobal2Recomp",
+          "note": "Rated by Claude: fights work, full Quest mode unverified -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-dragon-ball-z-budokai-2",
+      "legacyId": null,
+      "title": "Dragon Ball Z: Budokai 2",
+      "year": 2003,
+      "console": "PlayStation 2",
+      "status": "Fully Playable",
+      "project": "7v0biscuit/OpenKai2",
+      "release": "v0.5.7 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/7v0biscuit/OpenKai2/releases/tag/v0.5.7",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): gameplay verified through completion: Dragon World beaten in playtesting, all nine stages and the ending; some music issues remain.",
+      "projectUrl": "https://github.com/7v0biscuit/OpenKai2",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/7v0biscuit/OpenKai2",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/7v0biscuit/OpenKai2",
+          "note": "Rated by Claude: completion documented -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps3-infamous",
+      "legacyId": null,
+      "title": "inFamous",
+      "year": 2009,
+      "console": "PlayStation 3",
+      "status": "Mostly Playable",
+      "project": "whompay/inFAMOUSreborn",
+      "release": "1.1 (2026-10-22)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/whompay/inFAMOUSreborn/releases/tag/1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native Windows port (ps3recomp) of the European release BCES00220 with installer, settings and trainer. No explicit progress statement in the README; recomp.fyi lists it as playable.",
+      "projectUrl": "https://github.com/whompay/inFAMOUSreborn",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/whompay/inFAMOUSreborn",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/whompay/inFAMOUSreborn",
+          "note": "Rated by Claude: working port with releases, no completion claim -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-comic-jumper",
+      "legacyId": null,
+      "title": "Comic Jumper: The Adventures of Captain Smiley",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "thefixinhixon/ComicJumperRecomp",
+      "release": "v1.0.1 (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux; Windows test build",
+      "filesUrl": "https://github.com/thefixinhixon/ComicJumperRecomp/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Linux: playable, tested through the opening chapters into level 2. Windows: CI test build, not yet tested on real hardware.",
+      "projectUrl": "https://github.com/thefixinhixon/ComicJumperRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/thefixinhixon/ComicJumperRecomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/thefixinhixon/ComicJumperRecomp",
+          "note": "Rated by Claude: early chapters documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-espgaluda-ii-black-label",
+      "legacyId": null,
+      "title": "Espgaluda II Black Label",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "cerroverb/espgaluda2-recomp",
+      "release": "v1.3.0 (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux / Steam Deck",
+      "filesUrl": "https://github.com/cerroverb/espgaluda2-recomp/releases/tag/v1.3.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots and plays all six modes with sound and working slowdown; tested on AMD handhelds.",
+      "projectUrl": "https://github.com/cerroverb/espgaluda2-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/cerroverb/espgaluda2-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/cerroverb/espgaluda2-recomp",
+          "note": "Rated by Claude: all modes play, full runs not stated -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-madden-nfl-08",
+      "legacyId": null,
+      "title": "Madden NFL 08",
+      "year": 2007,
+      "console": "Xbox 360",
+      "status": "Fully Playable",
+      "project": "anishchandra24/MaddenNFL08-Recompiled",
+      "release": "v0.2.0 (2026-11-07)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/anishchandra24/MaddenNFL08-Recompiled/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Play Now games, saving/loading, Franchise mode including simming a full season and the draft, Superstar mode in short tests; minor visual flicker.",
+      "projectUrl": "https://github.com/anishchandra24/MaddenNFL08-Recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/anishchandra24/MaddenNFL08-Recompiled",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/anishchandra24/MaddenNFL08-Recompiled",
+          "note": "Rated by Claude: full Franchise season documented -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-snoopy-flying-ace",
+      "legacyId": null,
+      "title": "Snoopy Flying Ace",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "BTr-RJ/RedBaron_Recomp",
+      "release": "v0.30 (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/BTr-RJ/RedBaron_Recomp/releases/tag/v0.30",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): public testing release v0.30 with launcher and updater; fixes gameplay audio during missions.",
+      "projectUrl": "https://github.com/BTr-RJ/RedBaron_Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/BTr-RJ/RedBaron_Recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/BTr-RJ/RedBaron_Recomp",
+          "note": "Rated by Claude: missions playable in testing release -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-dragon-ball-z-infinite-world",
+      "legacyId": null,
+      "title": "Dragon Ball Z: Infinite World",
+      "year": 2008,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "TheSlackbringer/dbziw-recomp",
+      "release": "v0.1.0-beta.2 (2026-11-08)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/TheSlackbringer/dbziw-recomp/releases/tag/v0.1.0-beta.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): beta, playable: menus, music, movies and Dragon Duel fights run; the first Dragon Mission has been reached. Two-player not finished.",
+      "projectUrl": "https://github.com/TheSlackbringer/dbziw-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheSlackbringer/dbziw-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/TheSlackbringer/dbziw-recomp",
+          "note": "Rated by Claude: fights and early story documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "psp-saru-get-you-saru-saru-daisakusen",
+      "legacyId": null,
+      "title": "Saru Get You: Saru Saru Daisakusen",
+      "year": "Unconfirmed",
+      "console": "PSP",
+      "status": "Early Development",
+      "project": "jackgllghr/bigmission-recomp",
+      "release": "v0.3.1 (2026-11-12)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; macOS; Linux",
+      "filesUrl": "https://github.com/jackgllghr/bigmission-recomp/releases/tag/v0.3.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): releases published (v0.3.1) with experimental 60 FPS and HD texture packs; the README gives no gameplay progress statement.",
+      "projectUrl": "https://github.com/jackgllghr/bigmission-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jackgllghr/bigmission-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/jackgllghr/bigmission-recomp",
+          "note": "Rated by Claude: no documented gameplay progress -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-fuse",
+      "legacyId": null,
+      "title": "Fuse",
+      "year": 2013,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "nikolaygorb/FuseRecomp",
+      "release": "1.3 (2026-11-05)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/nikolaygorb/FuseRecomp/releases/tag/1.3",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable offline: video, audio, gameplay, achievements and saves work; online not supported.",
+      "projectUrl": "https://github.com/nikolaygorb/FuseRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/nikolaygorb/FuseRecomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/nikolaygorb/FuseRecomp",
+          "note": "Rated by Claude: playable offline, no completion claim -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-medal-of-honor",
+      "legacyId": null,
+      "title": "Medal of Honor",
+      "year": 1999,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "Cr1TiKa7/MOHRecomp",
+      "release": "v0.1.2 (2026-11-02)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/Cr1TiKa7/MOHRecomp/releases/tag/v0.1.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable: all 24 campaign levels load and run natively (each entered and played briefly); widescreen.",
+      "projectUrl": "https://github.com/Cr1TiKa7/MOHRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Cr1TiKa7/MOHRecomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/Cr1TiKa7/MOHRecomp",
+          "note": "Rated by Claude: every level runs, not played through -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-motor-toon-grand-prix",
+      "legacyId": null,
+      "title": "Motor Toon Grand Prix",
+      "year": 1994,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "Cr1TiKa7/MotorToonGrandPrixRecomp",
+      "release": "v0.1.0 (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/Cr1TiKa7/MotorToonGrandPrixRecomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): preview: boots, menus and Championship races run natively.",
+      "projectUrl": "https://github.com/Cr1TiKa7/MotorToonGrandPrixRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Cr1TiKa7/MotorToonGrandPrixRecomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/Cr1TiKa7/MotorToonGrandPrixRecomp",
+          "note": "Rated by Claude: races run, preview build -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-bejeweled-blitz-live",
+      "legacyId": null,
+      "title": "Bejeweled Blitz Live",
+      "year": 2011,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "thefixinhixon/Re-Jeweled",
+      "release": "test1-win (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux; Windows test build",
+      "filesUrl": "https://github.com/thefixinhixon/Re-Jeweled/releases/tag/test1-win",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): test build: playable on Linux (title, menus, games); Windows builds in CI but not play-tested.",
+      "projectUrl": "https://github.com/thefixinhixon/Re-Jeweled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/thefixinhixon/Re-Jeweled",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/thefixinhixon/Re-Jeweled",
+          "note": "Rated by Claude: playable on Linux only so far -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-juiced-2-hot-import-nights",
+      "legacyId": null,
+      "title": "Juiced 2: Hot Import Nights",
+      "year": 2007,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "anishchandra24/Juiced2-Recompiled",
+      "release": "v0.1.0-preview (2026-10-27)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/anishchandra24/Juiced2-Recompiled/releases/tag/v0.1.0-preview",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): early preview: starts, plays and saves; Career played from the rookie league through league 7.",
+      "projectUrl": "https://github.com/anishchandra24/Juiced2-Recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/anishchandra24/Juiced2-Recompiled",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/anishchandra24/Juiced2-Recompiled",
+          "note": "Rated by Claude: long career progress documented, early preview -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "n64-mortal-kombat-trilogy",
+      "legacyId": null,
+      "title": "Mortal Kombat Trilogy",
+      "year": 1996,
+      "console": "Nintendo 64",
+      "status": "Mostly Playable",
+      "project": "cultofblue/MKTrilogyN64Recomp",
+      "release": "v1.0.0 (2026-10-27)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/cultofblue/MKTrilogyN64Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable; builds and runs on Windows and Linux; verified boot, menus and fights.",
+      "projectUrl": "https://github.com/cultofblue/MKTrilogyN64Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/cultofblue/MKTrilogyN64Recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/cultofblue/MKTrilogyN64Recomp",
+          "note": "Rated by Claude: playable, no completion claim -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-phantom-dust",
+      "legacyId": null,
+      "title": "Phantom Dust",
+      "year": 2004,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "ZacheerKour/desert-breeze-dust",
+      "release": "v0.1.9 (2026-10-24)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/ZacheerKour/desert-breeze-dust/releases/tag/v0.1.9",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable test builds: opening missions, menus, hub, movies and saving tested; long play-throughs not yet.",
+      "projectUrl": "https://github.com/ZacheerKour/desert-breeze-dust",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/ZacheerKour/desert-breeze-dust",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/ZacheerKour/desert-breeze-dust",
+          "note": "Rated by Claude: opening missions documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-need-for-speed-high-stakes",
+      "legacyId": null,
+      "title": "Need for Speed: High Stakes",
+      "year": 1999,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "mayhemdotcpp/nfs4-recomp",
+      "release": "v0.1.4 (2026-10-23)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/mayhemdotcpp/nfs4-recomp/releases/tag/v0.1.4",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): static recompilation to C# on RecompOne (US release SLUS-00826) with widescreen and other enhancements; no explicit progress statement.",
+      "projectUrl": "https://github.com/mayhemdotcpp/nfs4-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/mayhemdotcpp/nfs4-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/mayhemdotcpp/nfs4-recomp",
+          "note": "Rated by Claude: working enhanced build with releases -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-destrega",
+      "legacyId": null,
+      "title": "Destrega",
+      "year": 1998,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "rogerscristo/destrega-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "macOS",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots, intro, title, menus, all modes reachable, fights playable; memory-card saves and PAL not yet.",
+      "projectUrl": "https://github.com/rogerscristo/destrega-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/rogerscristo/destrega-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/rogerscristo/destrega-recomp",
+          "note": "Rated by Claude: fights and all modes work -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-the-sims-2",
+      "legacyId": null,
+      "title": "The Sims 2",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "abilliontokens/sims2-recomp",
+      "release": "v0.2.0 (2026-10-19)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/abilliontokens/sims2-recomp/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots to live gameplay on a lot and the neighbourhood; performance not yet measured.",
+      "projectUrl": "https://github.com/abilliontokens/sims2-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/abilliontokens/sims2-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/abilliontokens/sims2-recomp",
+          "note": "Rated by Claude: reaches gameplay only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "n64-ken-griffey-jrs-slugfest",
+      "legacyId": null,
+      "title": "Ken Griffey Jr.'s Slugfest",
+      "year": 1999,
+      "console": "Nintendo 64",
+      "status": "Mostly Playable",
+      "project": "CalenCyr/SlugfestRecompiled",
+      "release": "v0.1.0-beta.1 (2026-10-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux / Steam Deck",
+      "filesUrl": "https://github.com/CalenCyr/SlugfestRecompiled/releases/tag/v0.1.0-beta.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): beta: intro, menus, create-a-player, Exhibition games and Home Run Derby with audio, controller and saves.",
+      "projectUrl": "https://github.com/CalenCyr/SlugfestRecompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/CalenCyr/SlugfestRecompiled",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/CalenCyr/SlugfestRecompiled",
+          "note": "Rated by Claude: full games documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-nascar-rumble",
+      "legacyId": null,
+      "title": "NASCAR Rumble",
+      "year": 2000,
+      "console": "PlayStation 1",
+      "status": "Early Development",
+      "project": "andreigor17/nascar-rumble-modsdk",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "macOS",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): goal is to make the game playable natively; AI, a full race, HUD, audio and returning to the menu not yet validated.",
+      "projectUrl": "https://github.com/andreigor17/nascar-rumble-modsdk",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/andreigor17/nascar-rumble-modsdk",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/andreigor17/nascar-rumble-modsdk",
+          "note": "Rated by Claude: full race not validated -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-army-of-two-the-40th-day",
+      "legacyId": null,
+      "title": "Army of Two: The 40th Day",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "crabinacrabic/ArmyOfTwo40thDayRecomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): proof of concept (Russian README): cutscenes, main menu, first chapter (Shanghai) and the Highrise fight work.",
+      "projectUrl": "https://github.com/crabinacrabic/ArmyOfTwo40thDayRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/crabinacrabic/ArmyOfTwo40thDayRecomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/crabinacrabic/ArmyOfTwo40thDayRecomp",
+          "note": "Rated by Claude: proof of concept, first chapter -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "n64-neon-genesis-evangelion",
+      "legacyId": null,
+      "title": "Neon Genesis Evangelion",
+      "year": 1999,
+      "console": "Nintendo 64",
+      "status": "Early Development",
+      "project": "evaa-01/adam",
+      "release": "0.1.0 (2026-10-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/evaa-01/adam/releases/tag/0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): intro, menus, the first mission and the start of the second run at 30 fps.",
+      "projectUrl": "https://github.com/evaa-01/adam",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/evaa-01/adam",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/evaa-01/adam",
+          "note": "Rated by Claude: first mission only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-fight-night-champion",
+      "legacyId": null,
+      "title": "Fight Night Champion",
+      "year": 2011,
+      "console": "Xbox 360",
+      "status": "Fully Playable",
+      "project": "whompay/FNCReborn",
+      "release": "v1.0 (2026-10-07)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/whompay/FNCReborn/releases/tag/v1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable: menus, Fight Now, Legacy mode, Champion mode, Create a Fighter, saving and loading, 60 FPS.",
+      "projectUrl": "https://github.com/whompay/FNCReborn",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/whompay/FNCReborn",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/whompay/FNCReborn",
+          "note": "Rated by Claude: all modes including career modes work -> Fully Playable (maintainer claim)."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -17809,6 +18701,286 @@
           "new": "added",
           "source": "https://github.com/Dipshet/GracemeriaRecomp",
           "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-forza-horizon-reimagined-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Forza Horizon — ReImagined (Dyotson), alternate",
+      "console": "Xbox 360",
+      "year": 2012,
+      "project": "Dyotson/RecompiledForzaHorizon",
+      "projectUrl": "https://github.com/Dyotson/RecompiledForzaHorizon",
+      "release": "ci-flatpak-sources (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/Dyotson/RecompiledForzaHorizon/releases/tag/ci-flatpak-sources",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Forza Horizon 1: ReImagined, Windows and Linux, with online play restored through community servers and co-op festival.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Dyotson/RecompiledForzaHorizon",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "ps1-resident-evil-3-nemesis-project-re-visited-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Resident Evil 3: Nemesis — Project RE: Visited, alternate",
+      "console": "PlayStation 1",
+      "year": 1999,
+      "project": "BrazilianHobbyist/Project-RE-Visited-RE3",
+      "projectUrl": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3",
+      "release": "v2.3.1 (2026-11-11)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3/releases/tag/v2.3.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): experimental Windows port on PSXRecomp; work in progress, expect bugs.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-army-of-two-nikolaygorb-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Army of Two — nikolaygorb, alternate",
+      "console": "Xbox 360",
+      "year": 2008,
+      "project": "nikolaygorb/ArmyOfTwoRecomp",
+      "projectUrl": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
+      "release": "1.5 (2026-11-05)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/tag/1.5",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots to real GPU rendering; D3D12/Vulkan; from the same author as the WET and Perfect Dark Zero ports.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-army-of-two-crabinacrabic-usa-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Army of Two — USA build (crabinacrabic), alternate",
+      "console": "Xbox 360",
+      "year": 2008,
+      "project": "crabinacrabic/ArmyOfTwoRecomp-USA",
+      "projectUrl": "https://github.com/crabinacrabic/ArmyOfTwoRecomp-USA",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): USA retarget; boots and reaches gameplay.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/crabinacrabic/ArmyOfTwoRecomp-USA",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-saw-ii-flesh-and-blood-matt-code-d-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Saw II: Flesh & Blood — Saw2Recomp, alternate",
+      "console": "Xbox 360",
+      "year": 2010,
+      "project": "Matt-code-d/Saw2Recomp",
+      "projectUrl": "https://github.com/Matt-code-d/Saw2Recomp",
+      "release": "v0.1.10 (2026-11-04)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/Matt-code-d/Saw2Recomp/releases/tag/v0.1.10",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable on Windows with a launcher; still early, some graphics quirks. Stronger than the current primary (source-only bring-up).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "ps1-twisted-metal-2-maxcurrent420-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Twisted Metal 2 — maxcurrent420, alternate",
+      "console": "PlayStation 1",
+      "year": 1996,
+      "project": "maxcurrent420/TwistedMetal2Recomp",
+      "projectUrl": "https://github.com/maxcurrent420/TwistedMetal2Recomp",
+      "release": "1.0.0 (2026-11-02)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/maxcurrent420/TwistedMetal2Recomp/releases/tag/1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): release 1.0.x; README links to RetroPortingToolKit/TwistedMetal2 releases; Linux.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/maxcurrent420/TwistedMetal2Recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "n64-jet-force-gemini-vibintoast-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Jet Force Gemini — JFG Recompiled (VibinToast), alternate",
+      "console": "Nintendo 64",
+      "year": 1999,
+      "project": "VibinToast/JetForceGemini-Recompiled",
+      "projectUrl": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+      "release": "v1.3.2 (2026-10-30)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/VibinToast/JetForceGemini-Recompiled/releases/tag/v1.3.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable PC port for Windows, Linux and Steam Deck; dual-stick / mouse aim, mod support. Much stronger than the current primary (analysis stage).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-mario-kart-double-dash-ethan-nicholas-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Mario Kart: Double Dash!! — mariokartdd-recomp (Ethan Nicholas), alternate",
+      "console": "GameCube",
+      "year": 2003,
+      "project": "EthanNicholas/mariokartdd-recomp",
+      "projectUrl": "https://github.com/EthanNicholas/mariokartdd-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): early: runs from a blank memory card into a Grand Prix race with sound; also a VR (Meta Quest 3) mode.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/EthanNicholas/mariokartdd-recomp",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-real-steel-recompiled-steel-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Real Steel — ReCompiled Steel, alternate",
+      "console": "Xbox 360",
+      "year": 2011,
+      "project": "tokeneffortports/ReCompiledSteel",
+      "projectUrl": "https://github.com/tokeneffortports/ReCompiledSteel",
+      "release": "v0.2.0 (2026-10-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/tokeneffortports/ReCompiledSteel/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): custom Vulkan renderer, any resolution and aspect ratio; Windows, Linux, Steam Deck, Android.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/tokeneffortports/ReCompiledSteel",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "n64-battletanx-global-assault-pc-port-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "BattleTanx: Global Assault — PC port (TheGh0stShip), alternate",
+      "console": "Nintendo 64",
+      "year": 1999,
+      "project": "TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+      "projectUrl": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+      "release": "v0.2.5 (2026-10-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/releases/tag/v0.2.5",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): built from a completed matching decompilation plus recompiled runtime; played through the menus into campaign gameplay on Windows.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
         }
       ]
     }
