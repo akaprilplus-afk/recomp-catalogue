@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-14",
+  "catalogueVersion": "2026.11.18-15",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
@@ -18263,7 +18263,7 @@
     {
       "id": "xbox-def-jam-fight-for-ny-alternate",
       "legacyId": "Original Xbox:48",
-      "type": "alternate",
+      "type": "excluded",
       "title": "Def Jam: Fight for NY — alternate",
       "console": "Original Xbox",
       "year": "2004",
@@ -18285,6 +18285,14 @@
           "new": "now primary",
           "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
           "note": "Became the main entry (owner-supplied replacement)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "type",
+          "old": "alternate",
+          "new": "excluded",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Duplicate: same repository as Def Jam: Fight for NY's main project (xbox-def-jam-fight-for-ny). Moved to excluded with the owner's approval (proposal 14); kept, not deleted."
         }
       ]
     },
