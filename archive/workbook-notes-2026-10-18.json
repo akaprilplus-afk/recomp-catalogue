@@ -1,0 +1,416 @@
+{
+  "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
+  "description": "Section, audit and scope notes from each console tab of the master workbook, preserved verbatim. Not catalogue entries.",
+  "notes": {
+    "Nintendo 64": [
+      {
+        "row": 109,
+        "section": "Scope and exclusion log",
+        "text": "Coverage | 76 classified games; 8 Fully Playable, 50 Mostly Playable, 18 Early Development. 8 unverified queue entries and 5 scope/exclusion entries are outside totals. Discovery indexes are candidate sources, not playability evidence."
+      },
+      {
+        "row": 110,
+        "section": "Scope and exclusion log",
+        "text": "Stages | Steps 1–4 complete as of 2026-10-03: discovery, candidate verification, playability audit, missing-project sweep and duplicate/scope cleanup. N64 baseline v1.0."
+      },
+      {
+        "row": 111,
+        "section": "Scope and exclusion log",
+        "text": "Methods | Primary maintainer documentation, game-specific source/configurations and release/setup instructions reviewed. No local ROM builds or gameplay tests performed. Tags not independently confirmed are labeled; platform build targets are distinguished from tested gameplay."
+      },
+      {
+        "row": 112,
+        "section": "Scope and exclusion log",
+        "text": "Discovery indexes | https://recomp.fyi/ • https://github.com/N64Recomp/N64Recomp • https://www.pcgamingwiki.com/wiki/List_of_unofficial_ports"
+      },
+      {
+        "row": 114,
+        "section": "Scope and exclusion log",
+        "text": "October 12 highlights applied: 8 Full + 51 Mostly + 17 Early = 76 rated titles. Five selected report changes only; remaining findings are unapplied. Completion statements are attributed to maintainers; no independent gameplay run performed. Source access gaps remain pending."
+      }
+    ],
+    "Xbox 360": [
+      {
+        "row": 139,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Check | Result | Reference | URL"
+      },
+      {
+        "row": 140,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Duplicate game titles | None found across 79 classified title rows. | ReXGlue | https://github.com/rexglue/rexglue-sdk"
+      },
+      {
+        "row": 141,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Duplicate primary project rows | None found. | XenonRecomp | https://github.com/hedge-dev/XenonRecomp"
+      },
+      {
+        "row": 142,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Shared recomp URLs | One intentional case: the furqanagwan/007 umbrella repo contains separate targets for Quantum of Solace, Blood Stone and 007 Legends. | Curated Xbox 360 recomp list | https://github.com/abduznik/awesome-x360-recomps"
+      },
+      {
+        "row": 143,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Rows removed as noise | None. Every retained Early Development entry has a public project with meaningful recomp/build work; announcement-only/dead curiosities remain excluded. | 360tools project family | https://github.com/sp00nznet/360tools"
+      },
+      {
+        "row": 144,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Final Step 4 reclassifications | Hydro Thunder Hurricane, NCAA Football 14, and Civilization Revolution moved Early → Mostly after current first-party docs confirmed real player-facing builds/releases. | Hydro Thunder Hurricane | https://github.com/visibou/htrecomp"
+      },
+      {
+        "row": 145,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Alternate implementation rule | Keep one primary implementation per game; document meaningful alternates in Notes instead of duplicating rows. | NCAA Football 14 | https://github.com/LegendaryDoors/NCAAFootball14Recomp"
+      },
+      {
+        "row": 146,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Documentation caution | Perfect Dark Remaster and Army of Two currently contain inconsistent historical metadata in their READMEs; tracker title/year/platform metadata has been normalized and both remain conservative Early entries. | Civilization Revolution | https://github.com/ReRevvedRecomp/rerevved"
+      },
+      {
+        "row": 147,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Deferred to other console passes | Mercenaries, Ace Combat 5 and Dead or Alive Xtreme Beach Volleyball are intentionally absent because they belong to other source consoles. | WET full-playability evidence | https://github.com/nikolaygorb/WetRecomp"
+      },
+      {
+        "row": 148,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Daily maintenance rule | Future 9 AM checks should update this baseline only when a new public 360 recomp appears or an existing project's status materially changes."
+      },
+      {
+        "row": 149,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Coverage statement | Public Xbox 360 baseline refreshed 2026-10-05: four previously omitted projects added. Private/Discord-only experiments remain outside scope until meaningful public work exists."
+      },
+      {
+        "row": 150,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Historical baseline: Column naming | Final schema uses “Project URL” as the last column. It points to the primary project/repository page; “Recomp files” remains the direct files/releases/build link where available."
+      },
+      {
+        "row": 151,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "Applied October 8–10 source reports on October 10. 14 Full + 62 Mostly + 24 Early = 100 rated titles. Completion claims remain labelled. Unavailable sources remain pending; no independent gameplay test performed."
+      },
+      {
+        "row": 152,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "October 11 maintenance: 15 Full + 68 Mostly + 25 Early = 108 rated titles. Older discoveries are labelled separately. Source-only work does not prove completion. Public-access gaps remain pending; no independent gameplay test performed."
+      },
+      {
+        "row": 154,
+        "section": "Historical baseline: Final v1.0 audit",
+        "text": "October 12 highlights applied: 16 Full + 68 Mostly + 25 Early = 109 rated titles. Five selected report changes only; remaining findings are unapplied. Completion statements are attributed to maintainers; no independent gameplay run performed. Source access gaps remain pending."
+      }
+    ],
+    "Original Xbox": [
+      {
+        "row": 58,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Step 4 final cleanup notes | Core toolkit | https://github.com/sp00nznet/xboxrecomp"
+      },
+      {
+        "row": 59,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Duplicate check | No duplicate game rows remain in the 15-project tracker. | Primary Burnout 3 | https://github.com/sp00nznet/burnout3"
+      },
+      {
+        "row": 60,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Alternate Burnout | mxmstr/Burnout3Recomp remains excluded as an alternate proof-of-concept; sp00nznet/burnout3 remains the primary tracked implementation. | Conker | https://github.com/codepdbh/xboxrecomp-conker"
+      },
+      {
+        "row": 61,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Conker cleanup | The stale older Conker listing remains excluded; the live codepdbh/xboxrecomp-conker project is the retained row. | Discovery index | https://recomp.fyi/"
+      },
+      {
+        "row": 62,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Noise check | The xboxrecomp toolkit itself is infrastructure, not a game project, so it is not counted. | Dashboard exclusion | https://github.com/sp00nznet/xboxdashboard"
+      },
+      {
+        "row": 63,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: System software | Recompiled Xbox Dashboard remains outside scope because this tracker is games only. | Final verified | 2026-10-03"
+      },
+      {
+        "row": 64,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Link sanity | All 15 primary Project URL targets resolved to live public repositories during the 2026-10-03 final pass. | Scope | Games only"
+      },
+      {
+        "row": 65,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Section placement | No project moved: 2 Fully Playable, 7 Mostly Playable, 6 Early Development."
+      },
+      {
+        "row": 66,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Status audit | Step 4 did not reopen gameplay-status decisions; the Step 2/3 classifications remain unchanged."
+      },
+      {
+        "row": 67,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Final total | 15 public original-Xbox game recompilation projects retained."
+      },
+      {
+        "row": 68,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline: Frozen | Original Xbox tracker frozen as v1.0 on 2026-10-03."
+      },
+      {
+        "row": 69,
+        "section": "Source review and historical audit notes",
+        "text": "Applied October 8–10 source reports on October 10. 5 Full + 13 Mostly + 6 Early = 24 rated titles. Completion claims remain labelled. Unavailable sources remain pending; no independent gameplay test performed."
+      },
+      {
+        "row": 71,
+        "section": "Source review and historical audit notes",
+        "text": "October 11 maintenance: 5 Full + 15 Mostly + 9 Early = 29 rated titles. Older discoveries are labelled separately. Source-only work does not prove completion. Public-access gaps remain pending; no independent gameplay test performed."
+      }
+    ],
+    "PlayStation 1": [
+      {
+        "row": 234,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "PS1 v1.0 finalized 2026-10-04: Steps 1–4 complete. 190 classified game/prototype targets: 11 Fully, 70 Mostly, 109 Early. One unresolved candidate and 13 excluded/reference implementations remain outside totals. Completion of this pass does not make unverified metadata or private builds public."
+      },
+      {
+        "row": 235,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Step 4 discovery: all 227 recomp-labelled PS1 repositories in the current recomp.fyi snapshot mapped to existing primaries, alternates or exclusions. Supplemental first-party catalogs/topics added Hellnight, Parasite Eve II and Resident Evil 1.5; Crash Bash resolved from the review queue. The latter is an unfinished 1996 prototype, distinct from retail Resident Evil 2. Discovery: https://recomp.fyi/?system=PS1 ; https://github.com/topics/static-recompilation ; https://github.com/topics/recompone ; https://github.com/alexbeavs-ps1-ports/psxrecomp-ports"
+      },
+      {
+        "row": 236,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Scope/primary changes: paused Vagrant Story prototype excluded; paused OpenGTPS1 retained as a reference and active GT2 source primary substituted (Mostly → Early). WWF SmackDown! 2 now uses Comfubar/KnowYourRoleRecomp (Mostly; Season load unconfirmed). PAL King’s Field resolves to US King’s Field / Japan II as an uncounted alternate. Colin McRae repository currently unavailable; Alpha 2 Gold fork has no established title-specific implementation. Japan original King’s Field remains one unverified review candidate."
+      },
+      {
+        "row": 237,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Duplicate audit: 34 unselected index implementations reconciled; no duplicate game count. Regional aliases grouped, with King’s Field numbering preserved. Shared Spider-Man and Vigilante 8 repositories contain distinct game targets. Yu-Gi-Oh’s old Unchiga static track is no longer updated; its current matching-decomp successor is outside scope. BreathOfFire3PCPort concerns the 2001 Chinese PC version and is not a PS1 static recomp. Existing active static primaries remain counted once."
+      },
+      {
+        "row": 238,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Steps 2–3 audited the original 187 targets. Step 2 checkpoints: 10, 30, 50, 70, 90, 110, 130, 150, 170, 187. Step 3 promoted Tsumu Light and Mega Man X6 to Fully, Parasite Eve and Xena to Mostly. X6 completion remains version-specific: issue #31 says 1.0.10 with inconsistent 1.0.1 references; current v1.2.0 has not been recertified. MK4 remains Early under explicit bootstrap_verified scope. Four Step 4 additions and replacement primaries received scope/release/classification review in this pass."
+      },
+      {
+        "row": 239,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Eligibility: meaningful title-specific static translation/configuration required. Source-only work is Early unless substantial gameplay is documented; setup ZIPs alone do not prove playability. Fully can follow an explicit qualified maintainer full-playability/ending claim or verified completion. Active publicly documented projects with private implemented gameplay can qualify as Mostly; Parasite Eve II has no public source/build. Explicitly paused, inaccessible, retired static tracks, framework-only forks and matching decomps/source ports stay outside active totals."
+      },
+      {
+        "row": 240,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Method/verification caveat: many PSXRecomp projects statically translate the resident EXE while interpreting or runtime-compiling overlays. Inclusion does not assert 100% AOT coverage. This is a documentation/package audit; no independent game binary or owned-disc gameplay run was performed. Evidence and version-specific qualifications are in column K."
+      },
+      {
+        "row": 241,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Index release labels are snapshots rather than verified latest assets; README labels are attributed and may be stale. OS fields distinguish actual testing, available packages, build-only paths, simulation and Proton. Original-year gaps remain explicitly Unconfirmed. Existing Xbox 360, Original Xbox and Nintendo 64 baselines retain their data, classifications and formatting."
+      },
+      {
+        "row": 242,
+        "section": "Final pass notes — PS1 v1.0",
+        "text": "Other out-of-scope examples remain REDRIVER2, CTR-native, WipEout Rewrite, Silent Hill decomp and the current Yu-Gi-Oh matching-decomp port. Planned support and generic framework examples do not create classified game rows. No workflow step remains pending for PS1 v1.0; the single unverified candidate can be revisited when substantive evidence changes."
+      }
+    ],
+    "PlayStation 2": [
+      {
+        "row": 85,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline (2026-10-04): PS2 v1.0 finalized 2026-10-04. Step 3 audited all 49 rows in batches of 20, 9 and 20 with saved checkpoints. Final count: 24 primary targets (1 Fully, 6 Mostly, 17 Early); five Review and 20 Excluded/reference rows are outside totals."
+      },
+      {
+        "row": 86,
+        "section": "Source review and historical audit notes",
+        "text": "Audit correction: GTA Vice City Stories fork moved from Early to Review. Its documented semantic-VM soak is a PSP empty-world route; PS2 hybrid integration remains a proposal. Public PS2 configuration does not establish its native PS2 build/runner scope."
+      },
+      {
+        "row": 87,
+        "section": "Source review and historical audit notes",
+        "text": "Target corrections: Guitar Hero II now uses GH Classic with the USA retail disc; the archived Final Debug prototype is an excluded reference. Midnight Club 3 edition remains unconfirmed. Devil May Cry and MGS3 limitations remain in their entries."
+      },
+      {
+        "row": 88,
+        "section": "Source review and historical audit notes",
+        "text": "Review leads: Evergrace and chrisking1981 Sly URLs still return 404; Shadow of the Colossus ongoing development is unconfirmed; SHO and GTA fork native target scope remains unqualified. A 404 or old last-push date alone is not proof of abandonment."
+      },
+      {
+        "row": 89,
+        "section": "Source review and historical audit notes",
+        "text": "One counted implementation per game. Archived originals, a qualifying DC2 alternate, source ports/matching decomps, PSP-based Fate, dynamic-only prototypes, private implementations, generic frameworks and empty announcements remain outside static PS2 totals."
+      },
+      {
+        "row": 90,
+        "section": "Source review and historical audit notes",
+        "text": "Classification decisions cite primary README/status documents, release listings and repository structure, checked 2026-10-04 in Steps 2–4. Maintainer claims are distinguished from independent playthroughs. No game assets or player executables were downloaded/run; unconfirmed specifications stay labelled."
+      },
+      {
+        "row": 91,
+        "section": "Source review and historical audit notes",
+        "text": "Step 4 discovery/polish retained: live PS2 index, public GitHub/GitLab/web leads, and framework-fork metadata screening. Column contrast, wrapped notes, frozen headers/title column, typed verification dates and formula totals retained. Four completed console tabs verified unchanged."
+      },
+      {
+        "row": 92,
+        "section": "Source review and historical audit notes",
+        "text": "Applied October 8–10 source reports on October 10. 2 Full + 9 Mostly + 19 Early = 30 rated titles. Completion claims remain labelled. Unavailable sources remain pending; no independent gameplay test performed."
+      },
+      {
+        "row": 94,
+        "section": "Source review and historical audit notes",
+        "text": "October 11 maintenance: 2 Full + 10 Mostly + 19 Early = 31 rated titles. Older discoveries are labelled separately. Source-only work does not prove completion. Public-access gaps remain pending; no independent gameplay test performed. ProjectCane remains a native source-port reference, correcting its proposed promotion in the October 11 report."
+      },
+      {
+        "row": 96,
+        "section": "Source review and historical audit notes",
+        "text": "October 12 highlights applied: 2 Full + 11 Mostly + 19 Early = 32 rated titles. Five selected report changes only; remaining findings are unapplied. Completion statements are attributed to maintainers; no independent gameplay run performed. Source access gaps remain pending."
+      }
+    ],
+    "GameCube": [
+      {
+        "row": 98,
+        "section": "Scope, counting and evidence notes",
+        "text": "Classification follows the existing Summary rules. Fully requires an explicit full-playability/beatable claim or verified completion. Mostly records substantial gameplay or a player build without complete progression proof. Early covers bring-up or isolated gameplay with major systems missing."
+      },
+      {
+        "row": 99,
+        "section": "Scope, counting and evidence notes",
+        "text": "One primary implementation per distinct title enters console and overall totals. Alternate implementations keep their own rating and requirements in a separate section. Review leads, unavailable repositories, source ports and generic tools stay outside classified totals."
+      },
+      {
+        "row": 100,
+        "section": "Scope, counting and evidence notes",
+        "text": "Primary choices: SunPad for Sunshine, BlueWake for Wind Waker and MeleePad for newer documented physical-device Melee matches and public setup. The previous macOS Melee choices remain alternates. Other alternates preserve their own ratings, supported input and build limits."
+      },
+      {
+        "row": 101,
+        "section": "Scope, counting and evidence notes",
+        "text": "Gameplay and completion statements are maintainer/project evidence, not independent playthroughs. Existing Step 2 build inputs are retained. No game images or player executables were used. Primary documents and release notes checked 2026-10-04."
+      },
+      {
+        "row": 102,
+        "section": "Scope, counting and evidence notes",
+        "text": "Source corrections: SunshineRecomp fixes the native return path, but its first-Shine evidence and unfinished controller/audio/product acceptance warrant Early. Deep Sea beta.4 release notes report progression through Outset beyond its older integration-status limits. Generated instruction/function percentages do not measure game completion."
+      },
+      {
+        "row": 103,
+        "section": "Scope, counting and evidence notes",
+        "text": "Steps 1–4 complete after two existing-row batches of 20 plus new-lead batches of 20 and 3. Public indexes, repository searches and framework forks reviewed; both unavailable repos remain 404 with no replacement confirmed. Source ports, Wii/PS2 targets and generic tools excluded from primary totals."
+      },
+      {
+        "row": 104,
+        "section": "Scope, counting and evidence notes",
+        "text": "Scope: Sunshine Eclipse and MKDD/Kirby are modded targets retained alongside their base games, with no extra retail-title count. Nightjar RE4 and Eternal Darkness boot claims lack a verified public native build. Source/version-file changes are not gameplay revalidation. Checked 2026-10-04; no game files or executables run."
+      }
+    ],
+    "Wii": [
+      {
+        "row": 108,
+        "section": "Scope, counting and evidence notes",
+        "text": "Classification follows the existing Summary rules. Fully needs an explicit full-playability or completion claim. Mostly covers substantial gameplay or a public player build with unqualified progression. Early covers boot, isolated gameplay and source bring-up."
+      },
+      {
+        "row": 109,
+        "section": "Scope, counting and evidence notes",
+        "text": "One primary implementation per retail Wii title is counted. Independent projects and platform forks retain their own ratings in Alternates. Matching decompilations, generic tools, empty repositories and untranslated profiles are outside game totals."
+      },
+      {
+        "row": 110,
+        "section": "Scope, counting and evidence notes",
+        "text": "Primary choices: Starlight for Super Mario Galaxy, bt3recompiled for Budokai Tenkaichi 3, and the Robox web project for its explicit full-playability claim. GalaxyPad, MeteorRecomp and Robox desktop remain alternate implementations with their own limitations."
+      },
+      {
+        "row": 111,
+        "section": "Scope, counting and evidence notes",
+        "text": "Gameplay statements are maintainer documentation or identified user reports. No game was built, launched or played in this audit. Public packages and source inputs were documented in Step 2; ratings do not guarantee every device, mode or clean-build configuration."
+      },
+      {
+        "row": 112,
+        "section": "Scope, counting and evidence notes",
+        "text": "Wii Party is Mostly: the specific evidence covers Board Game Island and Free Play, while other modes and pair minigames remain unqualified despite broader roadmap wording. OpenMUA2 is Early for the retained static path; default-JIT results are not static gameplay proof."
+      },
+      {
+        "row": 113,
+        "section": "Scope, counting and evidence notes",
+        "text": "Steps 1–4 complete. Step 3 was saved in batches of 20, 20, 20 and 13. Step 4 reviewed 20 additional repositories, then three fork leads and the Tatsunoko maintainer report; public indexes and broad/title-specific searches were cross-checked."
+      },
+      {
+        "row": 114,
+        "section": "Scope, counting and evidence notes",
+        "text": "Final sweep added KartPad and VR PLUS as alternates, Spider-Man and private Tatsunoko as review leads, plus two scoped-out references. AstroCore is mentioned by Petari but no public binary-recomp implementation was confirmed. Matching decompilation projects and generic pipelines do not create game entries. Further VR/Strikers forks lack a separately verified platform/build and are deduplicated against their documented parent projects."
+      }
+    ],
+    "PSP": [
+      {
+        "row": 75,
+        "section": "Scope and progress",
+        "text": "One primary per distinct retail title; independent ports remain Alternates. VCS public Windows/macOS player promoted to primary; original source profile retained as alternate."
+      },
+      {
+        "row": 76,
+        "section": "Scope and progress",
+        "text": "Fully requires full playability/completion evidence. Mostly requires substantial documented gameplay without confirmed completion. Early includes boot/menu, isolated gameplay, source bring-up or major gameplay blockers."
+      },
+      {
+        "row": 77,
+        "section": "Scope and progress",
+        "text": "Steps 1–4 complete: 22 rated titles (0 Fully / 11 Mostly / 11 Early), 4 alternates, 6 unresolved review leads and 14 references. Build audits checkpointed at 20/25; gameplay checkpoint saved before final sweep."
+      },
+      {
+        "row": 78,
+        "section": "Scope and progress",
+        "text": "Yakumo requires PS3 Monster Hunter Portable 3rd HD Ver. NPJB40001 and remains reference-only. PSP CPU architecture does not turn that PS3 input edition into a PSP title."
+      },
+      {
+        "row": 79,
+        "section": "Scope and progress",
+        "text": "Regional aliases and anthology microgames are deduplicated. Tutikumo supports Japan ULJM05500 (2nd G); Western Freedom Unite input is not verified."
+      },
+      {
+        "row": 81,
+        "section": "Historical checkpoint — Overall classified tracker: 442 titles (38 Fully / 209 Mostly / 195 Early), including 22 PSP titles; earlier eight tabs and their console inventories are preserved.",
+        "text": "Ratings use public source/gameplay and release documentation checked 2026-10-05, not local play-tests. Public completion evidence was insufficient for any PSP Fully rating. Private/deleted projects may be missed."
+      },
+      {
+        "row": 82,
+        "section": "Historical checkpoint — Overall classified tracker: 442 titles (38 Fully / 209 Mostly / 195 Early), including 22 PSP titles; earlier eight tabs and their console inventories are preserved.",
+        "text": "Step 4 sweep: all 11 current recomp.board PSP/multi-system rows reconciled; public search/topic/list and unresolved source leads rechecked. Added senyarom VCS macOS/Linux source alternate and PES6 browser review lead; no new confirmed distinct title. https://recomp.fyi/"
+      }
+    ],
+    "Dreamcast": [
+      {
+        "row": 46,
+        "section": "CHECKPOINT AND AUDIT NOTES",
+        "text": "Steps 1–4 complete, 2026-10-05. Discovery board reconciled with primary repositories; three research batches (11, 5 and 3 repositories), current README/validation/release assets inspected. Catalogue, GitHub repository/readme searches and targeted coverage searches checked. Title-only counts: 2 Fully, 3 Mostly, 6 Early = 11. Two alternate implementations, one planning lead and 13 related references excluded. Shared-framework boot targets are explicitly qualified; NAOMI, VMU, GameCube-source and ports-to-Dreamcast excluded. Ratings reflect published first-party evidence, not an independent run of proprietary game builds. No guarantee of exhaustive future coverage."
+      }
+    ],
+    "PlayStation 3": [
+      {
+        "row": 52,
+        "section": "Source review and historical audit notes",
+        "text": "Historical baseline (2026-10-05): Coverage: GitHub repository discovery and recomp.fyi catalog reconciled; first-party repositories and status docs checked at pinned commits. Recompilation Board returned HTTP 502. Latest game release metadata checked; SDK bundles are not game releases. Collections count once. PS1 firmware/emulator recompilation, arcade System 357, tech demos and abandoned static tracks remain references. Metal Slug 2 is analysis-only and remains a review lead. Ratings use the Summary rules. Totals: 0 / 5 / 18 = 23."
+      },
+      {
+        "row": 56,
+        "section": "Source review and historical audit notes",
+        "text": "Applied October 8–10 source reports on October 10. No independent completion performed. Repository-access limitations remain pending in the dated reports."
+      },
+      {
+        "row": 58,
+        "section": "Source review and historical audit notes",
+        "text": "October 11 maintenance: 1 Full + 5 Mostly + 19 Early = 25 rated titles. Older discoveries are labelled separately. Source-only work does not prove completion. Public-access gaps remain pending; no independent gameplay test performed."
+      },
+      {
+        "row": 60,
+        "section": "Source review and historical audit notes",
+        "text": "October 12 highlights applied: 1 Full + 5 Mostly + 20 Early = 26 rated titles. Five selected report changes only; remaining findings are unapplied. Completion statements are attributed to maintainers; no independent gameplay run performed. Source access gaps remain pending."
+      }
+    ]
+  }
+}
