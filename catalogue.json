@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-4",
+  "catalogueVersion": "2026.11.18-5",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
     "rated": 650,
     "Fully Playable": 64,
-    "Mostly Playable": 320,
-    "Early Development": 266,
+    "Mostly Playable": 322,
+    "Early Development": 264,
     "otherProjects": 238
   },
   "games": [
@@ -3887,17 +3887,58 @@
       "title": "Saw II: Flesh & Blood",
       "year": 2010,
       "console": "Xbox 360",
-      "status": "Early Development",
-      "project": "Saw2-X360-ReXGlue",
-      "release": "Source-only bring-up",
-      "method": "ReXGlue static recomp",
+      "status": "Mostly Playable",
+      "project": "Matt-code-d/Saw2Recomp",
+      "release": "v0.1.10 (2026-11-04)",
+      "method": "Static recompilation",
       "gameVersion": "Own supported Xbox 360 game files",
-      "platform": "Windows target",
-      "filesUrl": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
-      "verified": "2026-10-03",
-      "notes": "Explicit early bring-up; not presented as a finished or fully playable port.",
-      "projectUrl": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
-      "history": []
+      "platform": "Windows",
+      "filesUrl": "https://github.com/Matt-code-d/Saw2Recomp/releases/tag/v0.1.10",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable on Windows with a WPF launcher (ISO install, language detection); still early, a few graphics quirks. Made primary by owner decision 2026-11-18.",
+      "projectUrl": "https://github.com/Matt-code-d/Saw2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "Saw2-X360-ReXGlue",
+          "new": "Matt-code-d/Saw2Recomp",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
+          "new": "https://github.com/Matt-code-d/Saw2Recomp",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Source-only bring-up",
+          "new": "v0.1.10 (2026-11-04)",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
+          "new": "https://github.com/Matt-code-d/Saw2Recomp/releases/tag/v0.1.10",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Mostly Playable",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Owner approved swap 2026-11-18; new primary is playable on Windows, still early by its own account -> Mostly Playable."
+        }
+      ]
     },
     {
       "id": "xbox360-cars",
@@ -5730,17 +5771,58 @@
       "title": "Jet Force Gemini",
       "year": 1999,
       "console": "Nintendo 64",
-      "status": "Early Development",
-      "project": "Dubstroy/JFG-Recomp",
-      "release": "Analysis / recompilation source; native runtime not started",
-      "method": "N64Recomp + RT64",
+      "status": "Mostly Playable",
+      "project": "VibinToast/JetForceGemini-Recompiled",
+      "release": "v1.3.2 (2026-10-30)",
+      "method": "Static recompilation",
       "gameVersion": "ROM revision unconfirmed",
-      "platform": "Windows / Linux intended",
-      "filesUrl": "https://github.com/Dubstroy/JFG-Recomp",
-      "verified": "2026-10-03",
-      "notes": "Maintainer records 1,140 successfully analyzed functions and 54/55 jump tables resolved. Native build/runtime and C-generation milestones remain incomplete; game-specific analysis exceeds an announcement only. Evidence: https://github.com/Dubstroy/JFG-Recomp",
-      "projectUrl": "https://github.com/Dubstroy/JFG-Recomp",
-      "history": []
+      "platform": "Windows; Linux; Steam Deck",
+      "filesUrl": "https://github.com/VibinToast/JetForceGemini-Recompiled/releases/tag/v1.3.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable PC port for Windows, Linux and Steam Deck; dual-stick or mouse and keyboard aim, sprint, mod support (JFG-Mods). Made primary by owner decision 2026-11-18 (previous primary Dubstroy/JFG-Recomp became unreachable).",
+      "projectUrl": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "Dubstroy/JFG-Recomp",
+          "new": "VibinToast/JetForceGemini-Recompiled",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/Dubstroy/JFG-Recomp",
+          "new": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Analysis / recompilation source; native runtime not started",
+          "new": "v1.3.2 (2026-10-30)",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/Dubstroy/JFG-Recomp",
+          "new": "https://github.com/VibinToast/JetForceGemini-Recompiled/releases/tag/v1.3.2",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Mostly Playable",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Owner approved swap 2026-11-18; new primary is a playable PC port (no completion claim) -> Mostly Playable."
+        }
+      ]
     },
     {
       "id": "n64-mario-golf",
@@ -18817,34 +18899,6 @@
       ]
     },
     {
-      "id": "xbox360-saw-ii-flesh-and-blood-matt-code-d-alternate",
-      "legacyId": null,
-      "type": "alternate",
-      "title": "Saw II: Flesh & Blood — Saw2Recomp, alternate",
-      "console": "Xbox 360",
-      "year": 2010,
-      "project": "Matt-code-d/Saw2Recomp",
-      "projectUrl": "https://github.com/Matt-code-d/Saw2Recomp",
-      "release": "v0.1.10 (2026-11-04)",
-      "method": "Static recompilation",
-      "gameVersion": "Own copy of the game (see the project README for the supported release)",
-      "platform": "See project README",
-      "filesUrl": "https://github.com/Matt-code-d/Saw2Recomp/releases/tag/v0.1.10",
-      "verified": "2026-11-18",
-      "notes": "Source 2026-11-18 (project README): playable on Windows with a launcher; still early, some graphics quirks. Stronger than the current primary (source-only bring-up).",
-      "section": "Alternates added by research",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "field": "entry",
-          "old": null,
-          "new": "added",
-          "source": "https://github.com/Matt-code-d/Saw2Recomp",
-          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
-        }
-      ]
-    },
-    {
       "id": "ps1-twisted-metal-2-maxcurrent420-alternate",
       "legacyId": null,
       "type": "alternate",
@@ -18868,34 +18922,6 @@
           "old": null,
           "new": "added",
           "source": "https://github.com/maxcurrent420/TwistedMetal2Recomp",
-          "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
-        }
-      ]
-    },
-    {
-      "id": "n64-jet-force-gemini-vibintoast-alternate",
-      "legacyId": null,
-      "type": "alternate",
-      "title": "Jet Force Gemini — JFG Recompiled (VibinToast), alternate",
-      "console": "Nintendo 64",
-      "year": 1999,
-      "project": "VibinToast/JetForceGemini-Recompiled",
-      "projectUrl": "https://github.com/VibinToast/JetForceGemini-Recompiled",
-      "release": "v1.3.2 (2026-10-30)",
-      "method": "Static recompilation",
-      "gameVersion": "Own copy of the game (see the project README for the supported release)",
-      "platform": "See project README",
-      "filesUrl": "https://github.com/VibinToast/JetForceGemini-Recompiled/releases/tag/v1.3.2",
-      "verified": "2026-11-18",
-      "notes": "Source 2026-11-18 (project README): playable PC port for Windows, Linux and Steam Deck; dual-stick / mouse aim, mod support. Much stronger than the current primary (analysis stage).",
-      "section": "Alternates added by research",
-      "history": [
-        {
-          "date": "2026-11-18",
-          "field": "entry",
-          "old": null,
-          "new": "added",
-          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
         }
       ]
@@ -18981,6 +19007,62 @@
           "new": "added",
           "source": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-saw-ii-flesh-and-blood-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Saw II: Flesh & Blood — Saw2-X360-ReXGlue, alternate",
+      "console": "Xbox 360",
+      "year": 2010,
+      "project": "Saw2-X360-ReXGlue",
+      "projectUrl": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
+      "release": "Source-only bring-up",
+      "method": "ReXGlue static recomp",
+      "gameVersion": "Own supported Xbox 360 game files",
+      "platform": "Windows target",
+      "filesUrl": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18. Source-only bring-up; not presented as a finished or fully playable port. Last updated 2026-08-25.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
+          "note": "Moved here from the main entry when the owner approved a primary swap."
+        }
+      ]
+    },
+    {
+      "id": "n64-jet-force-gemini-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Jet Force Gemini — Dubstroy/JFG-Recomp, alternate",
+      "console": "Nintendo 64",
+      "year": 1999,
+      "project": "Dubstroy/JFG-Recomp",
+      "projectUrl": "https://github.com/Dubstroy/JFG-Recomp",
+      "release": "Analysis / recompilation source; native runtime not started",
+      "method": "N64Recomp + RT64",
+      "gameVersion": "ROM revision unconfirmed",
+      "platform": "Windows / Linux intended",
+      "filesUrl": "https://github.com/Dubstroy/JFG-Recomp",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18. Analysis / recompilation source; native runtime not started. Repository no longer reachable on GitHub (private or deleted) as of 2026-11-18.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Dubstroy/JFG-Recomp",
+          "note": "Moved here from the main entry when the owner approved a primary swap."
         }
       ]
     }
