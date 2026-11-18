@@ -23,6 +23,7 @@ Nintendo 64, PlayStation 1, PlayStation 2, PlayStation 3, PSP, Original Xbox, Xb
 
 ## Unavailable projects
 If a project's repository can't be reached (`git ls-remote` asks for a username), set `unavailable: true` and `unavailableSince`, add a history entry, and list it in proposals. If an `unavailable` project is reachable again, remove the flag with a history entry.
+For `unavailable` games without a replacement, web-search "<game title> recomp" (the owner's method) and propose any project found as a replacement, after checking it is the same game and console, runs on Windows, and is a recompilation. Rotate through a few per day.
 
 ## Which games each day
 - Every day: all Fully Playable games, plus all Original Xbox, Xbox 360, PlayStation 2 and PlayStation 3 games.
