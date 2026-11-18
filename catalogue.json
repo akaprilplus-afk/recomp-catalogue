@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-9",
+  "catalogueVersion": "2026.11.18-10",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
@@ -123,7 +123,18 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-09 (reviewed 2026-10-10): Adds an in-game self-updater and much faster/cancellable whole-game enhanced-texture generation; excludes lighting maps from enhancement.\n\nSource 2026-10-07 (reviewed 2026-10-08): Windows package fixes disappearing/animating crowd at the edges of widescreen pictures and setup progress. Intermediate versions add texture controls/upscaling changes. Maintainer tested a fresh import and a fight; no new independent completion evidence.\n\nEarlier source evidence: Full qualification is based on an explicit maintainer claim. No independent complete playthrough was performed in this source review. Source 2026-10-07: New Windows player implementation. Its first release explicitly says title, Story, Battle, fighter select and full matches play end to end; v0.1.1–v0.1.2 fix eyes, move videos and cutscene presentation. Completion evidence is maintainer-authored, not an independent run.",
       "projectUrl": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox-the-lord-of-the-rings-the-two-towers",
@@ -459,7 +470,18 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-08 (reviewed 2026-10-09): Follow-up to yesterday’s v0.1.0 adds draw-distance/object-pool controls, separate fog settings and a CRT filter; the opening flyover measurement is maintainer evidence.\n\nSource 2026-10-07 (reviewed 2026-10-08): The previously empty lead now has source and a Windows player ZIP. The release claims native Story Mode, city/Badlands gameplay, saves and imported Xbox saves; no independently verified campaign completion was found.",
       "projectUrl": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox-ninja-gaiden-black",
@@ -477,7 +499,18 @@
       "verified": "2026-10-18",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-09 (reviewed 2026-10-10): New native Windows player release with Story, Missions, saves, widescreen/ultrawide and high-resolution rendering. The maintainer says Chapter 1, part of Chapter 15 and Eternal Legend were tested, while several stages and the whole story remain unchecked.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. New independent gamb​oozino/ngbrecomp alternate (Windows/Linux Vulkan v0.9.13) fixes freezes and path/startup issues. Maintainer explicitly says campaign unfinished; substantial gameplay is not whole-game evidence. Preserve TheSaltTrader primary and avoid duplicate title. Source: https://github.com/gamboozino/ngbrecomp/releases/tag/v0.9.13",
       "projectUrl": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox-timesplitters-future-perfect",
@@ -1520,7 +1553,18 @@
       "verified": "2026-10-18",
       "notes": "Maintainer explicitly claims complete story, races, open world, audio and saves. Windows source build; visual stretching and heavy-scene slowdowns remain. Full rating is a CLAIM, not an independent full run. | Classification: Fully Playable; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
       "projectUrl": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-cyber-troopers-virtual-on-oratorio-tangram-ver-5-66",
@@ -1663,7 +1707,18 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Both public feeds return 404; no proof of abandonment.\nFlag access pending; retain previous gameplay classification/history.\n\nEarlier source evidence: Source 2026-10-07 (reviewed 2026-10-08): New Windows package redesigns the setup screen and removes its advanced-settings window; saves/settings remain. This is a player release/UI change, not new chapter completion evidence.\n\nEarlier source evidence: Source 2026-10-07: New releases add an in-game PC Settings page, release finished game threads to avoid long-session memory growth, and fix intro flicker. No new explicit full-campaign claim.",
       "projectUrl": "https://github.com/TheSaltTrader/Ninja-s-Dawn---A-Ninja-Gaiden-2-Recompilation-Project",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/TheSaltTrader/Ninja-s-Dawn---A-Ninja-Gaiden-2-Recompilation-Project",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-the-simpsons-game",
@@ -2439,7 +2494,18 @@
       "verified": "2026-10-11",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Separate public packages for all three games. Alpha.2–3 add audio-output/monitor selection and improve tiling, depth and notices. Maintainer testing is NVIDIA-only; online and title-update application remain missing.\nUpdate all three rows. Keep Quantum Mostly; Blood Stone and Legends Early. Do not infer identical playability from shared packaging.\n\nEarlier source evidence: Source 2026-10-10 (reviewed 2026-10-10): First public Windows builds for all three. Quantum reaches and plays missions but has no full playthrough; Blood Stone reaches/renders the first level; Legends plays its in-engine opening.\n\nEarlier source evidence: The umbrella 007 recomp project marks Quantum of Solace 'In-game': gameplay is reached, but it has not been validated end-to-end.",
       "projectUrl": "https://github.com/furqanagwan/007",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/furqanagwan/007",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-3-on-3-nhl-arcade",
@@ -2792,7 +2858,18 @@
       "verified": "2026-10-07",
       "notes": "Source 2026-10-06: Source changes move GPU work off the main thread and add profile-guided optimization, raising the maintainer's split-screen test from about 45–51 FPS to roughly 58–60 FPS. Intro skip, FOV, achievements and split-screen tools were also added; there is still no packaged release and the full campaign remains in progress.\n\nEarlier source evidence 2026-10-05: Public October 5 Windows/ReXGlue project. Maintainer reports campaign opening/cinematics, Zombies and local/split-screen multiplayer running; full campaign validation is still in progress. No packaged release. Requires TU11.",
       "projectUrl": "https://github.com/ItsManueh/bo1-recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/ItsManueh/bo1-recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-wwe-smackdown-vs-raw-2008",
@@ -3111,7 +3188,18 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-07 (reviewed 2026-10-08): New Windows source-build project claims gameplay, local saves, controller/keyboard and PC settings. The README says the full game is playable but contradicts itself about System Link: Features says it works, Known limitations says it does not exist. No completion run is provided.",
       "projectUrl": "https://github.com/vincequene/rockstar-table-tennis-recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-wwe-smackdown-vs-raw-2010",
@@ -4141,7 +4229,18 @@
       "verified": "2026-10-11",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Separate public packages for all three games. Alpha.2–3 add audio-output/monitor selection and improve tiling, depth and notices. Maintainer testing is NVIDIA-only; online and title-update application remain missing.\nUpdate all three rows. Keep Quantum Mostly; Blood Stone and Legends Early. Do not infer identical playability from shared packaging.\n\nEarlier source evidence: Source 2026-10-10 (reviewed 2026-10-10): First public Windows builds for all three. Quantum reaches and plays missions but has no full playthrough; Blood Stone reaches/renders the first level; Legends plays its in-engine opening.\n\nEarlier source evidence: The umbrella 007 project currently classifies Blood Stone as Investigating: recompilation work exists, but it has not yet reached validated gameplay.",
       "projectUrl": "https://github.com/furqanagwan/007",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/furqanagwan/007",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-007-legends",
@@ -4159,7 +4258,18 @@
       "verified": "2026-10-11",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Separate public packages for all three games. Alpha.2–3 add audio-output/monitor selection and improve tiling, depth and notices. Maintainer testing is NVIDIA-only; online and title-update application remain missing.\nUpdate all three rows. Keep Quantum Mostly; Blood Stone and Legends Early. Do not infer identical playability from shared packaging.\n\nEarlier source evidence: Source 2026-10-10 (reviewed 2026-10-10): First public Windows builds for all three. Quantum reaches and plays missions but has no full playthrough; Blood Stone reaches/renders the first level; Legends plays its in-engine opening.\n\nEarlier source evidence: The umbrella 007 project currently classifies 007 Legends as Investigating; gameplay has not yet been established.",
       "projectUrl": "https://github.com/furqanagwan/007",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/furqanagwan/007",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "xbox360-minecraft-xbox-360-edition",
@@ -10049,7 +10159,18 @@
       "verified": "2026-10-18",
       "notes": "North American PS2 source-build port documents races on multiple tracks and GPU output. Full GT Mode/progression and broad GPUs untested; optional frame generation requires NVIDIA. | Classification: Mostly Playable; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
       "projectUrl": "https://github.com/nateo91/gt4-recompiled",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/nateo91/gt4-recompiled",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps2-urban-reign",
@@ -10388,7 +10509,18 @@
       "verified": "2026-10-04",
       "notes": "Step 3 retains Early. Generic README is supplemented by a substantial title-specific function map, native-run diagnostics and PS2_PROJECT_STATE.md. Recompiled boot/movie/audio-service and VU/GS bring-up is implemented; lock/streaming and rendering blockers remain. No playable match or full-game evidence established. Source/build target requires original supported ELF, disc data and IOP modules. Launch script pins SLUS_214.42; labelled Arcade Version data folder is not proof of a distinct PS2 release.",
       "projectUrl": "https://github.com/TH3BACKLOG/SDBZ-Recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/TH3BACKLOG/SDBZ-Recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps2-ultraman-fighting-evolution-3",
@@ -10584,7 +10716,18 @@
       "verified": "2026-10-18",
       "notes": "Native Linux source boots to title and menus; author expressly says NOT playable, with poor rendering/performance and no verified race. | Classification: Early Development; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
       "projectUrl": "https://github.com/pedrohenrique505/Recomp-Domination",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/pedrohenrique505/Recomp-Domination",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps2-silent-hill-4-the-room",
@@ -10602,7 +10745,18 @@
       "verified": "2026-10-18",
       "notes": "Experimental PS2Recomp source shows bounded apartment/kitchen routes with ongoing performance and rendering work; no full campaign or stable packaged release. | Classification: Early Development; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
       "projectUrl": "https://github.com/AwesomeObserver/sh4-recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/AwesomeObserver/sh4-recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps2-super-robot-taisen-z",
@@ -12260,7 +12414,18 @@
       "verified": "2026-10-05",
       "notes": "Mostly: intro movies/audio, title, New Game and opening gameplay; lighter tutorial scenes reach 30 fps, crowded scenes around 19–21. No full-game completion claim. Windows source build needs VS2022, CMake 3.21, Ninja/Python 3.10; FFmpeg headers/libs enable movies. Original Japanese release 2011; tested NA disc released 2012.",
       "projectUrl": "https://github.com/canersaka/Yakuza-Dead-Souls-EX",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/canersaka/Yakuza-Dead-Souls-EX",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps3-you-dont-know-jack-2011",
@@ -12708,7 +12873,18 @@
       "verified": "2026-10-18",
       "notes": "Source/event 2026-10-11 UTC (reviewed 2026-10-12): A new public implementation and v1.0.0 package make broad feature claims, but current documentation limits verified native execution to startup/setup and incomplete race imagery. The earlier Pygame presentation was a standalone demo, not recompiled gameplay.\nAdd this implementation as Early. Keep LeVonikke’s inaccessible project as a separate historical lead; do not treat the advertised 4K/ultrawide package as a playable race.\nEvidence basis: Current public README/status and, where present, release assets. Gameplay statements are maintainer claims.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. Work Oct 14–17 source polling returned 404 for this and LeVonikke/GT6-PC-Recomp. This is an accessibility problem, NOT proof that the project has been abandoned or that the advertised player binary works. Keep existing classification and old proof attributed; recheck later. Source: https://github.com/Denarmo/Gran-Turismo-6-Recomp",
       "projectUrl": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps3-haze",
@@ -22122,8 +22298,18 @@
           "new": "added",
           "source": "https://github.com/Dubstroy/JFG-Recomp",
           "note": "Moved here from the main entry when the owner approved a primary swap."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/Dubstroy/JFG-Recomp",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
         }
-      ]
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-18"
     },
     {
       "id": "ps3-demons-souls-leonardorobertomotalvao-alternate",

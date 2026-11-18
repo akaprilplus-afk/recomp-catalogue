@@ -19,8 +19,13 @@ This repository is the single source of truth for the game catalogue. The daily 
 - Every entry has a permanent `id` (for example `xbox360-sonic-unleashed`) that never changes, even if the title is corrected.
 - `legacyId` is the entry's old workbook position (for example `Xbox 360:7`). The app uses it to carry over favourites and edits. Entries added after the conversion have `legacyId: null`.
 - `status` is the rating, written on the entry itself.
+- `unavailable: true` (with `unavailableSince`) means the project's GitHub repository can no longer be reached. The entry is kept; research clears the flag if the repository comes back.
 - `ownerRated: true` means the owner checked the game personally and set its rating. Research never changes those ratings.
 - `history` records each change the research makes: the date, what changed, why, and the source link.
+
+## Consoles covered
+
+Nintendo 64, PlayStation 1, PlayStation 2, PlayStation 3, PSP, Original Xbox, Xbox 360, GameCube, Wii, Dreamcast, and (from 2026-11-18) PC (Windows and DOS), PlayStation 4 and Nintendo Switch. Console names in `catalogue.json`: `PC`, `PlayStation 4`, `Nintendo Switch`.
 
 ## Rating rules
 

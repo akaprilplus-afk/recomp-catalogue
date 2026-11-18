@@ -18,9 +18,15 @@ How the daily RECOMP research task updates `catalogue.json`. Run from the repo r
 ## When the owner rates a game
 When the owner says they checked a game and gives its rating: set `status`, set `ownerRated: true`, add a `history` entry (`field: "status"`, note "Rated by the owner"), and run verify with `--owner-change <id>` for that entry only.
 
+## Consoles covered
+Nintendo 64, PlayStation 1, PlayStation 2, PlayStation 3, PSP, Original Xbox, Xbox 360, GameCube, Wii, Dreamcast, PC (Windows and DOS; console name `PC`), PlayStation 4, Nintendo Switch. Id prefixes: `pc-`, `ps4-`, `switch-`. Not covered (skip): Switch 2, PS5, Xbox Series, NES, SNES, Genesis, GB/GBC/GBA, DS/3DS, Saturn, Wii U, 3DO, FM Towns, arcade, Mac-only. Note: recomp.fyi does not list Switch projects (consoles still on sale), so find Switch projects through web search and allrecomps.com / recomp.gg.
+
+## Unavailable projects
+If a project's repository can't be reached (`git ls-remote` asks for a username), set `unavailable: true` and `unavailableSince`, add a history entry, and list it in proposals. If an `unavailable` project is reachable again, remove the flag with a history entry.
+
 ## Which games each day
 - Every day: all Fully Playable games, plus all Original Xbox, Xbox 360, PlayStation 2 and PlayStation 3 games.
-- Plus by weekday (America/Toronto): Mon Nintendo 64 · Tue PlayStation 1 · Wed PSP, GameCube · Thu Wii, Dreamcast · Fri Nintendo 64 · Sat PlayStation 1 · Sun PSP, GameCube, Wii, Dreamcast.
+- Plus by weekday (America/Toronto): Mon Nintendo 64, PC · Tue PlayStation 1, PlayStation 4 · Wed PSP, GameCube, Nintendo Switch · Thu Wii, Dreamcast, PC · Fri Nintendo 64, PlayStation 4 · Sat PlayStation 1, Nintendo Switch · Sun PSP, GameCube, Wii, Dreamcast.
 
 ## Steps
 ```
@@ -43,7 +49,7 @@ Before applying, glance over the `update` list for anything implausible (a huge 
 - Skip decompilations and source ports (RECOMP covers recompilations). Skip Android-only projects (owner decision 2026-11-18: not included).
 - Also: web search for new static recompilation releases; allrecomps.com, recompedia.com, recomp.gg as tip sources.
 - For each candidate: check it is not already in `catalogue.json` (match `projectUrl` and title, in both `games` and `otherProjects`), then confirm it exists with `git ls-remote --tags <url>` and read its README (a `--depth 1 --filter=blob:none --no-checkout` clone, then `git show HEAD:README.md`). Confirmed candidates are added and rated (policy 1); for the newest version use `tools/check_tags.py` (sorted by date, not name).
-- Consoles not yet in the catalogue (Switch, Switch 2, DS, 3DS, etc.) are not added until the owner decides whether to cover them.
+- Consoles not covered (see above) are skipped.
 
 ## Proposals file
 Only list what is new since earlier `proposals/*.md` files; say how many earlier items are still open rather than repeating them. Plain language, links for everything.
