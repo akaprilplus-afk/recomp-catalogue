@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-12",
+  "catalogueVersion": "2026.11.18-13",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
     "rated": 738,
-    "Fully Playable": 68,
-    "Mostly Playable": 374,
+    "Fully Playable": 69,
+    "Mostly Playable": 373,
     "Early Development": 296,
     "otherProjects": 261
   },
@@ -11152,17 +11152,58 @@
       "title": "Animal Crossing",
       "year": 2002,
       "console": "GameCube",
-      "status": "Mostly Playable",
-      "project": "LeftInWalmart/AnimalCrossingRustPort",
-      "release": "Source build • no tagged release • updated 2026-10-04",
-      "method": "Ghidra P-code / CSV → Rust + Bevy",
-      "gameVersion": "USA • GAFE01 • own ISO/CISO; DOL + foresta.rel linked",
-      "platform": "Windows • Rust/Bevy workflow",
-      "filesUrl": "https://github.com/LeftInWalmart/AnimalCrossingRustPort#readme",
-      "verified": "2026-10-04",
-      "notes": "Mostly: README documents a generated player app with game-specific town clock, audio, controls and persistent card. No broad town-session or completion claim; GBA/e-Reader and DSP effects remain absent. Build audit: Source-only; Python 3, Rust/Cargo, Ghidra 12.1.4 + GameCubeLoader and ghidra-cli 0.2.2. main.dol SHA-1: 2ae8f56e7791d37e165bd5900921f2269f9515bf; REL SHA-1: c59d278ad8542bb05d6cbb632f60a0db05bef203. Public generation/runtime pipeline includes memory-card persistence. Rumble, GBA island/e-Reader links and DSP reverb/filter features are absent.",
-      "projectUrl": "https://github.com/LeftInWalmart/AnimalCrossingRustPort",
-      "history": []
+      "status": "Fully Playable",
+      "project": "digdat0/ACGC-Switch-Port",
+      "release": "v1.0.1 (2026-10-29)",
+      "method": "Native port built on the community decompilation",
+      "gameVersion": "Own copy of the game (see the project README)",
+      "platform": "Windows; Switch",
+      "filesUrl": "https://github.com/digdat0/ACGC-Switch-Port/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): gcNX v1.0 beta, the game is fully playable (maintainer); built from the complete community decompilation; Windows and Switch. Made primary by owner decision 2026-11-18.",
+      "projectUrl": "https://github.com/digdat0/ACGC-Switch-Port",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "LeftInWalmart/AnimalCrossingRustPort",
+          "new": "digdat0/ACGC-Switch-Port",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/LeftInWalmart/AnimalCrossingRustPort",
+          "new": "https://github.com/digdat0/ACGC-Switch-Port",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Source build • no tagged release • updated 2026-10-04",
+          "new": "v1.0.1 (2026-10-29)",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/LeftInWalmart/AnimalCrossingRustPort#readme",
+          "new": "https://github.com/digdat0/ACGC-Switch-Port/releases/tag/v1.0.1",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": "Mostly Playable",
+          "new": "Fully Playable",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Owner approved swap; maintainer says v1.0 beta is fully playable -> Fully Playable (maintainer claim)."
+        }
+      ]
     },
     {
       "id": "gamecube-animaniacs-the-great-edgar-hunt",
@@ -23351,21 +23392,21 @@
       ]
     },
     {
-      "id": "gamecube-animal-crossing-gcnx-alternate",
+      "id": "gamecube-animal-crossing-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
-      "title": "Animal Crossing — gcNX (digdat0), alternate",
+      "title": "Animal Crossing — LeftInWalmart/AnimalCrossingRustPort, alternate",
       "console": "GameCube",
-      "year": 2001,
-      "project": "digdat0/ACGC-Switch-Port",
-      "projectUrl": "https://github.com/digdat0/ACGC-Switch-Port",
-      "release": "v1.0.1 (2026-10-29)",
-      "method": "Native port built on the community decompilation",
-      "gameVersion": "Own copy of the game (see the project README)",
-      "platform": "Windows; Switch",
-      "filesUrl": "https://github.com/digdat0/ACGC-Switch-Port/releases/tag/v1.0.1",
+      "year": 2002,
+      "project": "LeftInWalmart/AnimalCrossingRustPort",
+      "projectUrl": "https://github.com/LeftInWalmart/AnimalCrossingRustPort",
+      "release": "Source build • no tagged release • updated 2026-10-04",
+      "method": "Ghidra P-code / CSV → Rust + Bevy",
+      "gameVersion": "USA • GAFE01 • own ISO/CISO; DOL + foresta.rel linked",
+      "platform": "Windows • Rust/Bevy workflow",
+      "filesUrl": "https://github.com/LeftInWalmart/AnimalCrossingRustPort#readme",
       "verified": "2026-11-18",
-      "notes": "Source 2026-11-18 (project README): v1.0 beta, the game is fully playable (maintainer); built from the complete community decompilation.",
+      "notes": "Former primary until 2026-11-18 (owner approved swap). Mostly: README documents a generated player app with game-specific town clock, audio, controls and persistent card. No broad town-session or completion claim; GBA/e-Reader and DSP effects remain absent. Build audit: Source-only; Python 3, Rust/Cargo, Ghidra 12.1.4 + GameCubeLoader and ghidra-cli 0.2.2. main.dol SHA-1: 2ae8f56e7791d37e165bd5900921f2269f9515bf; REL SHA-1: c59d278ad8542bb05d6cbb632f60a0db05bef203. Public generation/runtime pipeline includes memory-card persistence. Rumble, GBA island/e-Reader links and DSP reverb/filter features are absent.",
       "section": "Alternates added by research",
       "history": [
         {
@@ -23373,8 +23414,8 @@
           "field": "entry",
           "old": null,
           "new": "added",
-          "source": "https://github.com/digdat0/ACGC-Switch-Port",
-          "note": "Decompilation-based port, in scope from 2026-11-18."
+          "source": "https://github.com/LeftInWalmart/AnimalCrossingRustPort",
+          "note": "Moved here from the main entry when the owner approved a primary swap."
         }
       ]
     }
