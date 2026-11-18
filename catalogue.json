@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-8",
+  "catalogueVersion": "2026.11.18-9",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 690,
+    "rated": 736,
     "Fully Playable": 69,
-    "Mostly Playable": 354,
-    "Early Development": 267,
-    "otherProjects": 247
+    "Mostly Playable": 371,
+    "Early Development": 296,
+    "otherProjects": 252
   },
   "games": [
     {
@@ -15859,6 +15859,1616 @@
           "note": "Rated by Claude: beta candidate -> Mostly Playable."
         }
       ]
+    },
+    {
+      "id": "dreamcast-blue-stinger",
+      "legacyId": null,
+      "title": "Blue Stinger",
+      "year": 1999,
+      "console": "Dreamcast",
+      "status": "Mostly Playable",
+      "project": "DCRecomp/BlueStingerRecomp",
+      "release": "v0.9.7-2 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Portuguese README: native audio done, Vulkan renderer working and default; releases up to v0.9.7.",
+      "projectUrl": "https://github.com/DCRecomp/BlueStingerRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/DCRecomp/BlueStingerRecomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/DCRecomp/BlueStingerRecomp",
+          "note": "Rated by Claude: mature released builds -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-killzone-2",
+      "legacyId": null,
+      "title": "Killzone 2",
+      "year": 2009,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "undecuple/Project-Pyrrhus",
+      "release": "v0.1.13 (2026-11-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/undecuple/Project-Pyrrhus/releases/tag/v0.1.13",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): pre-release; the first level runs at 23-33 fps in scripted runs.",
+      "projectUrl": "https://github.com/undecuple/Project-Pyrrhus",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/undecuple/Project-Pyrrhus",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/undecuple/Project-Pyrrhus",
+          "note": "Rated by Claude: first level only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps3-killzone-3",
+      "legacyId": null,
+      "title": "Killzone 3",
+      "year": 2011,
+      "console": "PlayStation 3",
+      "status": "Mostly Playable",
+      "project": "undecuple/Project-Helghast",
+      "release": "v0.1.10 (2026-11-09)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/undecuple/Project-Helghast/releases/tag/v0.1.10",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): partly playable pre-release: levels load and play at about 16-22 fps; reaches menus on Windows 10/11.",
+      "projectUrl": "https://github.com/undecuple/Project-Helghast",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/undecuple/Project-Helghast",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/undecuple/Project-Helghast",
+          "note": "Rated by Claude: levels play, partly playable -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-killzone-hd",
+      "legacyId": null,
+      "title": "Killzone HD",
+      "year": 2012,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "gustavomorinaga/Project-Vekta",
+      "release": "v0.5.2 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): release v0.5.2; README points to separate status docs.",
+      "projectUrl": "https://github.com/gustavomorinaga/Project-Vekta",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/gustavomorinaga/Project-Vekta",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/gustavomorinaga/Project-Vekta",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps3-mag",
+      "legacyId": null,
+      "title": "MAG",
+      "year": 2010,
+      "console": "PlayStation 3",
+      "status": "Mostly Playable",
+      "project": "tekulvw/mag-recomp",
+      "release": "v0.5.1 (2026-11-14)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/tekulvw/mag-recomp/releases/tag/v0.5.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Windows and Linux: signs in, plays the Training mission and has joined online matches.",
+      "projectUrl": "https://github.com/tekulvw/mag-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/tekulvw/mag-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/tekulvw/mag-recomp",
+          "note": "Rated by Claude: training and online matches documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-valkyrie-profile-2-silmeria",
+      "legacyId": null,
+      "title": "Valkyrie Profile 2: Silmeria",
+      "year": 2006,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "TheBozos/VP2S_Recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): title screen and the first town (Logun) shown.",
+      "projectUrl": "https://github.com/TheBozos/VP2S_Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheBozos/VP2S_Recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/TheBozos/VP2S_Recomp",
+          "note": "Rated by Claude: title and first town only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps2-drakengard",
+      "legacyId": null,
+      "title": "Drakengard",
+      "year": 2003,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "Berry-Wilson/Drakengard-PC",
+      "release": "v1.0.0 (2026-11-16)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/Berry-Wilson/Drakengard-PC/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v1.0.0 published; README gives no progress statement; listed as in progress.",
+      "projectUrl": "https://github.com/Berry-Wilson/Drakengard-PC",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Berry-Wilson/Drakengard-PC",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Berry-Wilson/Drakengard-PC",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "n64-killer-instinct-gold",
+      "legacyId": null,
+      "title": "Killer Instinct Gold",
+      "year": 1996,
+      "console": "Nintendo 64",
+      "status": "Early Development",
+      "project": "geno55/kigold-recomp",
+      "release": "v0.4.1 (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/geno55/kigold-recomp/releases/tag/v0.4.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): what works: the intro and title screen, plus optional unlocks.",
+      "projectUrl": "https://github.com/geno55/kigold-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/geno55/kigold-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/geno55/kigold-recomp",
+          "note": "Rated by Claude: intro and title documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps1-kings-field-japan-verdite1",
+      "legacyId": null,
+      "title": "King's Field (Japan, verdite1)",
+      "year": 1994,
+      "console": "PlayStation 1",
+      "status": "Early Development",
+      "project": "Voicedrew11/verdite1",
+      "release": "v0.3.0 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; Steam Deck",
+      "filesUrl": "https://github.com/Voicedrew11/verdite1/releases/tag/v0.3.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): port of the first (Japan-only) King's Field by the author of verdite2; short README.",
+      "projectUrl": "https://github.com/Voicedrew11/verdite1",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Voicedrew11/verdite1",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Voicedrew11/verdite1",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-tenchu-z",
+      "legacyId": null,
+      "title": "Tenchu Z",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "8bitninja64/TenchuZ-PC",
+      "release": "v0.3.4 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/8bitninja64/TenchuZ-PC/releases/tag/v0.3.4",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots, plays movies, music and sound, and runs the menus, the hideout and missions at the original 30 fps.",
+      "projectUrl": "https://github.com/8bitninja64/TenchuZ-PC",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/8bitninja64/TenchuZ-PC",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/8bitninja64/TenchuZ-PC",
+          "note": "Rated by Claude: missions documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-dragon-valor",
+      "legacyId": null,
+      "title": "Dragon Valor",
+      "year": 1999,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "victor-takai/dragon-valor-recomp",
+      "release": "v0.1.0 (2026-10-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/victor-takai/dragon-valor-recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable preview, played into chapter 2 on Windows; disc 2 and the ending untested.",
+      "projectUrl": "https://github.com/victor-takai/dragon-valor-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/victor-takai/dragon-valor-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/victor-takai/dragon-valor-recomp",
+          "note": "Rated by Claude: played into chapter 2 -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "wii-sonic-and-the-secret-rings",
+      "legacyId": null,
+      "title": "Sonic and the Secret Rings",
+      "year": 2007,
+      "console": "Wii",
+      "status": "Early Development",
+      "project": "yunophilia/SecretRingsRecomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): runtime notes only (IOS, input); no progress statement.",
+      "projectUrl": "https://github.com/yunophilia/SecretRingsRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/yunophilia/SecretRingsRecomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/yunophilia/SecretRingsRecomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-steel-battalion",
+      "legacyId": null,
+      "title": "Steel Battalion",
+      "year": 2002,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "AsukaNeo/Titanium-Legion",
+      "release": "v0.1.0-prealpha (2026-11-02)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/AsukaNeo/Titanium-Legion/releases/tag/v0.1.0-prealpha",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): pre-alpha preview: the first mission plays at about 30 fps on a normal pad.",
+      "projectUrl": "https://github.com/AsukaNeo/Titanium-Legion",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/AsukaNeo/Titanium-Legion",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/AsukaNeo/Titanium-Legion",
+          "note": "Rated by Claude: first mission only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "wii-castlevania-judgment",
+      "legacyId": null,
+      "title": "Castlevania Judgment",
+      "year": 2008,
+      "console": "Wii",
+      "status": "Early Development",
+      "project": "vs-sr-dev/pc-castlevaniajudgment",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): wiikit port; a Story fight shown; little else documented.",
+      "projectUrl": "https://github.com/vs-sr-dev/pc-castlevaniajudgment",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/vs-sr-dev/pc-castlevaniajudgment",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/vs-sr-dev/pc-castlevaniajudgment",
+          "note": "Rated by Claude: single fight documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "wii-final-fantasy-crystal-chronicles-echoes-of-time",
+      "legacyId": null,
+      "title": "Final Fantasy Crystal Chronicles: Echoes of Time",
+      "year": 2009,
+      "console": "Wii",
+      "status": "Mostly Playable",
+      "project": "vs-sr-dev/pc-ffcceotwii",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): wiikit port; not yet: DS-edition local wireless play and online.",
+      "projectUrl": "https://github.com/vs-sr-dev/pc-ffcceotwii",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/vs-sr-dev/pc-ffcceotwii",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/vs-sr-dev/pc-ffcceotwii",
+          "note": "Rated by Claude: main game implied working, multiplayer missing -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-ghost-recon-advanced-warfighter",
+      "legacyId": null,
+      "title": "Tom Clancy's Ghost Recon Advanced Warfighter",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "Juansolo457/graw360-recomp",
+      "release": "v0.6 (2026-11-02)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux / Steam Deck",
+      "filesUrl": "https://github.com/Juansolo457/graw360-recomp/releases/tag/v0.6",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v0.6: the campaign plays on Windows and Linux / Steam Deck; work in progress.",
+      "projectUrl": "https://github.com/Juansolo457/graw360-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Juansolo457/graw360-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/Juansolo457/graw360-recomp",
+          "note": "Rated by Claude: campaign plays, WIP -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-motorstorm-pacific-rift",
+      "legacyId": null,
+      "title": "MotorStorm: Pacific Rift",
+      "year": 2008,
+      "console": "PlayStation 3",
+      "status": "Mostly Playable",
+      "project": "OddTrie/MotorstormPCificRift",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots, loads races, and a full race can be driven at a steady 30 fps.",
+      "projectUrl": "https://github.com/OddTrie/MotorstormPCificRift",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/OddTrie/MotorstormPCificRift",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/OddTrie/MotorstormPCificRift",
+          "note": "Rated by Claude: full races documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-toro-lets-party",
+      "legacyId": null,
+      "title": "Toro! Let's Party!",
+      "year": "Unconfirmed",
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "undecuple/Paatii-Neko",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in progress; README status section without a playthrough claim.",
+      "projectUrl": "https://github.com/undecuple/Paatii-Neko",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/undecuple/Paatii-Neko",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/undecuple/Paatii-Neko",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps1-action-man-operation-extreme",
+      "legacyId": null,
+      "title": "Action Man: Operation Extreme",
+      "year": 2000,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "GnomeChimpsky/ActionManRecomp",
+      "release": "v0.6.0 (2026-11-03)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/GnomeChimpsky/ActionManRecomp/releases/tag/v0.6.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): preview: boots and plays through the parts tested so far; full playthrough not verified.",
+      "projectUrl": "https://github.com/GnomeChimpsky/ActionManRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/GnomeChimpsky/ActionManRecomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/GnomeChimpsky/ActionManRecomp",
+          "note": "Rated by Claude: tested parts play -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-atv-quad-power-racing-2",
+      "legacyId": null,
+      "title": "ATV Quad Power Racing 2",
+      "year": 2002,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "HawKDesigns/qpr2-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): diagnostic builds; sound effects and shadows incomplete; wants help with GPU, audio and AI.",
+      "projectUrl": "https://github.com/HawKDesigns/qpr2-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/HawKDesigns/qpr2-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/HawKDesigns/qpr2-recomp",
+          "note": "Rated by Claude: diagnostic stage -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps2-dark-cloud",
+      "legacyId": null,
+      "title": "Dark Cloud",
+      "year": 2000,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "boubou666/DC_Recomp",
+      "release": "v0.3.0 (2026-11-09)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/boubou666/DC_Recomp/releases/tag/v0.3.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native BozoEngine port (no emulation fallback) with in-game pause menu, graphics options and cheats.",
+      "projectUrl": "https://github.com/boubou666/DC_Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/boubou666/DC_Recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/boubou666/DC_Recomp",
+          "note": "Rated by Claude: released native build with in-game menus -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps2-jackass-the-game",
+      "legacyId": null,
+      "title": "Jackass: The Game",
+      "year": 2007,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "Juansolo457/jackass-ps2-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): plan: bottom-up layers to the title screen, then play.",
+      "projectUrl": "https://github.com/Juansolo457/jackass-ps2-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Juansolo457/jackass-ps2-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Juansolo457/jackass-ps2-recomp",
+          "note": "Rated by Claude: pre-title-screen -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps3-macross-30",
+      "legacyId": null,
+      "title": "Macross 30: Ginga o Tsunagu Utagoe",
+      "year": 2013,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "saintiron82/macross30-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Korean README; development status covers SPU, rendering and shaders.",
+      "projectUrl": "https://github.com/saintiron82/macross30-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/saintiron82/macross30-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/saintiron82/macross30-recomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-dynasty-warriors-5-empires",
+      "legacyId": null,
+      "title": "Dynasty Warriors 5: Empires",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "TheSlackbringer/dw5-empires-recomp",
+      "release": "v0.1.0-alpha.13 (2026-11-04)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/TheSlackbringer/dw5-empires-recomp/releases/tag/v0.1.0-alpha.13",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): alpha releases with launcher; no progress statement.",
+      "projectUrl": "https://github.com/TheSlackbringer/dw5-empires-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TheSlackbringer/dw5-empires-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/TheSlackbringer/dw5-empires-recomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps2-medal-of-honor-vanguard",
+      "legacyId": null,
+      "title": "Medal of Honor: Vanguard",
+      "year": 2007,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "LeandroSSB/moh-vanguard-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in progress: boots, plays the EA logo movie with audio and runs stably after it.",
+      "projectUrl": "https://github.com/LeandroSSB/moh-vanguard-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/LeandroSSB/moh-vanguard-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/LeandroSSB/moh-vanguard-recomp",
+          "note": "Rated by Claude: boots only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox-otogi-myth-of-demons",
+      "legacyId": null,
+      "title": "Otogi: Myth of Demons",
+      "year": 2002,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "sigods/otogi1",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): research preview, not a playable port: reaches menus, save creation and loading.",
+      "projectUrl": "https://github.com/sigods/otogi1",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/sigods/otogi1",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/sigods/otogi1",
+          "note": "Rated by Claude: maintainer says not playable -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-geometry-wars-retro-evolved",
+      "legacyId": null,
+      "title": "Geometry Wars: Retro Evolved",
+      "year": 2005,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "Juansolo457/geomwars-360-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in progress; short README.",
+      "projectUrl": "https://github.com/Juansolo457/geomwars-360-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Juansolo457/geomwars-360-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Juansolo457/geomwars-360-recomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps1-gran-turismo",
+      "legacyId": null,
+      "title": "Gran Turismo",
+      "year": 1997,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "LorenzoAlfaro/GTStaticRecomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots through intro and menus and plays races at full speed; license tests work; buying cars, championships and the ending not yet.",
+      "projectUrl": "https://github.com/LorenzoAlfaro/GTStaticRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/LorenzoAlfaro/GTStaticRecomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/LorenzoAlfaro/GTStaticRecomp",
+          "note": "Rated by Claude: races and license tests documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-prey",
+      "legacyId": null,
+      "title": "Prey",
+      "year": 2006,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "Juansolo457/prey-360-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in progress; aims for the full campaign; short README.",
+      "projectUrl": "https://github.com/Juansolo457/prey-360-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Juansolo457/prey-360-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Juansolo457/prey-360-recomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-dead-or-alive-4",
+      "legacyId": null,
+      "title": "Dead or Alive 4",
+      "year": 2005,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "Juansolo457/doa4-360-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in progress; a Sparring match shown at 4K.",
+      "projectUrl": "https://github.com/Juansolo457/doa4-360-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Juansolo457/doa4-360-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Juansolo457/doa4-360-recomp",
+          "note": "Rated by Claude: single mode shown -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-lord-of-the-rings-conquest",
+      "legacyId": null,
+      "title": "The Lord of the Rings: Conquest",
+      "year": 2009,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "Juansolo457/lotr-conquest-360-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): the Training level plays through with correct rendering and sound; campaign map and combat work.",
+      "projectUrl": "https://github.com/Juansolo457/lotr-conquest-360-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Juansolo457/lotr-conquest-360-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/Juansolo457/lotr-conquest-360-recomp",
+          "note": "Rated by Claude: training level only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps2-god-of-war-ii",
+      "legacyId": null,
+      "title": "God of War II",
+      "year": 2007,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "cxldsakeb/GoW2-nativo-PS2",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress, no download yet; reaches the title screen and the opening of the first level.",
+      "projectUrl": "https://github.com/cxldsakeb/GoW2-nativo-PS2",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/cxldsakeb/GoW2-nativo-PS2",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/cxldsakeb/GoW2-nativo-PS2",
+          "note": "Rated by Claude: opening only, no build -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps3-ico",
+      "legacyId": null,
+      "title": "ICO",
+      "year": 2011,
+      "console": "PlayStation 3",
+      "status": "Mostly Playable",
+      "project": "feanor-noldorin/ico-recomp",
+      "release": "v0.2.4 (2026-10-26)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/feanor-noldorin/ico-recomp/releases/tag/v0.2.4",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v0.2.4 alpha (PS3 HD version): boots, plays the opening and is playable at 60 fps; expect bugs.",
+      "projectUrl": "https://github.com/feanor-noldorin/ico-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/feanor-noldorin/ico-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/feanor-noldorin/ico-recomp",
+          "note": "Rated by Claude: playable alpha -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps1-crash-team-racing",
+      "legacyId": null,
+      "title": "Crash Team Racing",
+      "year": 1999,
+      "console": "PlayStation 1",
+      "status": "Mostly Playable",
+      "project": "LorenzoAlfaro/CTRStaticRecomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots through intros and menus and plays races at full speed with music and sound.",
+      "projectUrl": "https://github.com/LorenzoAlfaro/CTRStaticRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/LorenzoAlfaro/CTRStaticRecomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/LorenzoAlfaro/CTRStaticRecomp",
+          "note": "Rated by Claude: races documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-3d-dot-game-heroes",
+      "legacyId": null,
+      "title": "3D Dot Game Heroes",
+      "year": 2009,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "vs-sr-dev/pc-3ddotgameheroes",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): ps3kit port; status section without gameplay detail.",
+      "projectUrl": "https://github.com/vs-sr-dev/pc-3ddotgameheroes",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/vs-sr-dev/pc-3ddotgameheroes",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/vs-sr-dev/pc-3ddotgameheroes",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps2-dynasty-warriors-2",
+      "legacyId": null,
+      "title": "Dynasty Warriors 2",
+      "year": 2000,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "vs-sr-dev/pc-dynastywarriors2",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): ps2kit runtime boots the game to the title screen and its menu.",
+      "projectUrl": "https://github.com/vs-sr-dev/pc-dynastywarriors2",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/vs-sr-dev/pc-dynastywarriors2",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/vs-sr-dev/pc-dynastywarriors2",
+          "note": "Rated by Claude: title screen only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps3-ragnarok-odyssey-ace",
+      "legacyId": null,
+      "title": "Ragnarok Odyssey ACE",
+      "year": "Unconfirmed",
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "vs-sr-dev/pc-ragnarokodysseyace",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable into the first quests at 30 fps.",
+      "projectUrl": "https://github.com/vs-sr-dev/pc-ragnarokodysseyace",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/vs-sr-dev/pc-ragnarokodysseyace",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/vs-sr-dev/pc-ragnarokodysseyace",
+          "note": "Rated by Claude: first quests only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox-bmx-xxx",
+      "legacyId": null,
+      "title": "BMX XXX",
+      "year": 2002,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "abilliontokens/bmx-xxx-recomp",
+      "release": "v0.1.0 (2026-10-21)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/abilliontokens/bmx-xxx-recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): scripted input drives the title through the menus into a level; early (the separate GameCube project is listed under GameCube).",
+      "projectUrl": "https://github.com/abilliontokens/bmx-xxx-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/abilliontokens/bmx-xxx-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/abilliontokens/bmx-xxx-recomp",
+          "note": "Rated by Claude: early level only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox-the-sims",
+      "legacyId": null,
+      "title": "The Sims",
+      "year": 2003,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "abilliontokens/sims1-recomp",
+      "release": "v0.2.0 (2026-10-21)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/abilliontokens/sims1-recomp/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots, plays intros, reaches menus, Create a Sim and a playable household in live mode (17 of 17 runs).",
+      "projectUrl": "https://github.com/abilliontokens/sims1-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/abilliontokens/sims1-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/abilliontokens/sims1-recomp",
+          "note": "Rated by Claude: playable household documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-folklore",
+      "legacyId": null,
+      "title": "Folklore",
+      "year": 2007,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "dawoodtogoo2020-code/Folklore-Native-Port",
+      "release": "owner-build-preview-2026.10.20 (2026-10-20)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/dawoodtogoo2020-code/Folklore-Native-Port/releases/tag/owner-build-preview-2026.10.20",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): experimental owner build kit; private builds reached menus and gameplay and loaded saves.",
+      "projectUrl": "https://github.com/dawoodtogoo2020-code/Folklore-Native-Port",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/dawoodtogoo2020-code/Folklore-Native-Port",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/dawoodtogoo2020-code/Folklore-Native-Port",
+          "note": "Rated by Claude: experimental build kit -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox-fuzion-frenzy",
+      "legacyId": null,
+      "title": "Fuzion Frenzy",
+      "year": 2001,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "abilliontokens/fuzionfrenzy-recomp",
+      "release": "v0.1.0 (2026-10-20)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux; Windows",
+      "filesUrl": "https://github.com/abilliontokens/fuzionfrenzy-recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable on Linux; Windows build cross-compiled.",
+      "projectUrl": "https://github.com/abilliontokens/fuzionfrenzy-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/abilliontokens/fuzionfrenzy-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/abilliontokens/fuzionfrenzy-recomp",
+          "note": "Rated by Claude: playable (Linux) -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox-the-sims-bustin-out",
+      "legacyId": null,
+      "title": "The Sims: Bustin' Out",
+      "year": 2003,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "abilliontokens/bustinout-recomp",
+      "release": "v0.1.0 (2026-10-19)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux; Windows",
+      "filesUrl": "https://github.com/abilliontokens/bustinout-recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable on Linux: title, menus, Create-a-Sim and a loaded, playable household.",
+      "projectUrl": "https://github.com/abilliontokens/bustinout-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/abilliontokens/bustinout-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/abilliontokens/bustinout-recomp",
+          "note": "Rated by Claude: playable household documented -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-battlefield-bad-company",
+      "legacyId": null,
+      "title": "Battlefield: Bad Company",
+      "year": 2008,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "crabinacrabic/BadCompanyRecomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in progress; no status in README.",
+      "projectUrl": "https://github.com/crabinacrabic/BadCompanyRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/crabinacrabic/BadCompanyRecomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/crabinacrabic/BadCompanyRecomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps1-persona-2-innocent-sin",
+      "legacyId": null,
+      "title": "Persona 2: Innocent Sin",
+      "year": 1999,
+      "console": "PlayStation 1",
+      "status": "Early Development",
+      "project": "jermspeaks/Persona2Recomp",
+      "release": "v0.1.0 (2026-10-13)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; macOS; Linux",
+      "filesUrl": "https://github.com/jermspeaks/Persona2Recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): in-progress PSXRecomp port; build targets listed, no progress claim.",
+      "projectUrl": "https://github.com/jermspeaks/Persona2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jermspeaks/Persona2Recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/jermspeaks/Persona2Recomp",
+          "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "n64-top-gear-overdrive",
+      "legacyId": null,
+      "title": "Top Gear Overdrive",
+      "year": 1998,
+      "console": "Nintendo 64",
+      "status": "Early Development",
+      "project": "evaa-01/somesay",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots past the intro screen but stalls at a deadlock.",
+      "projectUrl": "https://github.com/evaa-01/somesay",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/evaa-01/somesay",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/evaa-01/somesay",
+          "note": "Rated by Claude: stalls after intro -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox-starcraft-ghost",
+      "legacyId": null,
+      "title": "StarCraft: Ghost",
+      "year": "Unreleased",
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "aknavj/scghost-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): gameplay working: tested missions, reloads and level changes work (unreleased Xbox build).",
+      "projectUrl": "https://github.com/aknavj/scghost-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/aknavj/scghost-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/aknavj/scghost-recomp",
+          "note": "Rated by Claude: missions documented -> Mostly Playable."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -20764,6 +22374,146 @@
           "new": "added",
           "source": "https://github.com/Pipyakas/fzero-gx-recomp",
           "note": "Moved here from the main entry when the owner approved a primary swap."
+        }
+      ]
+    },
+    {
+      "id": "ps3-god-of-war-ascension-machinegun3-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "God of War: Ascension — MaChInEgUn3, alternate",
+      "console": "PlayStation 3",
+      "year": 2013,
+      "project": "MaChInEgUn3/God-of-War-Ascension-Recompiled",
+      "projectUrl": "https://github.com/MaChInEgUn3/God-of-War-Ascension-Recompiled",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): research / early bring-up, not playable; first level runs at 17-19 fps.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/MaChInEgUn3/God-of-War-Ascension-Recompiled",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "wii-the-last-story-laststory-native-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "The Last Story — laststory-native, alternate",
+      "console": "Wii",
+      "year": 2011,
+      "project": "thebradshaw/laststory-native",
+      "projectUrl": "https://github.com/thebradshaw/laststory-native",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): native PC port of the USA disc; short README.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/thebradshaw/laststory-native",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "ps1-soul-blade-drproteus-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Soul Blade — drproteus, alternate",
+      "console": "PlayStation 1",
+      "year": 1997,
+      "project": "drproteus/soul-blade-recomp",
+      "projectUrl": "https://github.com/drproteus/soul-blade-recomp",
+      "release": "v0.0.2 (2026-11-04)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/drproteus/soul-blade-recomp/releases/tag/v0.0.2",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): very early (v0.0.2).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/drproteus/soul-blade-recomp",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-call-of-duty-3-cod3pc-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Call of Duty 3 — cod3pc, alternate",
+      "console": "Xbox 360",
+      "year": 2006,
+      "project": "alekszverr-jpg/cod3pc",
+      "projectUrl": "https://github.com/alekszverr-jpg/cod3pc",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): early development: menu and Saint-Lo training run; the first two missions completed in manual testing.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/alekszverr-jpg/cod3pc",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "wii-monster-hunter-tri-ffxi-mod-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Monster Hunter Tri — FFXI-style mod, alternate",
+      "console": "Wii",
+      "year": 2009,
+      "project": "seamuswilkie31-dev/pc-monsterhunter3-FFXI",
+      "projectUrl": "https://github.com/seamuswilkie31-dev/pc-monsterhunter3-FFXI",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): variant of the vs-sr-dev port with a Final Fantasy XI-style interface.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/seamuswilkie31-dev/pc-monsterhunter3-FFXI",
+          "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
         }
       ]
     }
