@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-11",
+  "catalogueVersion": "2026.11.18-12",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 737,
+    "rated": 738,
     "Fully Playable": 68,
-    "Mostly Playable": 373,
+    "Mostly Playable": 374,
     "Early Development": 296,
-    "otherProjects": 259
+    "otherProjects": 261
   },
   "games": [
     {
@@ -10942,16 +10942,16 @@
       "title": "Downhill Domination",
       "year": 2003,
       "console": "PlayStation 2",
-      "status": "Early Development",
-      "project": "pedrohenrique505/Recomp-Domination",
-      "release": "Public source / no recertified binary",
-      "method": "PS2 MIPS-to-C++ static recompilation; native PS2 hardware runtime",
+      "status": "Mostly Playable",
+      "project": "skuza-oss/downhill-revived",
+      "release": "v0.8.10 (2026-11-17)",
+      "method": "Native port built on a matching decompilation",
       "gameVersion": "User-owned game, supported revision per README",
-      "platform": "Windows/Linux source or builds as documented per project",
-      "filesUrl": "https://github.com/pedrohenrique505/Recomp-Domination",
-      "verified": "2026-10-18",
-      "notes": "Native Linux source boots to title and menus; author expressly says NOT playable, with poor rendering/performance and no verified race. | Classification: Early Development; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
-      "projectUrl": "https://github.com/pedrohenrique505/Recomp-Domination",
+      "platform": "Windows; macOS (Apple silicon); Linux",
+      "filesUrl": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.10",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Downhill Revived, a native 64-bit Windows port built on a matching decompilation; launcher with settings, updates and public online races.",
+      "projectUrl": "https://github.com/skuza-oss/downhill-revived",
       "history": [
         {
           "date": "2026-11-18",
@@ -10960,10 +10960,56 @@
           "new": true,
           "source": "https://github.com/pedrohenrique505/Recomp-Domination",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "pedrohenrique505/Recomp-Domination",
+          "new": "skuza-oss/downhill-revived",
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Replacement project supplied by the owner (decompilation-based native port; in scope from 2026-11-18)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/pedrohenrique505/Recomp-Domination",
+          "new": "https://github.com/skuza-oss/downhill-revived",
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Replacement project supplied by the owner (decompilation-based native port; in scope from 2026-11-18)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Public source / no recertified binary",
+          "new": "v0.8.10 (2026-11-17)",
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Replacement project supplied by the owner (decompilation-based native port; in scope from 2026-11-18)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/pedrohenrique505/Recomp-Domination",
+          "new": "https://github.com/skuza-oss/downhill-revived/releases/tag/v0.8.10",
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Replacement project supplied by the owner (decompilation-based native port; in scope from 2026-11-18)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Mostly Playable",
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Rated by Claude: mature releases with launcher and online races, no completion claim -> Mostly Playable."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "unavailable",
+          "old": true,
+          "new": null,
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Replacement project is reachable."
         }
-      ],
-      "unavailable": true,
-      "unavailableSince": "2026-11-18"
+      ]
     },
     {
       "id": "ps2-silent-hill-4-the-room",
@@ -17962,6 +18008,41 @@
           "note": "Rated by Claude: both mission types run, no completion claim -> Mostly Playable."
         }
       ]
+    },
+    {
+      "id": "psp-street-fighter-alpha-3-max",
+      "legacyId": null,
+      "title": "Street Fighter Alpha 3 MAX",
+      "year": 2006,
+      "console": "PSP",
+      "status": "Early Development",
+      "project": "theweathervane/A3MX",
+      "release": "nightly (2026-11-16)",
+      "method": "Native port built on a source decompilation",
+      "gameVersion": "Own PSP disc image ULUS-10062",
+      "platform": "Windows; Linux; macOS",
+      "filesUrl": "https://github.com/theweathervane/A3MX/releases/tag/nightly",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): source decompilation of the PSP game rewritten as readable C and running natively; build it from your own ISO; nightly builds. No progress statement.",
+      "projectUrl": "https://github.com/theweathervane/A3MX",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/theweathervane/A3MX",
+          "note": "Decompilation-based port, in scope from 2026-11-18 (owner decision); entry written from the project's README."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/theweathervane/A3MX",
+          "note": "Rated by Claude: no documented progress, build-it-yourself -> Early Development (insufficient evidence)."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -23236,6 +23317,64 @@
           "new": "added",
           "source": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "ps2-downhill-domination-former-primary-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Downhill Domination — pedrohenrique505/Recomp-Domination, alternate",
+      "console": "PlayStation 2",
+      "year": 2003,
+      "project": "pedrohenrique505/Recomp-Domination",
+      "projectUrl": "https://github.com/pedrohenrique505/Recomp-Domination",
+      "release": "Public source / no recertified binary",
+      "method": "PS2 MIPS-to-C++ static recompilation; native PS2 hardware runtime",
+      "gameVersion": "User-owned game, supported revision per README",
+      "platform": "Windows/Linux source or builds as documented per project",
+      "filesUrl": "https://github.com/pedrohenrique505/Recomp-Domination",
+      "verified": "2026-11-18",
+      "notes": "Former primary until 2026-11-18; repository unreachable.",
+      "section": "Alternates added by research",
+      "unavailable": true,
+      "unavailableSince": "2026-11-18",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/pedrohenrique505/Recomp-Domination",
+          "note": "Moved here when the owner supplied a replacement project."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-animal-crossing-gcnx-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Animal Crossing — gcNX (digdat0), alternate",
+      "console": "GameCube",
+      "year": 2001,
+      "project": "digdat0/ACGC-Switch-Port",
+      "projectUrl": "https://github.com/digdat0/ACGC-Switch-Port",
+      "release": "v1.0.1 (2026-10-29)",
+      "method": "Native port built on the community decompilation",
+      "gameVersion": "Own copy of the game (see the project README)",
+      "platform": "Windows; Switch",
+      "filesUrl": "https://github.com/digdat0/ACGC-Switch-Port/releases/tag/v1.0.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v1.0 beta, the game is fully playable (maintainer); built from the complete community decompilation.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Decompilation-based port, in scope from 2026-11-18."
         }
       ]
     }

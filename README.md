@@ -27,6 +27,10 @@ This repository is the single source of truth for the game catalogue. The daily 
 
 Nintendo 64, PlayStation 1, PlayStation 2, PlayStation 3, PSP, Original Xbox, Xbox 360, GameCube, Wii, Dreamcast, and (from 2026-11-18) PC (Windows and DOS), PlayStation 4 and Nintendo Switch. Console names in `catalogue.json`: `PC`, `PlayStation 4`, `Nintendo Switch`.
 
+## What counts
+
+Any native port of a covered console game that you can play on Windows with your own copy, whether it was made by static recompilation or built from a decompilation ("source port") (owner decision 2026-11-18; the name RECOMP stuck). Pure decompilation projects that only rebuild the original game for its console, Android-only, Mac-only and console-only (e.g. Switch-homebrew-only) ports are left out.
+
 ## Rating rules
 
 - **Fully Playable:** strong documented evidence the game is playable start to finish (or completion confirmed by the owner). Maintainer claims count, but are labelled as such.

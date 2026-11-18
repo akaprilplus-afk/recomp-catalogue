@@ -47,7 +47,7 @@ Before applying, glance over the `update` list for anything implausible (a huge 
 
 ## Finding new projects
 - Read https://recomp.fyi/feed.xml: its newest additions (about two days' worth, dozens of projects a day). The main recomp.fyi page only shows its first 50 rows, and the rest loads by script; don't try to pull the full table. Its terms allow reading, including by an assistant; do **not** copy the table or large parts of it. Use it only to spot candidates, and write every entry from the project's own repo.
-- Skip decompilations and source ports (RECOMP covers recompilations). Skip Android-only projects (owner decision 2026-11-18: not included).
+- Include native PC ports built from decompilations (recomp.fyi rows marked "source port", or "decomp" rows that ship a playable Windows build); set `method` to say it's decompilation-based. Skip decompilation projects that only rebuild the original game for its console, and Android-only, Mac-only or console-only ports (owner decisions 2026-11-18).
 - Also: web search for new static recompilation releases; allrecomps.com, recompedia.com, recomp.gg as tip sources.
 - For each candidate: check it is not already in `catalogue.json` (match `projectUrl` and title, in both `games` and `otherProjects`), then confirm it exists with `git ls-remote --tags <url>` and read its README (a `--depth 1 --filter=blob:none --no-checkout` clone, then `git show HEAD:README.md`). Confirmed candidates are added and rated (policy 1); for the newest version use `tools/check_tags.py` (sorted by date, not name).
 - Consoles not covered (see above) are skipped.
