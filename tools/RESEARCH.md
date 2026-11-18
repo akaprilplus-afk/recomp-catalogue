@@ -10,9 +10,9 @@ How the daily RECOMP research task updates `catalogue.json`. Run from the repo r
    Every change gets a `history` entry and `verified` set to the run date.
 2. **Never change the rating of an entry with `ownerRated: true`.** The owner checked those games personally. If evidence seems to disagree, mention it in the proposals file instead.
 3. **Propose, don't apply:** unclear version labels, unreachable repos, moving existing entries between `games` and `otherProjects`, anything excluded, consoles not yet covered, and anything doubtful.
-4. Never delete entries. Never change `id` or `legacyId`.
-5. On a run that changes something: bump `catalogueVersion` (`YYYY.MM.DD-1`) and `updated`, recompute `counts`, and run the verify tool before committing.
-6. Never fill in a version or date from memory. If it can't be confirmed, leave it and say so.
+5. Never delete entries. Never change `id` or `legacyId`.
+6. On a run that changes something: bump `catalogueVersion` (`YYYY.MM.DD-1`) and `updated`, recompute `counts`, and run the verify tool before committing.
+7. Never fill in a version or date from memory. If it can't be confirmed, leave it and say so.
 
 ## When the owner rates a game
 When the owner says they checked a game and gives its rating: set `status`, set `ownerRated: true`, add a `history` entry (`field: "status"`, note "Rated by the owner"), and run verify with `--owner-change <id>` for that entry only.
