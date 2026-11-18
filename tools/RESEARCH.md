@@ -5,13 +5,13 @@ How the daily RECOMP research task updates `catalogue.json`. Run from the repo r
 ## Policy (updated 2026-11-18: the owner asked Claude to decide ratings)
 1. **Apply automatically:**
    - newer version tags (release + `filesUrl`);
-   - **new games**, once confirmed with git: add to `games` with a rating, `legacyId: null`, and `history` entries for the addition and the rating; extra implementations of a game already listed go to `otherProjects` as `alternate`;
+   - **new games**, once confirmed with git: add to `games` with a rating, `legacyId: null`, and `history` entries for the addition and the rating; extra implementations of a game already listed go to `otherProjects` as `alternate`, **with `gameId` set to that game's `id`** (same game and console; the app uses it to show the alternate next to its game);
    - **rating changes** (Early Development / Mostly Playable / Fully Playable), judged from the project's own README, release notes or docs using the rating rules in the main README. Only re-rate when there is a clear new statement (e.g. a new release says the game can now be finished). Record a `history` entry with `field: "status"`, old, new, source link and a one-line reason.
    Every change gets a `history` entry and `verified` set to the run date.
 2. **Never change the rating of an entry with `ownerRated: true`.** The owner checked those games personally. If evidence seems to disagree, mention it in the proposals file instead.
 3. **Never replace a primary project automatically.** When a new project for an already-listed game appears, add it as an `alternate`. If it looks stronger, propose a swap and compare both directions in plain words (what the new one does better *and* where it is behind, e.g. fewer updates, missing features, platforms, release downloads). Developer claims are accepted at face value for ratings until proven otherwise (owner decision 2026-11-18).
 4. **Propose, don't apply:** unclear version labels, unreachable repos, moving existing entries between `games` and `otherProjects`, anything excluded, consoles not yet covered, and anything doubtful.
-5. Never delete entries. Never change `id` or `legacyId`.
+5. Never delete entries. Never change `id` or `legacyId`. When swapping a primary, the former primary becomes an `alternate` with `gameId` set to the game's `id`.
 6. On a run that changes something: bump `catalogueVersion` (`YYYY.MM.DD-1`) and `updated`, recompute `counts`, and run the verify tool before committing.
 7. Never fill in a version or date from memory. If it can't be confirmed, leave it and say so.
 

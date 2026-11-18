@@ -19,6 +19,7 @@ This repository is the single source of truth for the game catalogue. The daily 
 - Every entry has a permanent `id` (for example `xbox360-sonic-unleashed`) that never changes, even if the title is corrected.
 - `legacyId` is the entry's old workbook position (for example `Xbox 360:7`). The app uses it to carry over favourites and edits. Entries added after the conversion have `legacyId: null`.
 - `status` is the rating, written on the entry itself.
+- `gameId` (on `otherProjects` entries of type `alternate`) is the `id` of the game it is an alternate of. The RECOMP Library app uses it to show other projects next to their game.
 - `unavailable: true` (with `unavailableSince`) means the project's GitHub repository can no longer be reached. The entry is kept; research clears the flag if the repository comes back.
 - `ownerRated: true` means the owner checked the game personally and set its rating. Research never changes those ratings.
 - `history` records each change the research makes: the date, what changed, why, and the source link.
@@ -42,5 +43,6 @@ Any native port of a covered console game that you can play on Windows with your
 
 ## History
 
+- 2026-11-18: `gameId` added to 81 of 85 alternates (each match checked by hand); the RECOMP Library app (Preview 05) reads the catalogue directly.
 - 2026-11-18: first research run (104 version updates); 4 new games and 2 alternates added and rated; owner-rated protection added.
 - 2026-11-18: converted from the 2026-10-18 master workbook (601 rated games: 55 / 297 / 249; 222 other tracked projects). All 601 entries were verified field-for-field against the data in RECOMP Library Preview 04A.

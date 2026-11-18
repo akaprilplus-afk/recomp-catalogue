@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-13",
+  "catalogueVersion": "2026.11.18-14",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
@@ -18091,6 +18091,7 @@
       "id": "xbox360-goldeneye-007-unreleased-xbla-remaster-alternate",
       "legacyId": "Xbox 360:131",
       "type": "alternate",
+      "gameId": "xbox360-goldeneye-007-unreleased-xbla-remaster",
       "title": "GoldenEye 007 — unreleased XBLA remaster, alternate",
       "console": "Xbox 360",
       "year": "Unconfirmed",
@@ -18104,12 +18105,22 @@
       "verified": "2026-10-17",
       "notes": "Source 2026-10-09 (reviewed 2026-10-10): Fixes a deadlock that froze the port when switching fullscreen/windowed from the video menu. The v0.9 release page was edited in-window but was not treated as a new release.\n\nSource 2026-10-07 (reviewed 2026-10-08): New Windows setup/player ZIP, keyboard/mouse and controllers, original/enhanced graphics, saves and LAN/virtual-LAN multiplayer. Gameplay and LAN screenshots are maintainer evidence; an optional unlock-all setting is not proof of completed progression.\n\nEarlier source evidence: Outside rated title totals. Add as a separate Mostly alternate; preserve SunJaycy/GoldenEye-Recomp as the existing primary and do not double-count the title.\n\nMIGRATION CHECKPOINT 9 — consolidated 2026-10-18. Work Oct 14–17 source report (not independently game-tested). CaiusCodes GoldenEye XBLA alternate v0.9.5a–d repairs high-refresh/VVR pacing, AMD/Intel Vulkan default after D3D12 load crashes, and menu background. This alternate remains outside counted totals; do not confuse with GoldenEye Reloaded. Source: https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp/releases/tag/v0.9.5d",
       "section": "ALTERNATES / REVIEW LEADS / REFERENCES — outside rated title totals (6)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-goldeneye-007-unreleased-xbla-remaster",
+          "source": "https://github.com/SunJaycy/GoldenEye-Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox360-halo-3-march-2007-delta-debug-build",
       "legacyId": "Xbox 360:132",
       "type": "alternate",
+      "gameId": "xbox360-halo-3-retail",
       "title": "Halo 3 — March 2007 Delta debug build",
       "console": "Xbox 360",
       "year": "Unconfirmed",
@@ -18123,7 +18134,16 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-07 (reviewed 2026-10-08): A public implementation targeting halo3_cache_debug.xex from the March 8, 2007 Delta development build. README claims Windows boot/gameplay; Linux is checked only through runtime startup and missing-game handling, and PS5 has not run on hardware. It derives from twist84 development-build work.\n\nEarlier source evidence: Outside rated title totals. Record separately as a development-build/alternate reference outside retail Halo 3 totals; qualify Windows gameplay as a maintainer claim and Linux/PS5 as bring-up.",
       "section": "ALTERNATES / REVIEW LEADS / REFERENCES — outside rated title totals (6)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-halo-3-retail",
+          "source": "https://github.com/george0815/halo-3-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox360-rayman-legends-identity-unresolved",
@@ -18186,6 +18206,7 @@
       "id": "xbox360-skate-3-uwp-review-lead",
       "legacyId": "Xbox 360:136",
       "type": "alternate",
+      "gameId": "xbox360-skate-3",
       "title": "Skate 3 — UWP review lead",
       "console": "Xbox 360",
       "year": "Unconfirmed",
@@ -18199,12 +18220,22 @@
       "verified": "2026-10-10",
       "notes": "Source Observed 2026-10-11 (reviewed 2026-10-11): Release feed checked, but commit feed was malformed and API fallback returned 409. Source check pending since 2026-10-10T12:52:31Z. Access failure is not proof of abandonment.\nKeep last classification and gameplay evidence; source/history access remains pending.\n\nEarlier source evidence: Source 2026-10-10 (reviewed 2026-10-10): No public README or usable evidence at the October 10 checkpoint. Uncounted review lead. Active primary remains mchughalex/skate3recomp.\n\nEarlier source evidence: Outside rated title totals. Reference/review; excluded from rated totals.",
       "section": "ALTERNATES / REVIEW LEADS / REFERENCES — outside rated title totals (6)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-skate-3",
+          "source": "https://github.com/mchughalex/skate3recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-black-alternate",
       "legacyId": "Original Xbox:47",
       "type": "alternate",
+      "gameId": "xbox-black",
       "title": "BLACK — alternate",
       "console": "Original Xbox",
       "year": "2006",
@@ -18218,7 +18249,16 @@
       "verified": "2026-10-18",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Source patch fixes enemy weapon/drop-model arithmetic and improves FOV, audio routing and post-effects. README gameplay testing is limited to the first mission; later missions are unverified.\nUpdate Other/alternate notes; keep separate from SirBraga’s PS2 implementation and outside the original-Xbox title count.\n\nEarlier source evidence: Alternate, Mostly; excluded from rated title totals. Source 2026-10-05: Public repository created October 5. Source-only Windows/D3D11 Xbox recompilation with audio; the maintainer reports opening movies, briefing and first-mission movement/shooting/reloading tested. Later missions are unverified.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. Alternate alpha.2 can generate its Windows executable using Linux build host, then run under Wine/Proton. First-mission movement/fire/reload checked; Linux-native playable build, Steam Deck behavior, audio and later missions NOT verified. Source: https://github.com/portingpete/Black-2006-Recomp/releases/tag/v0.1.0-alpha.2",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-black",
+          "source": "https://github.com/elpetese/black-macos-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-def-jam-fight-for-ny-alternate",
@@ -18252,6 +18292,7 @@
       "id": "xbox-ssx-tricky-alternate",
       "legacyId": "Original Xbox:49",
       "type": "alternate",
+      "gameId": "xbox-ssx-tricky",
       "title": "SSX Tricky — alternate",
       "console": "Original Xbox",
       "year": "2001",
@@ -18265,12 +18306,22 @@
       "verified": "2026-10-18",
       "notes": "Source 2026-10-08 (reviewed 2026-10-09): Windows update adds PS2 controls/prompts, save backups, proper widescreen HUD and fixes rare save loss/freezes/crashes. Release still explicitly calls it fully playable but unstable.\n\nEarlier source evidence: Alternate, Full; excluded from rated title totals. Full qualification is based on an explicit maintainer claim. No independent complete playthrough was performed in this source review. Source 2026-10-04: Continuation of MatiasRiveraC/SSX-Tricky-PC, published October 4 before the lookback start. Windows player ZIP; explicitly claims start-to-finish playability, interpolation at high FPS and renderer/audio fixes. Rare race-loading/intro crashes and HUD issues remain.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. OpenTricky v0.1.3-unstable repairs Wine/Proton/Steam Deck low-FPS, music ducking, and signed launcher updates; Deck preset documented. Maintainer describes the game as fully playable but this remains an UNCOUNTED alternate to the rated primary. High-refresh timing limitations remain. Source: https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.3-unstable",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-ssx-tricky",
+          "source": "https://github.com/MatiasRiveraC/SSX-Tricky-PC",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-def-jam-fight-for-ny-switch-linux-alternate",
       "legacyId": "Original Xbox:50",
       "type": "alternate",
+      "gameId": "xbox-def-jam-fight-for-ny",
       "title": "Def Jam: Fight for NY — Switch/Linux alternate",
       "console": "Original Xbox",
       "year": "Unconfirmed",
@@ -18284,12 +18335,22 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-09 (reviewed 2026-10-10): New static recompilation with a player release. Maintainer documentation reports menus, saves, several Battle modes and tested Story routes on Switch/Linux, while explicitly saying the game has not been played through.\n\nEarlier source evidence: Outside rated title totals. Add as alternate Mostly, excluded from rated totals; keep TheSaltTrader implementation primary.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-def-jam-fight-for-ny",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-def-jam-fight-for-ny-french-windows-alternate",
       "legacyId": "Original Xbox:51",
       "type": "alternate",
+      "gameId": "xbox-def-jam-fight-for-ny",
       "title": "Def Jam: Fight for NY — French Windows alternate",
       "console": "Original Xbox",
       "year": "Unconfirmed",
@@ -18303,12 +18364,22 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-09 (reviewed 2026-10-10): New Windows build-from-disc project with Clang and MSVC/DLSS packages. Public documentation describes gameplay/settings but provides no broad completion test.\n\nEarlier source evidence: Outside rated title totals. Add as an alternate/review lead, excluded from rated totals; keep TheSaltTrader implementation primary.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-def-jam-fight-for-ny",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-blinx-2-review-lead",
       "legacyId": "Original Xbox:52",
       "type": "alternate",
+      "gameId": "xbox-blinx-2-masters-of-time-and-space",
       "title": "Blinx 2 — review lead",
       "console": "Original Xbox",
       "year": "Unconfirmed",
@@ -18322,12 +18393,22 @@
       "verified": "2026-10-10",
       "notes": "Source 2026-10-10 (reviewed 2026-10-10): No public README, release or usable gameplay evidence at the October 10 checkpoint. Review lead only; outside rated totals.\n\nEarlier source evidence: Outside rated title totals. Reference/review; excluded from rated totals.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-blinx-2-masters-of-time-and-space",
+          "source": "https://github.com/apexJCL/blinx2-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-ssx-tricky-alternate-reindance-ssx-tricky-recomp",
       "legacyId": "Original Xbox:53",
       "type": "alternate",
+      "gameId": "xbox-ssx-tricky",
       "title": "SSX Tricky — alternate",
       "console": "Original Xbox",
       "year": "2001",
@@ -18341,12 +18422,22 @@
       "verified": "2026-10-11",
       "notes": "Source 2026-10-10 (reviewed 2026-10-11): New Linux source implementation documents completed courses, save/load and split-screen input. All event/campaign progression remains incomplete; native Windows is untested.\nAdd an alternate with Mostly-level evidence, outside counts. Keep MatiasRiveraC/SSX-Tricky-PC as primary.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-ssx-tricky",
+          "source": "https://github.com/MatiasRiveraC/SSX-Tricky-PC",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "xbox-midtown-madness-3-alternate",
       "legacyId": "Original Xbox:54",
       "type": "alternate",
+      "gameId": "xbox-midtown-madness-3",
       "title": "Midtown Madness 3 — alternate",
       "console": "Original Xbox",
       "year": "2003",
@@ -18360,7 +18451,16 @@
       "verified": "2026-10-11",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): New MattSG-derived Windows implementation documents disc-based local builds, streaming/rendering, saves, keyboard input and car/workshop support. This is another implementation of an already counted title.\nAdd alternate outside counts; retain MattSG/mm3-recomp primary. Do not infer full career completion.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (8)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-midtown-madness-3",
+          "source": "https://github.com/MattSG/mm3-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "n64-blast-corps",
@@ -19398,6 +19498,7 @@
       "id": "gamecube-luigis-mansion-dougchansan-gekkoctr",
       "legacyId": "GameCube:43",
       "type": "alternate",
+      "gameId": "gamecube-luigis-mansion",
       "title": "Luigi’s Mansion",
       "console": "GameCube",
       "year": "2001",
@@ -19411,12 +19512,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Game-specific GLME01 manifest and local ingest/build path verified within shared runtime. Title-derived frame rendered on physical New 2DS XL, but post-draw EFB/XFB lifecycle and DSP mixer command remain blocked; no playable commercial release. Source uses CMake for host core and devkitARM/libctru/citro3d for 3DS; local DolRecomp output and disc assets remain private. Retained as alternate to desktop Luigi bring-up; same retail title counted once.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-luigis-mansion",
+          "source": "https://github.com/sp00nznet/luigismansion",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-mario-kart-double-dash-kirby-content-mod",
       "legacyId": "GameCube:44",
       "type": "alternate",
+      "gameId": "gamecube-mario-kart-double-dash",
       "title": "Mario Kart: Double Dash!! — Kirby content mod",
       "console": "GameCube",
       "year": "2003",
@@ -19430,12 +19541,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Modded MKDD runtime adding Kirby machines/drivers, not a second retail title or a second Kirby Air Ride game port. Same boot/runtime evidence limits as base MKDD; no complete cup/race acceptance recorded here. Requires Python/Pillow, Rust 1.98+, Ghidra 12.1.4/GameCubeLoader/ghidra-cli and both own discs. Generate MKDD sheets/code and local Kirby model/portrait conversions before building; Nintendo content excluded from repository.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-mario-kart-double-dash",
+          "source": "https://github.com/LeftInWalmart/MKDD-Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-sonic-adventure-dx-directors-cut-lukc30-sadx-pc-port",
       "legacyId": "GameCube:45",
       "type": "alternate",
+      "gameId": "gamecube-sonic-adventure-dx-directors-cut",
       "title": "Sonic Adventure DX: Director’s Cut",
       "console": "GameCube",
       "year": "2003",
@@ -19449,12 +19570,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Alternate Linux implementation reporting 60 FPS gameplay/audio/input. Broad “complete gameplay tested” wording lacks explicit start-to-finish or all-character progression proof, so not promoted to Fully. 21 Sega-format RELs remain unrecompiled and use runtime fallback; static DOL path is present. CMake 3.16+, C11 GCC/Clang, Ninja/Python/Git and Vulkan drivers; build.sh extracts/translates own disc and builds the module. Required REL alignment, runtime API and CPUState ABI patches documented.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-sonic-adventure-dx-directors-cut",
+          "source": "https://github.com/leevee123/sonic-adventure-workbench",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-super-mario-sunshine-astrr00-sunshinerecomp",
       "legacyId": "GameCube:46",
       "type": "alternate",
+      "gameId": "gamecube-super-mario-sunshine",
       "title": "Super Mario Sunshine",
       "console": "GameCube",
       "year": "2002",
@@ -19468,12 +19599,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Alternate Windows integration. Native return path works, but the detailed status only proves the first Shine/save route. Real controllers, live audio output, launcher setup and play beyond the beginning remain unqualified; lockstep disagreements persist. SunPad has stronger hands-on player evidence and is the counted primary. Build audit: VS 2022/MSVC 19.44, SDK 10.0.26100, CMake 3.20+, Ninja, Git, Python 3.10+ and LLVM 19/20. Status supersedes stale README: default native-return patch reduces JIT from 99.99% to 0.015% of guest cycles. Promoted from Review on that documented build evidence. 19/16,790 lockstep disagreements remain unresolved; measured ~34.8 FPS uncapped, original simulation 30 Hz. Detailed status also documents RVZ reader work beyond the README importer.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-super-mario-sunshine",
+          "source": "https://github.com/chrissotraidis/sunpad",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-super-mario-sunshine-super-mario-eclipse-mod",
       "legacyId": "GameCube:47",
       "type": "alternate",
+      "gameId": "gamecube-super-mario-sunshine",
       "title": "Super Mario Sunshine — Super Mario Eclipse mod",
       "console": "GameCube",
       "year": "2002",
@@ -19487,12 +19628,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Separate Sunshine-mod target; not counted as another retail title. Recompiled entry point and host runtime start, but no usable game framebuffer, menus or gameplay. OS scheduling, DSP, PAD/SI and Kuribo KXE module support remain incomplete. Requires Rust/rustup, Python/pip, portable LLVM-MinGW/CMake bootstrap and Better Sunshine Engine US symbol map; own patched Eclipse image. The 98.8% translation metric is not playability.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-super-mario-sunshine",
+          "source": "https://github.com/chrissotraidis/sunpad",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-super-smash-bros-melee-hero88go-melee-unlocked",
       "legacyId": "GameCube:48",
       "type": "alternate",
+      "gameId": "gamecube-super-smash-bros-melee",
       "title": "Super Smash Bros. Melee",
       "console": "GameCube",
       "year": "2001",
@@ -19506,12 +19657,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Count only the explicit Static Recomp engine as this alternate. Main/default Source Port compiles recovered C and is outside static-binary scope. README documents retained original PPC engine, gameplay and Akaneia mod support; no complete all-mode progression proof. Source recipe extracts own ISO, runs port/recomp/recomp.py and builds melee_port with CMake + VS 2022 C++; play.bat can install missing tools. Source-port-only mod claims are not applied to static engine.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-super-smash-bros-melee",
+          "source": "https://github.com/chrissotraidis/meleepad",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-super-smash-bros-melee-jstncg-melee-macos-recomp",
       "legacyId": "GameCube:49",
       "type": "alternate",
+      "gameId": "gamecube-super-smash-bros-melee",
       "title": "Super Smash Bros. Melee",
       "console": "GameCube",
       "year": "2001",
@@ -19525,12 +19686,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Documented ~60 FPS player app, input and card saves, but explicitly limited gameplay coverage. Previously selected over the overlapping McDandle repository for newer activity and added phone-controller integration; no fork parent is assumed. Build audit: Source-only; Apple Command Line Tools, Homebrew, Git, CMake, Ninja, Python 3.11+ and ~8–10 GB build space. main.dol SHA-1: 08e0bf20134dfcb260699671004527b2d6bb1a45. build_macos.sh generates the ARM64 module and app. Strict mode stops uncovered CPU execution. Limited gameplay coverage and experimental netplay are documented. Repository metadata does not identify a fork parent; Step 4: retained as alternate after MeleePad public hardware/build evidence was audited.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-super-smash-bros-melee",
+          "source": "https://github.com/chrissotraidis/meleepad",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-super-smash-bros-melee-mcdandle-melee-macos-recomp",
       "legacyId": "GameCube:50",
       "type": "alternate",
+      "gameId": "gamecube-super-smash-bros-melee",
       "title": "Super Smash Bros. Melee",
       "console": "GameCube",
       "year": "2001",
@@ -19544,12 +19715,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Alternate overlapping macOS implementation with the same revision-2 input and ~60 FPS gameplay claim. Limited coverage prevents Full. jstncg is the counted primary; this is not a second Melee title. Build audit: Source-only; Apple Command Line Tools, Homebrew, Git, CMake, Ninja, Python 3.11+ and ~8–10 GB build space. main.dol SHA-1: 08e0bf20134dfcb260699671004527b2d6bb1a45. Generates a native ARM64 module with strict-mode support. Limited gameplay coverage and experimental netplay remain.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-super-smash-bros-melee",
+          "source": "https://github.com/chrissotraidis/meleepad",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-the-legend-of-zelda-the-wind-waker-ah64-dll-deepsea",
       "legacyId": "GameCube:51",
       "type": "alternate",
+      "gameId": "gamecube-the-legend-of-zelda-the-wind-waker",
       "title": "The Legend of Zelda: The Wind Waker",
       "console": "GameCube",
       "year": "2002",
@@ -19563,12 +19744,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Alternate Windows implementation. Beta.4 release notes carry beta.3 sound/input progression through Outset, beyond the older title-only integration status. Later campaign completion is unverified. BlueWake is the counted primary. Build audit: Player package bundles the local compiler/setup kit; ~2 GB setup space. It validates disc hashes and translates main.dol plus 415 REL modules from the user’s own image. Source builds require llvm-mingw UCRT x86-64, CMake 3.20+, Ninja, Git and Python 3. Beta.4 fixes camera-axis defaults; sound through Outset Island is documented. Later campaign completion is unverified.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-the-legend-of-zelda-the-wind-waker",
+          "source": "https://github.com/chrissotraidis/bluewake",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-the-legend-of-zelda-the-wind-waker-sp00nznet-ww",
       "legacyId": "GameCube:52",
       "type": "alternate",
+      "gameId": "gamecube-the-legend-of-zelda-the-wind-waker",
       "title": "The Legend of Zelda: The Wind Waker",
       "console": "GameCube",
       "year": "2002",
@@ -19582,7 +19773,16 @@
       "verified": "2026-10-04",
       "notes": "Early: Alternate Wind Waker bring-up. Rendered island uses a host-driven scene; game process construction/title progression remain blocked. BlueWake is the counted primary, so this scaffold adds no title to totals. Build audit: Source-only. Requires CMake 3.20+, Visual Studio 2022 or compatible C++20 compiler, Python for generated-code patches, and gcrecomp. The rendered island is driven by a host frame loop, not the game’s title state machine. Scene/process creation and title/file-select progression remain blockers. Distinct from BlueWake and Deep Sea.",
       "section": "Alternate implementations / mod targets — excluded from primary totals (10)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-the-legend-of-zelda-the-wind-waker",
+          "source": "https://github.com/chrissotraidis/bluewake",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "gamecube-eternal-darkness-sanitys-requiem",
@@ -20177,6 +20377,7 @@
       "id": "wii-dragon-ball-z-budokai-tenkaichi-3-radiantdelux-meteorrecomp",
       "legacyId": "Wii:36",
       "type": "alternate",
+      "gameId": "wii-dragon-ball-z-budokai-tenkaichi-3",
       "title": "Dragon Ball Z: Budokai Tenkaichi 3",
       "console": "Wii",
       "year": "2007",
@@ -20190,12 +20391,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Active retail-code bring-up with missing translated targets and possible input, graphics, audio and runtime crashes. No full progression demonstrated. Evidence: https://github.com/RadiantDelux/MeteorRecomp/blob/f6837051d973f74bc30e68af760801676590435b/README.md\nBuild/setup: Source prerequisites: .NET 8 SDK, CMake 3.25+, Ninja, LLVM/Clang; LLVM-MinGW recommended. Extract supported DOL locally, translate with projects/meteor/recomp.yml, emit build shards and use the release CMake preset. Manifest hash must match. Repository describes active bring-up, not a release-ready game.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-dragon-ball-z-budokai-tenkaichi-3",
+          "source": "https://github.com/thebardockgames/bt3recompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-chrissotraidis-kartpad",
       "legacyId": "Wii:37",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20209,12 +20420,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Maintainer records Android Original controller gameplay, iPad controller gameplay and a Mac race smoke check. Current-build full online results/reconnect, broader devices and 3/4-player acceptance remain open; Android corruption, freezes and cup-transition crashes remain. Evidence: https://github.com/chrissotraidis/kartpad/blob/7641842eaf25bad52c98ff9bb57ffb27f051e49b/README.md\nAndroid needs about 6 GB free. iOS requires personal signing/sideloading; Mac archive and Android APK are player packages. Use ready IPA, not ios-for-padmint. Source Apple build: Xcode, CMake, Ninja, Git, Python3, .NET8, Rust/Cargo and own image. Android source scripts document a macOS ARM64 host and pinned tool downloads. Own extracted DATA folder or ISO/WBFS plus own common key; Android also accepts RVZ. Retro Rewind content/profile supplied separately.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-heurazy-wiicompiled-vr-plus",
       "legacyId": "Wii:38",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20228,12 +20449,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Distinct VR fork adds character body IK, tracked wheel/handlebar controls and controller models. Quest 3 guide reports image, controls and in-race VR settings for base/Retro Rewind. Latest interpolation change still needs hardware recheck; broad end-to-end completion and other headsets unconfirmed. Evidence: https://github.com/heurazy/Wiicompiled_VR-PLUS/blob/177f8b3c6012c38434aba07e22d65fb076f12f3b/docs/quest3-preview.md\nWindows needs D3D12 GPU, about 20GB install/build space; .NET8, CMake, Ninja and LLVM-MinGW for source build. Quest requires .wcgame locally compiled from your own image, APK sideload and extracted game data on headset. Android source: JDK17, SDK36, NDK29, .NET10 and Rust aarch64-linux-android. Public assets inspected; no game packages run.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-ichris4-wiicompiled-vr",
       "legacyId": "Wii:39",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20247,12 +20478,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Public Windows/Quest packages and documented single-camera race VR path. Unsupported scenes use a virtual screen; broad completion and each device variant remain unqualified. Evidence: https://github.com/iChris4/Wiicompiled_VR/blob/4dc213cc7e0dfed5f6bb1c4541c2fb6ed5992904/README.md\nBuild/setup: Latest assets include Setup EXE, Quest and Quest1 APKs. PCVR requirements: OpenXR headset/runtime, D3D12 (Vulkan opt-in), upstream desktop CPU/GPU minima and about 20 GB install space. WheelWizard VR/setup compiles locally. Quest APK contains recipes, not the game; build from own disc on headset or PC. Quest1 requires its separate CPU flavor; source Android lane uses NDK 29.0.14206865 and pinned Dawn/SDL3. README Windows-only release wording is incomplete relative to current Quest assets.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-im-0xc7-wiicompiled-ios",
       "legacyId": "Wii:40",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20266,12 +20507,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Real iOS 14.0/14.8 boot evidence. Broad gameplay acceptance is not independently documented; inherited upstream playability wording is not device validation. Evidence: https://github.com/Im-0xC7/Wiicompiled_iOS/blob/92fa19fcc31aba4fdd18ee84a785932eeb361e8b/README.md\nBuild/setup: Source provides Launcher/local-build-ios.sh for Simulator and unsigned device IPA. Full Xcode/iOS SDK (not only command-line tools), .NET 8/CMake/Ninja/Clang upstream build chain and own game required. Physical-device installation needs the user's separate signing/sideloading step. README says iOS 14.0 and 14.8 booted; other devices are not automatically verified. Desktop boilerplate minima are not iPhone hardware requirements.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-itzjuan612-wiicompiled-xbox-uw",
       "legacyId": "Wii:41",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20285,12 +20536,22 @@
       "verified": "2026-10-04",
       "notes": "Fully: Maintainer says Xbox Series S Dev Mode runs the full game at 60 FPS, including Grand Prix and completed races; source build required. Device Portal Game memory setting is essential. Evidence: https://github.com/itzjuan612/WiiCompiled-Xbox-UWP/blob/a33d500aed620ba8351bfccd7701098d637cfc88/README.md\nBuild/setup: Latest tag has no binary download asset listed; current README explicitly says source only. Build via separate UWP Installer or source scripts. Requires VS 2022 Desktop C++ tools, UWP-capable Windows SDK, Git; installer stages CMake/Ninja/LLVM-MinGW dependencies. Own signing certificate and Device Portal deployment required; register package as Game for memory budget. Xbox game assets on external USB. No prebuilt APPX assumed.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-keithkirenai-wheeldroid",
       "legacyId": "Wii:42",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20304,12 +20565,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Android device boot/rendering documented as slow and experimental; no broad playable progression. Evidence: https://github.com/KeithKirenai/wheeldroid/blob/168c087b266ee03058301931c3f7c7506257822e/README.md\nBuild/setup: Supported build host is Windows. JDK 17, Android SDK/build tools 35, NDK 28.2.13676358, CMake 4.1.2, Ninja, .NET 8 and ADB. launcher.bat/android-bootstrap.bat extracts, verifies and builds translated ARM64 shards and APK locally. Fresh clone lacks generated code/archive; full build exceeds 4 GB. On-device Termux/PRoot alternative is explicitly unsupported/untested. Experimental boot/rendering claims do not establish real-time playability.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-nx-mod-wiicompiled-nx",
       "legacyId": "Wii:43",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20323,12 +20594,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Version-specific Switch bring-up: engine README quarter-speed/silent; composed-kit STATUS reports 13 FPS with sound at a different pinned engine commit. No complete playable progression. Evidence: https://github.com/nx-mod/wiicompiled-nx/blob/e208ba9312cec5838e6376e9e822f5996cc5ab4d/README.md\nBuild/setup: Release kit exists, but own disc must be extracted, translated and linked through wii-nx. devkitPro/devkitA64/libnx, nxvk portlib, .NET 8, CMake, Ninja, Python 3, about 6 GB link RAM. Engine HEAD README reports quarter-speed/silent audio; wii-nx STATUS dated 2026-09-22 reports ~13 FPS and sound using engine d4ab0f3. Different pins/status sources do not justify one universal audio claim; retain the discrepancy for gameplay audit.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-phi1ow-mkwii-ps5",
       "legacyId": "Wii:44",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20342,12 +20623,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Public release; reported PS5 Pro firmware 9.40 menu reach. Races and other firmwares not confirmed. Evidence: https://github.com/Phi1ow/mkwii-ps5/blob/5715a133f253f42dc2a0b43c45aaa0a4aeabcacc/README.md\nBuild/setup: Verified Kart-PS5.zip and Backport.zip assets. Requires console with homebrew access, FTP/ELF loader, kstuff (docs EchoStretch 1.6.7), ShadowMountPlus 1.6beta16, own firmware-compatible signed libc.prx and about 3 GB storage. Original archive omitted portable.txt: create the marker per official guide. FW9.40 reached menu on PS5 Pro; other variants unverified. Overlay alone is not the full application.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-mario-kart-wii-yashin-sh-wiicompiled-switch",
       "legacyId": "Wii:45",
       "type": "alternate",
+      "gameId": "wii-mario-kart-wii",
       "title": "Mario Kart Wii",
       "console": "Wii",
       "year": "2008",
@@ -20361,12 +20652,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Hardware FIFO presents recorded, but maintainer explicitly does not confirm a visually correct Mario Kart frame. Runtime probe only. Evidence: https://github.com/yashin-sh/WiiCompiled-Switch/blob/bb4f873c9891560de410bf8cbaae564f7b0d2223/README.md\nBuild/setup: Public make target builds a Nintendo-data-free runtime probe, not a translated Mario Kart product. Requires hbmenu, devkitPro/devkitA64/libnx, GNU Make and recursive upstream submodule. Separate private-game lane and hardware diagnostics exist, but README says logs do not prove a visually correct Mario Kart image. No downloadable playable build listed.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-mario-kart-wii",
+          "source": "https://github.com/patchzyy/Wiicompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-robox-eggscantfly-robox-recompiled",
       "legacyId": "Wii:46",
       "type": "alternate",
+      "gameId": "wii-robox",
       "title": "Robox",
       "console": "Wii",
       "year": "2010",
@@ -20380,12 +20681,22 @@
       "verified": "2026-10-04",
       "notes": "Mostly: Desktop native player release supports setup, graphics, audio and saves. Desktop-specific full progression is not explicitly documented; the web fork has its own stronger claim. Evidence: https://github.com/Eggscantfly/robox-recompiled/blob/2dfce1d5e8673db8756f4a52f580c51a74a7829a/README.md\nBuild/setup: Verified standard and AVX2 release zips; standard build targets SSE2, AVX2 variant needs x86-64-v3. Setup needs own WAD and locally supplied Wii common key, or already extracted DOL + Assets. Source needs separate WiiRecomp checkout, CMake 3.15+, Ninja, MSYS2 GCC, SDL2 and Python 3. Clean build also needs extracted game font assets before configuration; Release build recommended.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-robox",
+          "source": "https://github.com/Eggscantfly/robox-recompiled-web",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-robox-eggscantfly-robox-recompiled-3",
       "legacyId": "Wii:47",
       "type": "alternate",
+      "gameId": "wii-robox",
       "title": "Robox",
       "console": "Wii",
       "year": "2010",
@@ -20399,12 +20710,22 @@
       "verified": "2026-10-04",
       "notes": "Early: ARM11/citro3d source bring-up with own RomFS assets; no packaged or completed gameplay evidence. Evidence: https://github.com/Eggscantfly/robox-recompiled-3ds/blob/d0440679401798578dcd956466ffe3a8c23021c2/README.md\nBuild/setup: devkitPro/devkitARM, libctru, citro3d, SDL2 threading library, CMake toolchain, runtime submodule, WiiRecomp and own game required. Setup is compiled out and assets must be staged into RomFS. Public platform backend exists, but README labels status bring-up and supplies no completed gameplay/release claim.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-robox",
+          "source": "https://github.com/Eggscantfly/robox-recompiled-web",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-robox-eggscantfly-robox-recompiled-m",
       "legacyId": "Wii:48",
       "type": "alternate",
+      "gameId": "wii-robox",
       "title": "Robox",
       "console": "Wii",
       "year": "2010",
@@ -20418,12 +20739,22 @@
       "verified": "2026-10-04",
       "notes": "Early: README confirms Android builds from this tree, not device gameplay or completion; source-build setup only. iOS not started. Evidence: https://github.com/Eggscantfly/robox-recompiled-mobile/blob/876bf8b39306388ec11f9b1ad69c3eae8679d61e/README.md\nBuild/setup: Android SDK/NDK, SDL2 sources, separate WiiRecomp checkout, Python/CMake and own game assets needed. Uses desktop runtime as submodule; README instructs adding runtime and adjusting Gradle path, so clean-clone setup needs manual integration. No APK release listed. iOS is explicitly not started; do not label it as available.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-robox",
+          "source": "https://github.com/Eggscantfly/robox-recompiled-web",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-super-mario-galaxy-chrissotraidis-galaxypad",
       "legacyId": "Wii:49",
       "type": "alternate",
+      "gameId": "wii-super-mario-galaxy",
       "title": "Super Mario Galaxy",
       "console": "Wii",
       "year": "2007",
@@ -20437,12 +20768,22 @@
       "verified": "2026-10-04",
       "notes": "Early: Retired previews; current Apple-source path documents Pull Star activation and level entry. Physical gyro, ride controls and full-game acceptance remain open. Evidence: https://github.com/chrissotraidis/galaxypad/blob/469366a45d3d442609102c0ffb523b50d7ad0669/README.md\nBuild/setup: No public download currently. Full Xcode/iOS SDKs, CMake, Ninja and pinned dependency submodules required. Not a one-command clean-clone build; identity-matched workspace needed. Physical-device installation requires Apple signing/provisioning. Import needs at least 9 GiB free. ISO and split/multidisc WBFS unsupported by current documented importer; Simulator success does not establish physical-device compatibility.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-super-mario-galaxy",
+          "source": "https://github.com/alxblueflame/smgstarlight",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-super-mario-galaxy-robinvrl-super-mario-galaxy-3d",
       "legacyId": "Wii:50",
       "type": "alternate",
+      "gameId": "wii-super-mario-galaxy",
       "title": "Super Mario Galaxy",
       "console": "Wii",
       "year": "2007",
@@ -20456,7 +20797,16 @@
       "verified": "2026-10-04",
       "notes": "Early: New 3DS/Azahar bring-up package; hardware gameplay and complete progression not demonstrated. Evidence: https://github.com/RobinVRL/Super-Mario-Galaxy-3DS/blob/0210415a701d5e90a70d3bdfe90928a246013578/README.md\nBuild/setup: Prototype asset smg3ds-bringup.3dsx exists; no player-ready Galaxy release established. Source needs Windows PowerShell, recursive Git, host CMake/C compiler (MSYS2 MinGW), devkitPro 3ds-dev/devkitARM, and own main.dol/boot.bin/fst.bin/assets. configure.ps1 verifies supported hash and generates private RomFS input; build preflight then ARM11 compilation. Keep hardware gameplay acceptance for Step 3.",
       "section": "Alternate implementations — excluded from title counts (15)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-super-mario-galaxy",
+          "source": "https://github.com/alxblueflame/smgstarlight",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "wii-bomberman-blast-tentative-profile",
@@ -21336,6 +21686,7 @@
       "id": "psp-grand-theft-auto-liberty-city-stories-codepdbh-psprecomp-lcs-android",
       "legacyId": "PSP:40",
       "type": "alternate",
+      "gameId": "psp-grand-theft-auto-liberty-city-stories",
       "title": "Grand Theft Auto: Liberty City Stories",
       "console": "PSP",
       "year": "2005",
@@ -21349,12 +21700,22 @@
       "verified": "2026-10-05",
       "notes": "v0.1.2-beta ARM64 APK is public; own USA game data placed in Internal storage/LCS. LCS flavor/profile verified despite inherited VCS branding. Build/release audit complete; excluded from primary title totals.",
       "section": "Alternate implementations — excluded from title counts (4)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "psp-grand-theft-auto-liberty-city-stories",
+          "source": "https://github.com/elmasas/lcs-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "psp-grand-theft-auto-vice-city-stories-codepdbh-psprecomp-vcs-android",
       "legacyId": "PSP:41",
       "type": "alternate",
+      "gameId": "psp-grand-theft-auto-vice-city-stories",
       "title": "Grand Theft Auto: Vice City Stories",
       "console": "PSP",
       "year": "2006",
@@ -21368,12 +21729,22 @@
       "verified": "2026-10-05",
       "notes": "v0.3.0-beta offers ARM64 and 32-bit ARMv7 APKs; own USA input at Internal storage/VCS. Vulkan device required; mobile saves/input/audio documented. Build/release audit complete; excluded from primary title totals.",
       "section": "Alternate implementations — excluded from title counts (4)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "psp-grand-theft-auto-vice-city-stories",
+          "source": "https://github.com/OverkillLabs2/vice-city-stories-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "psp-grand-theft-auto-vice-city-stories-jessicanataliagta-psprecomp",
       "legacyId": "PSP:42",
       "type": "alternate",
+      "gameId": "psp-grand-theft-auto-vice-city-stories",
       "title": "Grand Theft Auto: Vice City Stories",
       "console": "PSP",
       "year": "2006",
@@ -21387,12 +21758,22 @@
       "verified": "2026-10-05",
       "notes": "No tagged player package at upstream. Source VCS profile uses VS2022/CMake/C++20, generated AOT corpus and own decrypted USA input/assets. Build/release audit complete; excluded from primary title totals.",
       "section": "Alternate implementations — excluded from title counts (4)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "psp-grand-theft-auto-vice-city-stories",
+          "source": "https://github.com/OverkillLabs2/vice-city-stories-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "psp-grand-theft-auto-vice-city-stories-senyarom-vcs-native",
       "legacyId": "PSP:43",
       "type": "alternate",
+      "gameId": "psp-grand-theft-auto-vice-city-stories",
       "title": "Grand Theft Auto: Vice City Stories",
       "console": "PSP",
       "year": "2006",
@@ -21406,7 +21787,16 @@
       "verified": "2026-10-05",
       "notes": "Step 4 addition: documented distinct macOS/Linux host, importer, runtime, graphics and mission/timing patches; public source build rather than tagged player download. Requires compiler/CMake/Ninja/Python/SDL2/FFmpeg/Vulkan/glslang; macOS MoltenVK. Own matching ISO is translated locally. Alternate only: VCS already counted once. Evidence: https://github.com/senyarom/vcs-native/blob/27a60561a363667b8f2257e6b92e732653f6fd05/README.md",
       "section": "Alternate implementations — excluded from title counts (4)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "psp-grand-theft-auto-vice-city-stories",
+          "source": "https://github.com/OverkillLabs2/vice-city-stories-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "psp-ghost-in-the-shell-stand-alone-complex",
@@ -21792,6 +22182,7 @@
       "id": "dreamcast-chuchu-rocket-alternate",
       "legacyId": "Dreamcast:24",
       "type": "alternate",
+      "gameId": "dreamcast-chuchu-rocket",
       "title": "ChuChu Rocket! — alternate",
       "console": "Dreamcast",
       "year": "1999",
@@ -21805,12 +22196,22 @@
       "verified": "2026-10-05",
       "notes": "21,624 translated functions compile; disc scene boots with flat grey geometry at reported ~28 fps. Textures absent, audio mixing absent, input absent. No playable puzzles. DreamcastRecomp is the primary implementation for this title; do not add a second title count.",
       "section": "ALTERNATE IMPLEMENTATIONS — 2 entries; excluded from title totals",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "dreamcast-chuchu-rocket",
+          "source": "https://github.com/Duw0ng/DreamcastRecompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "dreamcast-crazy-taxi-alternate",
       "legacyId": "Dreamcast:25",
       "type": "alternate",
+      "gameId": "dreamcast-crazy-taxi",
       "title": "Crazy Taxi — alternate",
       "console": "Dreamcast",
       "year": "2000",
@@ -21824,7 +22225,16 @@
       "verified": "2026-10-05",
       "notes": "12,750 translated functions compile, but initialization wait does not return; no rendered frame, sound or working input established. This is the Dreamcast target, distinct from Xbox 360/XBLA Crazy Taxi projects. dream-recomp supplies the primary gameplay evidence. README’s 1999 refers to the original arcade game; Dreamcast release year is 2000.",
       "section": "ALTERNATE IMPLEMENTATIONS — 2 entries; excluded from title totals",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "dreamcast-crazy-taxi",
+          "source": "https://github.com/phobos665/dream-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "dreamcast-sword-of-the-berserk-guts-rage",
@@ -22096,6 +22506,7 @@
       "id": "ps3-twisted-metal-2012-alternate",
       "legacyId": "PlayStation 3:38",
       "type": "alternate",
+      "gameId": "ps3-twisted-metal-2012",
       "title": "Twisted Metal (2012) — alternate",
       "console": "PlayStation 3",
       "year": "2012",
@@ -22109,7 +22520,16 @@
       "verified": "2026-10-05",
       "notes": "Alternate research project: explicit pre-menu status; synthetic Taskset probes and selected host models, no verified menus/gameplay. sp00nznet/twistedmetal is the primary, more advanced public implementation. Excluded from distinct-title totals.",
       "section": "ALTERNATE IMPLEMENTATIONS — outside rated title totals (1)",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps3-twisted-metal-2012",
+          "source": "https://github.com/sp00nznet/twistedmetal",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
     },
     {
       "id": "ps3-metal-slug-2-neogeo-station",
@@ -22305,6 +22725,7 @@
       "id": "ps3-god-of-war-ascension-ascension-r-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps3-god-of-war-ascension",
       "title": "God of War: Ascension — Ascension-R, alternate",
       "console": "PlayStation 3",
       "year": 2013,
@@ -22326,6 +22747,14 @@
           "new": "added",
           "source": "https://github.com/rigaz29/Ascension-R",
           "note": "Alternate implementation found by the 2026-11-18 research run."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps3-god-of-war-ascension",
+          "source": "https://github.com/otavix010/gow-ascension-pc",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22333,6 +22762,7 @@
       "id": "ps3-god-of-war-ascension-arnaldolima1-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps3-god-of-war-ascension",
       "title": "God of War: Ascension — arnaldolima1 port, alternate",
       "console": "PlayStation 3",
       "year": 2013,
@@ -22354,6 +22784,14 @@
           "new": "added",
           "source": "https://github.com/arnaldolima1/gow-ascension-pc",
           "note": "Alternate implementation found by the 2026-11-18 research run."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps3-god-of-war-ascension",
+          "source": "https://github.com/otavix010/gow-ascension-pc",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22361,6 +22799,7 @@
       "id": "xbox360-beautiful-katamari-elfhuo-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-beautiful-katamari",
       "title": "Beautiful Katamari — elfhuo-Github, alternate",
       "console": "Xbox 360",
       "year": 2007,
@@ -22382,6 +22821,14 @@
           "new": "added",
           "source": "https://github.com/elfhuo-Github/beautiful-katamari-recomp",
           "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-beautiful-katamari",
+          "source": "https://github.com/JK-4799/Beautiful-Katamari-REX360-Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22389,6 +22836,7 @@
       "id": "xbox360-gears-of-war-2-cischi-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-gears-of-war-2",
       "title": "Gears of War 2 — cischi/gow2-recomp, alternate",
       "console": "Xbox 360",
       "year": 2008,
@@ -22410,6 +22858,14 @@
           "new": "added",
           "source": "https://github.com/cischi/gow2-recomp",
           "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-gears-of-war-2",
+          "source": "https://github.com/santiquiroz/gears-of-war-2-pc-port",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22417,6 +22873,7 @@
       "id": "xbox360-gears-of-war-judgment-piscacho-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-gears-of-war-judgment",
       "title": "Gears of War: Judgment — Piscacho, alternate",
       "console": "Xbox 360",
       "year": 2013,
@@ -22438,6 +22895,14 @@
           "new": "added",
           "source": "https://github.com/Piscacho/Gears-of-war-judgment-Pc",
           "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-gears-of-war-judgment",
+          "source": "https://github.com/OverkillLabs3/gears-judgement-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22445,6 +22910,7 @@
       "id": "xbox360-ace-combat-6-gracemeria-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-ace-combat-6-fires-of-liberation",
       "title": "Ace Combat 6: Fires of Liberation — GracemeriaRecomp, alternate",
       "console": "Xbox 360",
       "year": 2007,
@@ -22466,6 +22932,14 @@
           "new": "added",
           "source": "https://github.com/Dipshet/GracemeriaRecomp",
           "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-ace-combat-6-fires-of-liberation",
+          "source": "https://github.com/sal063/AC6_recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22473,6 +22947,7 @@
       "id": "xbox360-forza-horizon-reimagined-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-forza-horizon",
       "title": "Forza Horizon — ReImagined (Dyotson), alternate",
       "console": "Xbox 360",
       "year": 2012,
@@ -22494,6 +22969,14 @@
           "new": "added",
           "source": "https://github.com/Dyotson/RecompiledForzaHorizon",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-forza-horizon",
+          "source": "https://github.com/arcanite24/pinyon-shift",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22501,6 +22984,7 @@
       "id": "ps1-resident-evil-3-nemesis-project-re-visited-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps1-resident-evil-3-nemesis",
       "title": "Resident Evil 3: Nemesis — Project RE: Visited, alternate",
       "console": "PlayStation 1",
       "year": 1999,
@@ -22522,6 +23006,14 @@
           "new": "added",
           "source": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps1-resident-evil-3-nemesis",
+          "source": "https://github.com/alexbeavs-ps1-ports/resident-evil-3-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22529,6 +23021,7 @@
       "id": "xbox360-army-of-two-nikolaygorb-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-army-of-two",
       "title": "Army of Two — nikolaygorb, alternate",
       "console": "Xbox 360",
       "year": 2008,
@@ -22550,6 +23043,14 @@
           "new": "added",
           "source": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-army-of-two",
+          "source": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22557,6 +23058,7 @@
       "id": "xbox360-army-of-two-crabinacrabic-usa-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-army-of-two",
       "title": "Army of Two — USA build (crabinacrabic), alternate",
       "console": "Xbox 360",
       "year": 2008,
@@ -22578,6 +23080,14 @@
           "new": "added",
           "source": "https://github.com/crabinacrabic/ArmyOfTwoRecomp-USA",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-army-of-two",
+          "source": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22585,6 +23095,7 @@
       "id": "ps1-twisted-metal-2-maxcurrent420-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps1-twisted-metal-2",
       "title": "Twisted Metal 2 — maxcurrent420, alternate",
       "console": "PlayStation 1",
       "year": 1996,
@@ -22606,6 +23117,14 @@
           "new": "added",
           "source": "https://github.com/maxcurrent420/TwistedMetal2Recomp",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps1-twisted-metal-2",
+          "source": "https://github.com/12feihu/TwistedMetal2Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22613,6 +23132,7 @@
       "id": "gamecube-mario-kart-double-dash-ethan-nicholas-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "gamecube-mario-kart-double-dash",
       "title": "Mario Kart: Double Dash!! — mariokartdd-recomp (Ethan Nicholas), alternate",
       "console": "GameCube",
       "year": 2003,
@@ -22634,6 +23154,14 @@
           "new": "added",
           "source": "https://github.com/EthanNicholas/mariokartdd-recomp",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-mario-kart-double-dash",
+          "source": "https://github.com/LeftInWalmart/MKDD-Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22641,6 +23169,7 @@
       "id": "xbox360-real-steel-recompiled-steel-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-real-steel",
       "title": "Real Steel — ReCompiled Steel, alternate",
       "console": "Xbox 360",
       "year": 2011,
@@ -22662,6 +23191,14 @@
           "new": "added",
           "source": "https://github.com/tokeneffortports/ReCompiledSteel",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-real-steel",
+          "source": "https://github.com/thefixinhixon/RealSteelRecomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22669,6 +23206,7 @@
       "id": "n64-battletanx-global-assault-pc-port-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "n64-battletanx-global-assault",
       "title": "BattleTanx: Global Assault — PC port (TheGh0stShip), alternate",
       "console": "Nintendo 64",
       "year": 1999,
@@ -22690,6 +23228,14 @@
           "new": "added",
           "source": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
           "note": "Found via the owner's recomp.fyi list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "n64-battletanx-global-assault",
+          "source": "https://github.com/wootbeer/btgarecomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22697,6 +23243,7 @@
       "id": "xbox360-saw-ii-flesh-and-blood-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-saw-ii-flesh-and-blood",
       "title": "Saw II: Flesh & Blood — Saw2-X360-ReXGlue, alternate",
       "console": "Xbox 360",
       "year": 2010,
@@ -22718,6 +23265,14 @@
           "new": "added",
           "source": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
           "note": "Moved here from the main entry when the owner approved a primary swap."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-saw-ii-flesh-and-blood",
+          "source": "https://github.com/Matt-code-d/Saw2Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22725,6 +23280,7 @@
       "id": "n64-jet-force-gemini-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "n64-jet-force-gemini",
       "title": "Jet Force Gemini — Dubstroy/JFG-Recomp, alternate",
       "console": "Nintendo 64",
       "year": 1999,
@@ -22754,6 +23310,14 @@
           "new": true,
           "source": "https://github.com/Dubstroy/JFG-Recomp",
           "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable (owner decision); clear this if it comes back."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "n64-jet-force-gemini",
+          "source": "https://github.com/VibinToast/JetForceGemini-Recompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ],
       "unavailable": true,
@@ -22763,6 +23327,7 @@
       "id": "ps3-demons-souls-leonardorobertomotalvao-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps3-demons-souls",
       "title": "Demon's Souls — Leonardorobertomotalvao, alternate",
       "console": "PlayStation 3",
       "year": 2009,
@@ -22784,6 +23349,14 @@
           "new": "added",
           "source": "https://github.com/Leonardorobertomotalvao/demons-souls-pc",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps3-demons-souls",
+          "source": "https://github.com/JonathanDC64/Soulbrandt",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22791,6 +23364,7 @@
       "id": "dreamcast-soulcalibur-voldorium-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "dreamcast-soulcalibur",
       "title": "Soulcalibur — Voldorium, alternate",
       "console": "Dreamcast",
       "year": 1999,
@@ -22812,6 +23386,14 @@
           "new": "added",
           "source": "https://github.com/enrique363/Voldorium",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "dreamcast-soulcalibur",
+          "source": "https://github.com/danielgomesvieira2000/soulcalibur-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22819,6 +23401,7 @@
       "id": "xbox-burnout-3-takedown-takedawn-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox-burnout-3-takedown",
       "title": "Burnout 3: Takedown — Takedawn, alternate",
       "console": "Original Xbox",
       "year": 2004,
@@ -22840,6 +23423,14 @@
           "new": "added",
           "source": "https://github.com/xenophobentx/Takedawn",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-burnout-3-takedown",
+          "source": "https://github.com/sp00nznet/burnout3",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22847,6 +23438,7 @@
       "id": "xbox-timesplitters-2-split2-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox-timesplitters-2",
       "title": "TimeSplitters 2 — split2-recomp, alternate",
       "console": "Original Xbox",
       "year": 2002,
@@ -22868,6 +23460,14 @@
           "new": "added",
           "source": "https://github.com/phobos665/split2-recomp",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-timesplitters-2",
+          "source": "https://github.com/phobos665/Split-Again-Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22875,6 +23475,7 @@
       "id": "ps1-ape-escape-nvdemu-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps1-ape-escape",
       "title": "Ape Escape — ApeEscapeRecomp-MacWindows (NVDEMU), alternate",
       "console": "PlayStation 1",
       "year": 1999,
@@ -22896,6 +23497,14 @@
           "new": "added",
           "source": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindows",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps1-ape-escape",
+          "source": "https://github.com/mstan/ApeEscapeRecomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22903,6 +23512,7 @@
       "id": "ps1-twisted-metal-2-jcoker85-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps1-twisted-metal-2",
       "title": "Twisted Metal 2 — TwistedMetal1234Recomp, alternate",
       "console": "PlayStation 1",
       "year": 1996,
@@ -22924,6 +23534,14 @@
           "new": "added",
           "source": "https://github.com/jcoker85/TwistedMetal1234Recomp",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps1-twisted-metal-2",
+          "source": "https://github.com/12feihu/TwistedMetal2Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22931,6 +23549,7 @@
       "id": "n64-mario-party-3-jcoker85-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "n64-mario-party-3",
       "title": "Mario Party 3 — MarioParty123Recomp, alternate",
       "console": "Nintendo 64",
       "year": 2000,
@@ -22952,6 +23571,14 @@
           "new": "added",
           "source": "https://github.com/jcoker85/MarioParty123Recomp",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "n64-mario-party-3",
+          "source": "https://github.com/Rainchus/MarioParty3-Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22959,6 +23586,7 @@
       "id": "xbox360-spider-man-edge-of-time-project-2099-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-spider-man-edge-of-time",
       "title": "Spider-Man: Edge of Time — Project 2099, alternate",
       "console": "Xbox 360",
       "year": 2011,
@@ -22980,6 +23608,14 @@
           "new": "added",
           "source": "https://github.com/GenryTheFox0/Project-2099",
           "note": "Found via the owner's recomp.fyi 'Released' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-spider-man-edge-of-time",
+          "source": "https://github.com/goliathret/EdgeOfTimeRecomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -22987,6 +23623,7 @@
       "id": "gamecube-f-zero-gx-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "gamecube-f-zero-gx",
       "title": "F-Zero GX — Pipyakas/fzero-gx-recomp, alternate",
       "console": "GameCube",
       "year": 2003,
@@ -23008,6 +23645,14 @@
           "new": "added",
           "source": "https://github.com/Pipyakas/fzero-gx-recomp",
           "note": "Moved here from the main entry when the owner approved a primary swap."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-f-zero-gx",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23015,6 +23660,7 @@
       "id": "ps3-god-of-war-ascension-machinegun3-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps3-god-of-war-ascension",
       "title": "God of War: Ascension — MaChInEgUn3, alternate",
       "console": "PlayStation 3",
       "year": 2013,
@@ -23036,6 +23682,14 @@
           "new": "added",
           "source": "https://github.com/MaChInEgUn3/God-of-War-Ascension-Recompiled",
           "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps3-god-of-war-ascension",
+          "source": "https://github.com/otavix010/gow-ascension-pc",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23043,6 +23697,7 @@
       "id": "wii-the-last-story-laststory-native-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "wii-the-last-story",
       "title": "The Last Story — laststory-native, alternate",
       "console": "Wii",
       "year": 2011,
@@ -23064,6 +23719,14 @@
           "new": "added",
           "source": "https://github.com/thebradshaw/laststory-native",
           "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-the-last-story",
+          "source": "https://github.com/vs-sr-dev/pc-thelaststory",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23071,6 +23734,7 @@
       "id": "ps1-soul-blade-drproteus-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps1-soul-blade",
       "title": "Soul Blade — drproteus, alternate",
       "console": "PlayStation 1",
       "year": 1997,
@@ -23092,6 +23756,14 @@
           "new": "added",
           "source": "https://github.com/drproteus/soul-blade-recomp",
           "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps1-soul-blade",
+          "source": "https://github.com/fabioap-cpu/SoulBlade_Recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23099,6 +23771,7 @@
       "id": "xbox360-call-of-duty-3-cod3pc-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-call-of-duty-3",
       "title": "Call of Duty 3 — cod3pc, alternate",
       "console": "Xbox 360",
       "year": 2006,
@@ -23120,6 +23793,14 @@
           "new": "added",
           "source": "https://github.com/alekszverr-jpg/cod3pc",
           "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-call-of-duty-3",
+          "source": "https://github.com/zenit2893-cmyk/project-1944",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23127,6 +23808,7 @@
       "id": "wii-monster-hunter-tri-ffxi-mod-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "wii-monster-hunter-tri",
       "title": "Monster Hunter Tri — FFXI-style mod, alternate",
       "console": "Wii",
       "year": 2009,
@@ -23148,6 +23830,14 @@
           "new": "added",
           "source": "https://github.com/seamuswilkie31-dev/pc-monsterhunter3-FFXI",
           "note": "Found via the owner's recomp.fyi 'In progress' list (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "wii-monster-hunter-tri",
+          "source": "https://github.com/vs-sr-dev/pc-monsterhunter3",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23155,6 +23845,7 @@
       "id": "xbox-def-jam-fight-for-ny-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox-def-jam-fight-for-ny",
       "title": "Def Jam: Fight for NY — TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation, alternate",
       "console": "Original Xbox",
       "year": 2004,
@@ -23178,6 +23869,14 @@
           "new": "added",
           "source": "https://github.com/TheSaltTrader/DEF-Jam-Fight-for-New-York---An-original-Xbox-recompilation",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-def-jam-fight-for-ny",
+          "source": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23185,6 +23884,7 @@
       "id": "xbox-the-incredible-hulk-ultimate-destruction-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox-the-incredible-hulk-ultimate-destruction",
       "title": "The Incredible Hulk: Ultimate Destruction — TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation, alternate",
       "console": "Original Xbox",
       "year": "",
@@ -23208,6 +23908,14 @@
           "new": "added",
           "source": "https://github.com/TheSaltTrader/Hulk-Ultimate-destrustruction---An-original-Xbox-recompilation",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-the-incredible-hulk-ultimate-destruction",
+          "source": "https://github.com/lookingcoding/hulk-ultimate-destruction-recomp-xbox-ver-",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23215,6 +23923,7 @@
       "id": "xbox-ninja-gaiden-black-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox-ninja-gaiden-black",
       "title": "Ninja Gaiden Black — TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation, alternate",
       "console": "Original Xbox",
       "year": "",
@@ -23238,6 +23947,14 @@
           "new": "added",
           "source": "https://github.com/TheSaltTrader/Ninja-Gaiden-Black---An-original-Xbox-recompilation",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-ninja-gaiden-black",
+          "source": "https://github.com/gamboozino/ngbrecomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23245,6 +23962,7 @@
       "id": "xbox360-cars-race-o-rama-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-cars-race-o-rama",
       "title": "Cars Race-O-Rama — Dreey-ui/cars-race-o-rama-recomp, alternate",
       "console": "Xbox 360",
       "year": 2009,
@@ -23268,6 +23986,14 @@
           "new": "added",
           "source": "https://github.com/Dreey-ui/cars-race-o-rama-recomp",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-cars-race-o-rama",
+          "source": "https://github.com/m1ndcrap/Cars-Race-O-Rama-Recompiled",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23275,6 +24001,7 @@
       "id": "xbox360-rockstar-table-tennis-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "xbox360-rockstar-table-tennis",
       "title": "Rockstar Table Tennis — vincequene/rockstar-table-tennis-recomp, alternate",
       "console": "Xbox 360",
       "year": "",
@@ -23298,6 +24025,14 @@
           "new": "added",
           "source": "https://github.com/vincequene/rockstar-table-tennis-recomp",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox360-rockstar-table-tennis",
+          "source": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23305,6 +24040,7 @@
       "id": "ps2-gran-turismo-4-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps2-gran-turismo-4",
       "title": "Gran Turismo 4 — nateo91/gt4-recompiled, alternate",
       "console": "PlayStation 2",
       "year": 2005,
@@ -23328,6 +24064,14 @@
           "new": "added",
           "source": "https://github.com/nateo91/gt4-recompiled",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps2-gran-turismo-4",
+          "source": "https://github.com/moesuito/gt4-staticrecomp",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23335,6 +24079,7 @@
       "id": "ps3-gran-turismo-6-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps3-gran-turismo-6",
       "title": "Gran Turismo 6 — Denarmo/Gran-Turismo-6-Recomp, alternate",
       "console": "PlayStation 3",
       "year": 2013,
@@ -23358,6 +24103,14 @@
           "new": "added",
           "source": "https://github.com/Denarmo/Gran-Turismo-6-Recomp",
           "note": "Moved here from the main entry when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps3-gran-turismo-6",
+          "source": "https://github.com/xynnpg/GT6PP",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23365,6 +24118,7 @@
       "id": "ps2-downhill-domination-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "ps2-downhill-domination",
       "title": "Downhill Domination — pedrohenrique505/Recomp-Domination, alternate",
       "console": "PlayStation 2",
       "year": 2003,
@@ -23388,6 +24142,14 @@
           "new": "added",
           "source": "https://github.com/pedrohenrique505/Recomp-Domination",
           "note": "Moved here when the owner supplied a replacement project."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "ps2-downhill-domination",
+          "source": "https://github.com/skuza-oss/downhill-revived",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     },
@@ -23395,6 +24157,7 @@
       "id": "gamecube-animal-crossing-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
+      "gameId": "gamecube-animal-crossing",
       "title": "Animal Crossing — LeftInWalmart/AnimalCrossingRustPort, alternate",
       "console": "GameCube",
       "year": 2002,
@@ -23416,6 +24179,14 @@
           "new": "added",
           "source": "https://github.com/LeftInWalmart/AnimalCrossingRustPort",
           "note": "Moved here from the main entry when the owner approved a primary swap."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "gameId",
+          "old": null,
+          "new": "gamecube-animal-crossing",
+          "source": "https://github.com/digdat0/ACGC-Switch-Port",
+          "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
         }
       ]
     }
