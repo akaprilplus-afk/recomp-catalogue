@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-7",
+  "catalogueVersion": "2026.11.18-8",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
     "rated": 690,
-    "Fully Playable": 68,
+    "Fully Playable": 69,
     "Mostly Playable": 354,
-    "Early Development": 268,
+    "Early Development": 267,
     "otherProjects": 247
   },
   "games": [
@@ -11004,17 +11004,58 @@
       "title": "F-Zero GX",
       "year": 2003,
       "console": "GameCube",
-      "status": "Early Development",
-      "project": "Pipyakas/fzero-gx-recomp",
-      "release": "Source build • no tagged release • updated 2026-09-26",
-      "method": "DolRecomp; RingOut-derived runtime",
-      "gameVersion": "USA / NTSC-U • GFZE01 • RVZ or extracted main.dol",
-      "platform": "Windows x64; Android ARM64 experimental",
-      "filesUrl": "https://github.com/Pipyakas/fzero-gx-recomp#quick-start",
-      "verified": "2026-10-04",
-      "notes": "Early: Current evidence is a compiled DOL and host window with a blue Vulkan presentation. README explicitly says a full playable build is still in progress. Build audit: Source build only. Windows requires Visual Studio 2022 with LLVM Clang 19.1.5, Vulkan SDK 1.4.350, CMake 3.20+, Ninja and Python 3. Android notes specify NDK r28, Vulkan 1.1 and a tested SD845/crDroid 15 target. DOL translation and host-window presentation are reported; a full playable build is still in progress. Exact retail revision is not identified.",
-      "projectUrl": "https://github.com/Pipyakas/fzero-gx-recomp",
-      "history": []
+      "status": "Fully Playable",
+      "project": "ethannicholas/fzerogx-recomp",
+      "release": "No published version yet",
+      "method": "gcn-recomp static recompilation",
+      "gameVersion": "Own copy of the game (see the project README)",
+      "platform": "Windows; macOS; Meta Quest 3; Apple Vision Pro",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): Complete: fully playable from start to finish with sound and music, on desktop and in VR, no known issues (maintainer). Build from source; no tagged release. Made primary by owner decision 2026-11-18.",
+      "projectUrl": "https://github.com/ethannicholas/fzerogx-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "project",
+          "old": "Pipyakas/fzero-gx-recomp",
+          "new": "ethannicholas/fzerogx-recomp",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "projectUrl",
+          "old": "https://github.com/Pipyakas/fzero-gx-recomp",
+          "new": "https://github.com/ethannicholas/fzerogx-recomp",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "release",
+          "old": "Source build • no tagged release • updated 2026-09-26",
+          "new": "No published version yet",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "filesUrl",
+          "old": "https://github.com/Pipyakas/fzero-gx-recomp#quick-start",
+          "new": "",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Primary project swapped (owner approved)."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Fully Playable",
+          "source": "https://github.com/ethannicholas/fzerogx-recomp",
+          "note": "Owner approved swap; maintainer says complete, fully playable start to finish with no known issues -> Fully Playable (maintainer claim)."
+        }
+      ]
     },
     {
       "id": "gamecube-ikaruga",
@@ -20699,21 +20740,21 @@
       ]
     },
     {
-      "id": "gamecube-f-zero-gx-ethannicholas-alternate",
+      "id": "gamecube-f-zero-gx-former-primary-alternate",
       "legacyId": null,
       "type": "alternate",
-      "title": "F-Zero GX — fzerogx-recomp (Ethan Nicholas), alternate",
+      "title": "F-Zero GX — Pipyakas/fzero-gx-recomp, alternate",
       "console": "GameCube",
       "year": 2003,
-      "project": "ethannicholas/fzerogx-recomp",
-      "projectUrl": "https://github.com/ethannicholas/fzerogx-recomp",
-      "release": "No published version yet",
-      "method": "gcn-recomp static recompilation",
-      "gameVersion": "Own copy of the game (see the project README)",
-      "platform": "Windows; macOS; Meta Quest 3; Apple Vision Pro",
-      "filesUrl": "",
+      "project": "Pipyakas/fzero-gx-recomp",
+      "projectUrl": "https://github.com/Pipyakas/fzero-gx-recomp",
+      "release": "Source build • no tagged release • updated 2026-09-26",
+      "method": "DolRecomp; RingOut-derived runtime",
+      "gameVersion": "USA / NTSC-U • GFZE01 • RVZ or extracted main.dol",
+      "platform": "Windows x64; Android ARM64 experimental",
+      "filesUrl": "https://github.com/Pipyakas/fzero-gx-recomp#quick-start",
       "verified": "2026-11-18",
-      "notes": "Source 2026-11-18 (project README): Complete: fully playable from start to finish with sound and music, on desktop and in VR, no known issues (maintainer). Build from source; no tagged release. Much stronger than the current primary (boots only, last update 2026-09-26); swap proposed.",
+      "notes": "Former primary until 2026-11-18. Boots to a blank window; 'full playable build in progress'; last update 2026-09-26.",
       "section": "Alternates added by research",
       "history": [
         {
@@ -20721,8 +20762,8 @@
           "field": "entry",
           "old": null,
           "new": "added",
-          "source": "https://github.com/ethannicholas/fzerogx-recomp",
-          "note": "Found via the owner's recomp.fyi 'Complete' list (tip only); entry written from the project's own README."
+          "source": "https://github.com/Pipyakas/fzero-gx-recomp",
+          "note": "Moved here from the main entry when the owner approved a primary swap."
         }
       ]
     }
