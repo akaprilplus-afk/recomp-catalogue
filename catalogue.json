@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-2",
+  "catalogueVersion": "2026.11.18-3",
   "updated": "2026-11-18",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 605,
-    "Fully Playable": 57,
-    "Mostly Playable": 299,
-    "Early Development": 249,
-    "otherProjects": 224
+    "rated": 625,
+    "Fully Playable": 60,
+    "Mostly Playable": 304,
+    "Early Development": 261,
+    "otherProjects": 228
   },
   "games": [
     {
@@ -12736,6 +12736,706 @@
           "note": "Rated by Claude from the project README: full Arcade matches documented, other modes untested -> Mostly Playable."
         }
       ]
+    },
+    {
+      "id": "ps3-ratchet-clank-future-tools-of-destruction",
+      "legacyId": null,
+      "title": "Ratchet & Clank Future: Tools of Destruction",
+      "year": 2007,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "undecuple/qwarks-awakening",
+      "release": "launcher-v0.4.0 (2026-11-17)",
+      "method": "ps3recomp-style static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows (tested under Proton on Linux)",
+      "filesUrl": "https://github.com/undecuple/qwarks-awakening/releases/tag/launcher-v0.4.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): early work, not playable yet (maintainer). An earlier build of Tools of Destruction was played by hand from its first level. The same project also targets Quest for Booty, A Crack in Time, All 4 One, Full Frontal Assault, Into the Nexus, the Ratchet & Clank Collection and Deadlocked HD.",
+      "projectUrl": "https://github.com/undecuple/qwarks-awakening",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/undecuple/qwarks-awakening",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/undecuple/qwarks-awakening",
+          "note": "Rated by Claude: maintainer says not playable yet -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "dreamcast-draconus-cult-of-the-wyrm",
+      "legacyId": null,
+      "title": "Draconus: Cult of the Wyrm",
+      "year": 2000,
+      "console": "Dreamcast",
+      "status": "Mostly Playable",
+      "project": "GnomeChimpsky/Draconus-Recomp",
+      "release": "v1.0.0 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): the first three levels have been played end to end; later levels not yet verified; full play-through is the open milestone.",
+      "projectUrl": "https://github.com/GnomeChimpsky/Draconus-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/GnomeChimpsky/Draconus-Recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/GnomeChimpsky/Draconus-Recomp",
+          "note": "Rated by Claude: three full levels documented, full game not verified -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "dreamcast-jet-set-radio",
+      "legacyId": null,
+      "title": "Jet Set Radio",
+      "year": 2000,
+      "console": "Dreamcast",
+      "status": "Early Development",
+      "project": "spriteice/jet-set-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux / SteamOS",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): playable on Windows and SteamOS: music, saving, loading, the tutorial and the first level work; shadows missing, some wrong textures. Supports Jet Grind Radio (USA) only.",
+      "projectUrl": "https://github.com/spriteice/jet-set-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/spriteice/jet-set-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/spriteice/jet-set-recomp",
+          "note": "Rated by Claude: only the tutorial and first level documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps3-afro-samurai",
+      "legacyId": null,
+      "title": "Afro Samurai",
+      "year": 2009,
+      "console": "PlayStation 3",
+      "status": "Early Development",
+      "project": "erikomis/afro-samurai-recomp",
+      "release": "No published version yet",
+      "method": "ps3recomp-based static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): early work in progress (maintainer); the first level is playable, 30 fps, audio correct.",
+      "projectUrl": "https://github.com/erikomis/afro-samurai-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/erikomis/afro-samurai-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/erikomis/afro-samurai-recomp",
+          "note": "Rated by Claude: maintainer calls it early work, first level only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-beautiful-katamari",
+      "legacyId": null,
+      "title": "Beautiful Katamari",
+      "year": 2007,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "JK-4799/Beautiful-Katamari-REX360-Recomp",
+      "release": "recomp (2026-11-18)",
+      "method": "ReXGlue-based static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/JK-4799/Beautiful-Katamari-REX360-Recomp/releases/tag/recomp",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): release '1.0' published under the tag `recomp`; menus show a black area until an option is selected. Little gameplay documented. Alternate: elfhuo-Github/beautiful-katamari-recomp.",
+      "projectUrl": "https://github.com/JK-4799/Beautiful-Katamari-REX360-Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/JK-4799/Beautiful-Katamari-REX360-Recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/JK-4799/Beautiful-Katamari-REX360-Recomp",
+          "note": "Rated by Claude: release exists but gameplay is not documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-mario-party-7",
+      "legacyId": null,
+      "title": "Mario Party 7",
+      "year": 2005,
+      "console": "GameCube",
+      "status": "Early Development",
+      "project": "TotallyJustRetro/mario-party-7-recomp",
+      "release": "No published version yet",
+      "method": "gcn-recomp static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; Linux (build from source)",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): build instructions only; no gameplay status documented.",
+      "projectUrl": "https://github.com/TotallyJustRetro/mario-party-7-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TotallyJustRetro/mario-party-7-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/TotallyJustRetro/mario-party-7-recomp",
+          "note": "Rated by Claude: no documented gameplay -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-naruto-shippuden-ultimate-ninja-storm-3-full-burst",
+      "legacyId": null,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
+      "year": 2013,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "wizydeka-lang/naruto-storm3-recomp",
+      "release": "v0.1.4 (2026-11-07)",
+      "method": "ReXGlue-based static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Linux; Android; Windows untested",
+      "filesUrl": "https://github.com/wizydeka-lang/naruto-storm3-recomp/releases/tag/v0.1.4",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): experimental. On Linux it reaches the menus and plays Free Battle fights; Story mode and other modes not checked; Windows installer written but not yet tested.",
+      "projectUrl": "https://github.com/wizydeka-lang/naruto-storm3-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/wizydeka-lang/naruto-storm3-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/wizydeka-lang/naruto-storm3-recomp",
+          "note": "Rated by Claude: Free Battle fights documented, other modes unchecked -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-zuma",
+      "legacyId": null,
+      "title": "Zuma",
+      "year": "Unconfirmed",
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "springah/zuma_recomp",
+      "release": "v0.1.1 (2026-11-02)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/springah/zuma_recomp/releases/tag/v0.1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): early bring-up: builds, boots and reaches the title screen; beyond the title is untested.",
+      "projectUrl": "https://github.com/springah/zuma_recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/springah/zuma_recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/springah/zuma_recomp",
+          "note": "Rated by Claude: title screen only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-turok-evolution",
+      "legacyId": null,
+      "title": "Turok: Evolution",
+      "year": 2002,
+      "console": "GameCube",
+      "status": "Early Development",
+      "project": "JohnSams165/TurokEvolutionPC",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots through intro, title and menus into gameplay; no progression documented.",
+      "projectUrl": "https://github.com/JohnSams165/TurokEvolutionPC",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/JohnSams165/TurokEvolutionPC",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/JohnSams165/TurokEvolutionPC",
+          "note": "Rated by Claude: reaches gameplay only -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "gamecube-custom-robo",
+      "legacyId": null,
+      "title": "Custom Robo",
+      "year": 2004,
+      "console": "GameCube",
+      "status": "Early Development",
+      "project": "MusouSlime/pc-customrobo",
+      "release": "launcher-test (2026-10-22)",
+      "method": "wiikit-based static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/MusouSlime/pc-customrobo/releases/tag/launcher-test",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots, renders, plays audio, takes input and loads a battle; memory-card saving works; everything unlocked at boot.",
+      "projectUrl": "https://github.com/MusouSlime/pc-customrobo",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/MusouSlime/pc-customrobo",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/MusouSlime/pc-customrobo",
+          "note": "Rated by Claude: loads a battle, no progression documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-blur",
+      "legacyId": null,
+      "title": "Blur",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "AbadXDev/BlurRecomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "macOS (in development)",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress, not playable yet; boots on macOS to the main loop; source not yet published.",
+      "projectUrl": "https://github.com/AbadXDev/BlurRecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/AbadXDev/BlurRecomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/AbadXDev/BlurRecomp",
+          "note": "Rated by Claude: maintainer says not playable yet -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps1-resident-evil-2",
+      "legacyId": null,
+      "title": "Resident Evil 2",
+      "year": 1998,
+      "console": "PlayStation 1",
+      "status": "Early Development",
+      "project": "lleandroRodrigzz/ResidentEvil2Recomp",
+      "release": "No published version yet",
+      "method": "psxrecomp static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): new port: the opening, menus and the start of a game have been tested.",
+      "projectUrl": "https://github.com/lleandroRodrigzz/ResidentEvil2Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/lleandroRodrigzz/ResidentEvil2Recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/lleandroRodrigzz/ResidentEvil2Recomp",
+          "note": "Rated by Claude: only the start of the game tested -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-need-for-speed-undercover",
+      "legacyId": null,
+      "title": "Need for Speed: Undercover",
+      "year": 2008,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "AliEnes2/nfsuc-recomp",
+      "release": "v0.1.0 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.1.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress, stage 1 (toolchain and skeleton); nothing playable yet.",
+      "projectUrl": "https://github.com/AliEnes2/nfsuc-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/AliEnes2/nfsuc-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/AliEnes2/nfsuc-recomp",
+          "note": "Rated by Claude: maintainer says nothing playable yet -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-jurassic-the-hunted",
+      "legacyId": null,
+      "title": "Jurassic: The Hunted",
+      "year": 2009,
+      "console": "Xbox 360",
+      "status": "Fully Playable",
+      "project": "PopSmokeThe2nd/jurassic-the-hunted-recompiled",
+      "release": "v1.0.0 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): the whole campaign loads and plays (all 14 missions, plus Survivor mode) (maintainer).",
+      "projectUrl": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled",
+          "note": "Rated by Claude: whole campaign documented as playable -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-dead-space-ignition",
+      "legacyId": null,
+      "title": "Dead Space Ignition",
+      "year": 2010,
+      "console": "Xbox 360",
+      "status": "Early Development",
+      "project": "killersheaven/ds-ignition-recomp",
+      "release": "v0.1.1 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/killersheaven/ds-ignition-recomp/releases/tag/v0.1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots, intro movies, title screen and menus work; first release being tested.",
+      "projectUrl": "https://github.com/killersheaven/ds-ignition-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/killersheaven/ds-ignition-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/killersheaven/ds-ignition-recomp",
+          "note": "Rated by Claude: menus only documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "wii-dead-space-extraction",
+      "legacyId": null,
+      "title": "Dead Space: Extraction",
+      "year": 2009,
+      "console": "Wii",
+      "status": "Fully Playable",
+      "project": "Piscacho/Dead-Space-Extraction-PC",
+      "release": "v0.9.1 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows 10/11",
+      "filesUrl": "https://github.com/Piscacho/Dead-Space-Extraction-PC/releases/tag/v0.9.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): test version (0.x); the campaign can be played; online two-PC play, two-pad co-op and rumble not fully tested. US disc (RZJE69).",
+      "projectUrl": "https://github.com/Piscacho/Dead-Space-Extraction-PC",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Piscacho/Dead-Space-Extraction-PC",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/Piscacho/Dead-Space-Extraction-PC",
+          "note": "Rated by Claude: campaign documented as playable, only extras untested -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-call-of-duty-2-big-red-one",
+      "legacyId": null,
+      "title": "Call of Duty 2: Big Red One",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "jbond2003/COD2-BRO-XBERecomp",
+      "release": "0.1.1 (2026-11-13)",
+      "method": "XBE Recomp static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/jbond2003/COD2-BRO-XBERecomp/releases/tag/0.1.1",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): campaign with keyboard/mouse, widescreen menus, PC options; known issue in the Desert Fox mission at high frame rates. No full-completion claim.",
+      "projectUrl": "https://github.com/jbond2003/COD2-BRO-XBERecomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/jbond2003/COD2-BRO-XBERecomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/jbond2003/COD2-BRO-XBERecomp",
+          "note": "Rated by Claude: campaign missions documented, completion not stated -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-pro-evolution-soccer-2013",
+      "legacyId": null,
+      "title": "Pro Evolution Soccer 2013",
+      "year": 2012,
+      "console": "Xbox 360",
+      "status": "Mostly Playable",
+      "project": "xamphy/PES13Recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows; iPad; Android early",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): work in progress; playable on Windows (menus, training, exhibition matches, sound, saves), expect bugs.",
+      "projectUrl": "https://github.com/xamphy/PES13Recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/xamphy/PES13Recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/xamphy/PES13Recomp",
+          "note": "Rated by Claude: exhibition matches documented, WIP -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "ps3-j-stars-victory-vs-plus",
+      "legacyId": null,
+      "title": "J-Stars Victory VS+",
+      "year": 2015,
+      "console": "PlayStation 3",
+      "status": "Mostly Playable",
+      "project": "Tsamiuy/jsp-vs-ex",
+      "release": "v0.5.0 (2026-11-18)",
+      "method": "ps3recomp static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): pre-release 0.5.0, work in progress; menus, fights and online matches played by testers on Windows 11; known issues listed.",
+      "projectUrl": "https://github.com/Tsamiuy/jsp-vs-ex",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Tsamiuy/jsp-vs-ex",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/Tsamiuy/jsp-vs-ex",
+          "note": "Rated by Claude: fights documented by testers, pre-release -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-gears-of-war-3",
+      "legacyId": null,
+      "title": "Gears of War 3",
+      "year": 2011,
+      "console": "Xbox 360",
+      "status": "Fully Playable",
+      "project": "cischi/gow2-recomp",
+      "release": "v0.2.0 (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/cischi/gow2-recomp/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): the single-player campaign of both Gears of War 2 and 3 is playable with movies and saves (maintainer); no multiplayer or co-op. Same project as the Gears of War 2 alternate.",
+      "projectUrl": "https://github.com/cischi/gow2-recomp",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/cischi/gow2-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-18",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/cischi/gow2-recomp",
+          "note": "Rated by Claude: single-player campaign documented as playable -> Fully Playable (maintainer claim)."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -16997,6 +17697,118 @@
           "new": "added",
           "source": "https://github.com/arnaldolima1/gow-ascension-pc",
           "note": "Alternate implementation found by the 2026-11-18 research run."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-beautiful-katamari-elfhuo-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Beautiful Katamari — elfhuo-Github, alternate",
+      "console": "Xbox 360",
+      "year": 2007,
+      "project": "elfhuo-Github/beautiful-katamari-recomp",
+      "projectUrl": "https://github.com/elfhuo-Github/beautiful-katamari-recomp",
+      "release": "No published version yet",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): boots to the main menu, controller works; textures not implemented yet. Would rate Early Development.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/elfhuo-Github/beautiful-katamari-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-gears-of-war-2-cischi-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Gears of War 2 — cischi/gow2-recomp, alternate",
+      "console": "Xbox 360",
+      "year": 2008,
+      "project": "cischi/gow2-recomp",
+      "projectUrl": "https://github.com/cischi/gow2-recomp",
+      "release": "v0.2.0 (2026-11-01)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/cischi/gow2-recomp/releases/tag/v0.2.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): single-player campaign playable with movies and saves (maintainer); stronger than the current primary entry. Proposed as the new primary (proposals/2026-11-18.md).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/cischi/gow2-recomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-gears-of-war-judgment-piscacho-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Gears of War: Judgment — Piscacho, alternate",
+      "console": "Xbox 360",
+      "year": 2013,
+      "project": "Piscacho/Gears-of-war-judgment-Pc",
+      "projectUrl": "https://github.com/Piscacho/Gears-of-war-judgment-Pc",
+      "release": "v1.0.0 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/Piscacho/Gears-of-war-judgment-Pc/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): complete campaign with saves, Survival, and system-link co-op (maintainer, Spanish README). Proposed as the new primary (proposals/2026-11-18.md).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Piscacho/Gears-of-war-judgment-Pc",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
+        }
+      ]
+    },
+    {
+      "id": "xbox360-ace-combat-6-gracemeria-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "title": "Ace Combat 6: Fires of Liberation — GracemeriaRecomp, alternate",
+      "console": "Xbox 360",
+      "year": 2007,
+      "project": "Dipshet/GracemeriaRecomp",
+      "projectUrl": "https://github.com/Dipshet/GracemeriaRecomp",
+      "release": "v1.0.0 (2026-11-18)",
+      "method": "Static recompilation",
+      "gameVersion": "Own copy of the game (see the project README for the supported release)",
+      "platform": "See project README",
+      "filesUrl": "https://github.com/Dipshet/GracemeriaRecomp/releases/tag/v1.0.0",
+      "verified": "2026-11-18",
+      "notes": "Source 2026-11-18 (project README): v1.0.0 with settings overlay, any resolution, high frame rates, HDR; online play not available yet; North American release only.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-18",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Dipshet/GracemeriaRecomp",
+          "note": "Found via the recomp.fyi feed (tip only); entry written from the project's own README and tags."
         }
       ]
     }
