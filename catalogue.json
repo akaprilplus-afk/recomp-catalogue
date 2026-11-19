@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.18-15",
-  "updated": "2026-11-18",
+  "catalogueVersion": "2026.11.19-1",
+  "updated": "2026-11-19",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 738,
-    "Fully Playable": 69,
-    "Mostly Playable": 373,
+    "rated": 743,
+    "Fully Playable": 71,
+    "Mostly Playable": 376,
     "Early Development": 296,
-    "otherProjects": 261
+    "otherProjects": 264
   },
   "games": [
     {
@@ -1579,12 +1579,12 @@
       "console": "Xbox 360",
       "status": "Fully Playable",
       "project": "nlwstein/skullburglar",
-      "release": "v1.11.0 (2026-11-18)",
+      "release": "v1.12.0 (2026-11-18)",
       "method": "ReXGlue; static PowerPC → C++; native Vulkan renderer",
       "gameVersion": "Own supported Xbox 360 disc; launcher validates supported data",
       "platform": "Windows / Apple Silicon macOS / Linux / Steam Deck launchers",
-      "filesUrl": "https://github.com/nlwstein/skullburglar/releases/tag/v1.11.0",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/nlwstein/skullburglar/releases/tag/v1.12.0",
+      "verified": "2026-11-19",
       "notes": "Source/event 2026-10-11 UTC (reviewed 2026-10-12): Older project newly discovered: the official manifest lists builds predating the October 11 GitHub repository. v0.9.1 is dated October 11 and provides Windows/Mac/Linux/Deck launchers. The author claims all nine story missions run start to finish; completion and benchmarks are maintainer-authored, and split-screen co-op remains experimental.\nAdd Full under the Summary’s explicit maintainer-completion rule, labelled as such. Link the official launcher site; do not call completion independently verified.\nEvidence basis: Current public README/status and, where present, release assets. Gameplay statements are maintainer claims.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. Official version manifest documented v0.14.0 multi-OS packages October 14; v0.16.0 was observed only in the October 17 release feed and package manifest was not reverified. Work Oct17 mistakenly labels nlwstein/skullburglar as Skate 2; identity verified as 50 Cent: Blood on the Sand. Retain Fully Playable on prior attributed completion evidence, not new build number. Source: https://skullburglar.stz.sh/version.json",
       "projectUrl": "https://github.com/nlwstein/skullburglar",
       "history": [
@@ -1602,6 +1602,22 @@
           "old": "https://skullburglar.stz.sh/",
           "new": "https://github.com/nlwstein/skullburglar/releases/tag/v1.11.0",
           "source": "https://github.com/nlwstein/skullburglar/releases/tag/v1.11.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v1.11.0 (2026-11-18)",
+          "new": "v1.12.0 (2026-11-18)",
+          "source": "https://github.com/nlwstein/skullburglar/releases/tag/v1.12.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/nlwstein/skullburglar/releases/tag/v1.11.0",
+          "new": "https://github.com/nlwstein/skullburglar/releases/tag/v1.12.0",
+          "source": "https://github.com/nlwstein/skullburglar/releases/tag/v1.12.0",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -2011,12 +2027,12 @@
       "console": "Xbox 360",
       "status": "Mostly Playable",
       "project": "Free Riders Recompiled",
-      "release": "v0.10.65 (2026-11-17)",
+      "release": "v0.10.67 (2026-11-19)",
       "method": "XenonRecomp + XenosRecomp",
       "gameVersion": "USA/Europe retail disc; supported builds only",
       "platform": "Windows x64, Linux x64, Android arm64; Apple Silicon macOS experimental/slow, iOS untested sideload",
-      "filesUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67",
+      "verified": "2026-11-19",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): Mitigates online Avatar joining crashes and loads VRM models asynchronously. Maintainer validation covers two non-Avatar instances and an offline 230 MB model; the actual failing online Avatar case was not reproduced.\nKeep Mostly; record the mitigation with its unverified online-Avatar scope.\n\nEarlier source evidence: Source 2026-10-10 (reviewed 2026-10-10): Restores Xbox LIVE-style online races through a project server across Windows, Linux and Android. Maintainer validation covers three devices on one home network; Internet routing, more than three racers, voice, parties, leaderboards and achievements remain untested/unsupported.\n\nSource 2026-10-09 (reviewed 2026-10-09): Latest Android/Windows/Linux update moves Vulkan constants to uniform buffers. On one Snapdragon 8 Gen 2 device, GPU time fell from about 14.8 ms to about 10 ms, while observed race FPS was CPU-limited and roughly unchanged. Earlier same-window builds target Vulkan 1.1 phones.\n\nSource 2026-10-08 (reviewed 2026-10-08): Windows/Linux/Android update fixes startup hangs caused by disabling multicore execution; earlier v0.6.3 adds non-Latin Windows paths, separate voice language, sound buffering and a reported 44% low-core test improvement. Windows race checks are documented; Linux is startup-smoke-only, sound was measured in a harness and Mali gameplay remains untested.\n\nEarlier source evidence: Source 2026-10-07: v0.6.1 enables controller-driven two-player/Relay Race flows and fixes second-player menus; v0.6.2 fixes race/relay freezes, removes observed >100 ms frames in the cited test and lets START skip Grand Prix scenes.\n\nEarlier source evidence 2026-10-06: Adds file-replacement mod support and a Mods tab using HedgeModManager-style manifests; DLL/code-patch mods are unsupported. Intermediate releases fix side-jump tricks and Android/Mali startup. Later game modes are still unqualified.\n\nMIGRATION CHECKPOINT 9 — consolidated 2026-10-18. Work Oct 14–17 source report (not independently game-tested). Maintainer release v0.10.2 fixes shader clip-distance startup crashes on Mali G715/G720; targeted pipeline validation and Windows single race observed by maintainer. Earlier 0.10.x introduces experimental Apple Silicon macOS and untested iOS bundles; Mac races slow. Does not establish full Grand Prix/Kinect/iOS playability; Huawei P30 Pro Vulkan extension blocker remains. Source: https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.2",
       "projectUrl": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
       "history": [
@@ -2034,6 +2050,22 @@
           "old": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.2",
           "new": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65",
           "source": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.10.65 (2026-11-17)",
+          "new": "v0.10.67 (2026-11-19)",
+          "source": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65",
+          "new": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67",
+          "source": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -2116,12 +2148,12 @@
       "console": "Xbox 360",
       "status": "Mostly Playable",
       "project": "Pinyon Shift",
-      "release": "v0.9.1 (2026-11-17)",
+      "release": "v0.9.2 (2026-11-18)",
       "method": "ReXGlue-based native recomp",
       "gameVersion": "Own supported USA retail MS-2505 disc; local build; DLC/TU4 Windows/Android only",
       "platform": "Windows / Linux / Steam Deck / Apple Silicon macOS; Android per project",
-      "filesUrl": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.1",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.2",
+      "verified": "2026-11-19",
       "notes": "Source 2026-10-11 (reviewed 2026-10-11): New native Linux/Steam Deck and Apple-silicon Mac launchers; DLC/title-update import, HDR and custom radio/music. Launchers build locally from the player’s own disc. Maintainer reports Deck 60 FPS at 15 W and M4 Pro free-roam testing; this does not establish complete progression. DLC/TU4 support is scoped to Windows/Android.\nKeep Mostly. Update version, launcher downloads, OS and DLC/TU qualifications.\n\nEarlier source evidence: Verified 2026-10-05: Fixes Vulkan fence/render-job crashes and high-FPS animation timing. Verified asset is the Windows launcher; Android developer build path is experimental, not a verified packaged player release. No complete-game qualification. Source: https://github.com/arcanite24/pinyon-shift/releases/tag/v0.4.0\n\nEarlier audit: The project explicitly calls the current build a playable preview, with broader qualification still pending. Clearly beyond bring-up, but not Full.",
       "projectUrl": "https://github.com/arcanite24/pinyon-shift",
       "history": [
@@ -2139,6 +2171,22 @@
           "old": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.5.0",
           "new": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.1",
           "source": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.9.1 (2026-11-17)",
+          "new": "v0.9.2 (2026-11-18)",
+          "source": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.2",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.1",
+          "new": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.2",
+          "source": "https://github.com/arcanite24/pinyon-shift/releases/tag/v0.9.2",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -4621,12 +4669,12 @@
       "console": "Xbox 360",
       "status": "Early Development",
       "project": "santiquiroz/gears-of-war-2-pc-port",
-      "release": "v0.4.6 (2026-11-16)",
+      "release": "v0.4.7 (2026-11-18)",
       "method": "ReXGlue SDK; retail Xbox 360 PowerPC → native x64 C++ static recompilation",
       "gameVersion": "Own retail Xbox 360 title ID 4D53082D; extracted folder containing default.xex and GearGame (no game data bundled)",
       "platform": "Windows 10/11 x64 D3D12; Android arm64 Vulkan APK experimental",
-      "filesUrl": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.6",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.7",
+      "verified": "2026-11-19",
       "notes": "MIGRATION CHECKPOINT 7 — verified against maintainer README and release notes 2026-10-18. EARLY DEVELOPMENT: retail-disc recompilation; Act 1 playable with Windows keyboard/mouse and controller, high internal resolution and experimental co-op. Maintainer explicitly says only Act 1 has been played through: whole campaign, Horde/Versus, full co-op progression and save handling not comprehensively validated. Recompiling the complete retail executable does NOT substantiate full-game playability. v0.2.2 (2026-10-18) addresses Android launch failures/Turnip GPU memory and adds start options; maintainer says PC gameplay/network behavior is unchanged since v0.2.1. Physical Android hardware running older kernels/Turnip remains untested; Android long-session slowdown documented. Windows player ZIP and experimental Android APK listed; neither run independently in this audit. Distinct from development-build Hollow reference; primary per original game counted once. Verified URLs: https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.2.2 ; https://github.com/santiquiroz/gears-of-war-2-pc-port",
       "projectUrl": "https://github.com/santiquiroz/gears-of-war-2-pc-port",
       "history": [
@@ -4644,6 +4692,22 @@
           "old": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.2.2",
           "new": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.6",
           "source": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.6",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.4.6 (2026-11-16)",
+          "new": "v0.4.7 (2026-11-18)",
+          "source": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.7",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.6",
+          "new": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.7",
+          "source": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.4.7",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -4727,12 +4791,12 @@
       "console": "Nintendo 64",
       "status": "Fully Playable",
       "project": "sciaschi/CBFD-Recompiled",
-      "release": "V0.1.6 (2026-10-13)",
+      "release": "V0.1.7 (2026-11-18)",
       "method": "N64Recomp / RT64",
       "gameVersion": "USA",
       "platform": "Windows / Linux / macOS Apple Silicon",
-      "filesUrl": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.7",
+      "verified": "2026-11-19",
       "notes": "Maintainer reports a complete playthrough. Reflective surfaces and high-FPS presentation still have issues; Linux/macOS validation is narrower. Evidence: https://github.com/sciaschi/CBFD-Recompiled#status",
       "projectUrl": "https://github.com/sciaschi/CBFD-Recompiled",
       "history": [
@@ -4750,6 +4814,22 @@
           "old": "https://github.com/sciaschi/CBFD-Recompiled/releases",
           "new": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6",
           "source": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "V0.1.6 (2026-10-13)",
+          "new": "V0.1.7 (2026-11-18)",
+          "source": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.7",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6",
+          "new": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.7",
+          "source": "https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.7",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -10314,12 +10394,12 @@
       "console": "PlayStation 2",
       "status": "Mostly Playable",
       "project": "jcsix694/def-jam-vendetta-recomp",
-      "release": "v0.6.2 (2026-11-06)",
+      "release": "v0.7.2 (2026-11-18)",
       "method": "PS2Recomp static MIPS EE→C++; Vulkan paraLLEl-GS graphics",
       "gameVersion": "Own PS2 USA SLUS-20639 disc ISO or CHD; local game compilation required",
       "platform": "Windows 10/11 x64; Vulkan 1.3 GPU; VS2022 Build Tools setup",
-      "filesUrl": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.6.2",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.2",
+      "verified": "2026-11-19",
       "notes": "MIGRATION CHECKPOINT 4 — verified 2026-10-18. Work Oct 14/15 proposed Mostly; latest public v0.4.1 Oct 17 repairs setup on CPUs lacking AVX2 and improves four-player match performance; v0.4.0 detects manual ZIP updates that still need local game rebuild. Project documents playable matches, up to four players, controls, memory-card saves, widescreen and PC rendering, but no independently completed full story/career run is evidenced. Retain MOSTLY. Downloaded installer supplies tools, NOT original game data or a precompiled game executable. Mod support is planned, not released.",
       "projectUrl": "https://github.com/jcsix694/def-jam-vendetta-recomp",
       "history": [
@@ -10337,6 +10417,22 @@
           "old": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.4.1",
           "new": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.6.2",
           "source": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.6.2",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.6.2 (2026-11-06)",
+          "new": "v0.7.2 (2026-11-18)",
+          "source": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.2",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.6.2",
+          "new": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.2",
+          "source": "https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.7.2",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -10451,12 +10547,12 @@
       "console": "PlayStation 2",
       "status": "Mostly Playable",
       "project": "BigDaddyJRich/hctp-recomp",
-      "release": "v0.3.5 (2026-11-04)",
+      "release": "v0.3.6 (2026-11-18)",
       "method": "PS2 MIPS-to-C++ static recompilation; native PS2 hardware runtime",
       "gameVersion": "User-owned game, supported revision per README",
       "platform": "Windows/Linux source or builds as documented per project",
-      "filesUrl": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.5",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.6",
+      "verified": "2026-11-19",
       "notes": "Windows PS2Recomp project documents entrances, matches and some Season sequences. Saves incomplete; significant runtime/audio delays and no finished Season route. | Classification: Mostly Playable; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
       "projectUrl": "https://github.com/BigDaddyJRich/hctp-recomp",
       "history": [
@@ -10474,6 +10570,22 @@
           "old": "https://github.com/BigDaddyJRich/hctp-recomp",
           "new": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.5",
           "source": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.5",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.3.5 (2026-11-04)",
+          "new": "v0.3.6 (2026-11-18)",
+          "source": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.6",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.5",
+          "new": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.6",
+          "source": "https://github.com/BigDaddyJRich/hctp-recomp/releases/tag/v0.3.6",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
@@ -11673,10 +11785,21 @@
       "gameVersion": "NTSC-USA RDSE70; exact revision/hash not specified",
       "platform": "Windows 10/11 / MSVC",
       "filesUrl": "https://github.com/thebardockgames/bt3recompiled/blob/d3251162bd712d1b8204919cf3c26f9570bf18bb/README.md",
-      "verified": "2026-10-04",
+      "verified": "2026-11-19",
       "notes": "Mostly: Maintainer documents a working playable CPU-recompiled path at about 60 FPS and interactive combat captures. Dolphin-derived GPU/audio/IOS remain; experimental native-GPU probes are separate. No full completion claim. Evidence: https://github.com/thebardockgames/bt3recompiled/blob/d3251162bd712d1b8204919cf3c26f9570bf18bb/README.md\nBuild/setup: VS 2022/MSVC with Ninja, CMake 3.20+, Git recursive submodules and own disc. Full ModernGekko/Dolphin tree needs MSVC; MinGW is only suitable for DolRecomp. README requires ISO path without spaces/dashes; moderngekko-port extracts, builds and runs modules. Controller settings use Dolphin INIs. Experimental D3D12 probe is not the regular gameplay renderer.",
       "projectUrl": "https://github.com/thebardockgames/bt3recompiled",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/thebardockgames/bt3recompiled",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable; clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-19"
     },
     {
       "id": "wii-kirbys-return-to-dream-land",
@@ -11704,15 +11827,32 @@
       "console": "Wii",
       "status": "Mostly Playable",
       "project": "patchzyy/Wiicompiled",
-      "release": "v0.2.34 (2026-10-08)",
+      "release": "v0.9.4 (2026-11-10)",
       "method": "Custom PowerPC → C++; Aurora",
       "gameVersion": "PAL RMCP01; clean main.dol SHA-256 80d18895b39c63bd80f457398bfcbb91b7d16ac116a41a88967e954080155b05; StaticR.rel hash pinned in manifest",
       "platform": "Windows 10/11 x64; Linux x64/ARM64; macOS source path",
-      "filesUrl": "https://github.com/patchzyy/Wiicompiled/releases/tag/v0.2.34",
-      "verified": "2026-10-18",
+      "filesUrl": "https://github.com/patchzyy/Wiicompiled/releases/tag/v0.9.4",
+      "verified": "2026-11-19",
       "notes": "Mostly: README FAQ says everything should be playable, but does not establish completed progression; compatibility, networking and rendering remain under development. Evidence: https://github.com/patchzyy/Wiicompiled/blob/279ce8328f17059a4b46172d4ce71d3f403a1aec/README.md\nBuild/setup: Windows requirements: i5-8400/Ryzen 5 2600, GTX 1650/RX 6400/Arc A310, about 20 GB install space. Latest release lists EXE and x64/ARM64 AppImages; no macOS package is listed under v0.2.33 despite README package instructions. macOS minimum differs between badge (14+) and requirements (12+); retain that conflict. Source build: .NET 8, CMake, Ninja, Clang/LLVM; installation compiles locally from your image.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. Wiicompiled v0.2.34 (Oct 8) improves networking, certificates and selected platform builds; later source changes are distinct from public binaries. Preserve alternate Mario Kart Wii ports. Source: https://github.com/patchzyy/Wiicompiled/releases/tag/v0.2.34",
       "projectUrl": "https://github.com/patchzyy/Wiicompiled",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.2.34 (2026-10-08)",
+          "new": "v0.9.4 (2026-11-10)",
+          "source": "https://github.com/patchzyy/Wiicompiled/releases/tag/v0.9.4",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/patchzyy/Wiicompiled/releases/tag/v0.2.34",
+          "new": "https://github.com/patchzyy/Wiicompiled/releases/tag/v0.9.4",
+          "source": "https://github.com/patchzyy/Wiicompiled/releases/tag/v0.9.4",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        }
+      ]
     },
     {
       "id": "wii-mario-strikers-charged",
@@ -11722,15 +11862,32 @@
       "console": "Wii",
       "status": "Mostly Playable",
       "project": "BlackAndBlue95/Strikers-WiiCompiled",
-      "release": "Source build; no prebuilt releases\nSource 451e06b",
+      "release": "v0.1.0 (2026-10-02)",
       "method": "WiiCompiled-derived PowerPC → C++; Aurora",
       "gameVersion": "USA R4QE01 revision 1; DOL SHA-256 8f811628ee6646c60620a9c599ef08ed929d2eccc98a779c211847f1500f81fd",
       "platform": "macOS 14+ Apple Silicon tested; Windows/Linux untested",
-      "filesUrl": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/blob/451e06bafe060da8d4110d0df7546e5ec64b6b3a/projects/mscharged/recomp.yml",
-      "verified": "2026-10-04",
+      "filesUrl": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/releases/tag/v0.1.0",
+      "verified": "2026-11-19",
       "notes": "Mostly: Menus, Hub, tutorials and full-speed VS matches with voices/saves on Apple Silicon documented. Cup/campaign completion unconfirmed; online/WiiConnect24 unsupported. Evidence: https://github.com/BlackAndBlue95/Strikers-WiiCompiled/blob/451e06bafe060da8d4110d0df7546e5ec64b6b3a/README.md\nBuild/setup: 64-bit host, D3D12/Vulkan/Metal GPU, about 10 GB free. .NET 8, CMake 3.25+, Ninja and Clang; LLVM-MinGW on Windows. build.sh/build.cmd extracts own disc, translates and builds locally. README badges list all three OSes, but warning says only Apple Silicon development/testing is established. Other disc revisions are rejected.",
       "projectUrl": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "Source build; no prebuilt releases\nSource 451e06b",
+          "new": "v0.1.0 (2026-10-02)",
+          "source": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/releases/tag/v0.1.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/blob/451e06bafe060da8d4110d0df7546e5ec64b6b3a/projects/mscharged/recomp.yml",
+          "new": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/releases/tag/v0.1.0",
+          "source": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/releases/tag/v0.1.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        }
+      ]
     },
     {
       "id": "wii-pokemon-rumble",
@@ -11740,15 +11897,32 @@
       "console": "Wii",
       "status": "Mostly Playable",
       "project": "ToShredsYouSay/RumbleRecomp",
-      "release": "v0.7.0-beta — Windows zip\nSource 3675cc8",
+      "release": "v0.8.1-beta (2026-10-20)",
       "method": "DolRecomp → C; trimmed Dolphin runtime",
       "gameVersion": "USA WiiWare WPSE01; user-owned WAD; other regions/revisions unverified",
       "platform": "Windows 10/11 x64",
-      "filesUrl": "https://github.com/ToShredsYouSay/RumbleRecomp/releases/tag/v0.7.0-beta",
-      "verified": "2026-10-04",
+      "filesUrl": "https://github.com/ToShredsYouSay/RumbleRecomp/releases/tag/v0.8.1-beta",
+      "verified": "2026-11-19",
       "notes": "Mostly: Player-facing v0.7.0 beta with gameplay, audio, saves and four-controller support. README explicitly says full playthroughs of every version remain in progress. Evidence: https://github.com/ToShredsYouSay/RumbleRecomp/blob/3675cc89adad60b74c1c35943ea470b5c2d70744/README.md\nBuild/setup: Verified RumbleRecomp-Beta0.7.zip release asset. Vulkan GPU, about 4 GB free. Launcher compiles each version locally; first build estimated 20–40 minutes. Optional Weekend Edition requires its separate patch. Source: llvm-mingw Clang 22, CMake 3.20+, Ninja, Git, Python 3.12+, Pillow/PyInstaller and pinned upstream patches; release packaging also needs PGO profiles.",
       "projectUrl": "https://github.com/ToShredsYouSay/RumbleRecomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.7.0-beta — Windows zip\nSource 3675cc8",
+          "new": "v0.8.1-beta (2026-10-20)",
+          "source": "https://github.com/ToShredsYouSay/RumbleRecomp/releases/tag/v0.8.1-beta",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/ToShredsYouSay/RumbleRecomp/releases/tag/v0.7.0-beta",
+          "new": "https://github.com/ToShredsYouSay/RumbleRecomp/releases/tag/v0.8.1-beta",
+          "source": "https://github.com/ToShredsYouSay/RumbleRecomp/releases/tag/v0.8.1-beta",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        }
+      ]
     },
     {
       "id": "wii-sonic-riders-zero-gravity",
@@ -11781,10 +11955,21 @@
       "gameVersion": "USA RMGE01 extracted game; revision not pinned in inspected extractor",
       "platform": "Windows 10/11 x64",
       "filesUrl": "https://github.com/alxblueflame/smgstarlight/releases/tag/beta-5",
-      "verified": "2026-10-04",
+      "verified": "2026-11-19",
       "notes": "Mostly: Public Windows beta-5 player package and native gameplay/input/audio/save documentation. DOL is ahead-of-time compiled with JIT fallback for runtime-loaded Wii code; full star/progression coverage unconfirmed. Evidence: https://github.com/alxblueflame/smgstarlight/blob/9da08768cafbe9970617ccc2094c5dc3ffaf9b30/README.md\nBuild/setup: Verified Super-Mario-Galaxy-Starlight-Beta-5.zip asset. Source: VS 2022 Desktop C++ tools, CMake, Git recursive submodules and own extracted game. Extraction script additionally requires Wiimms ISO Tools and DolRecomp and checks USA RMGE01. Applies complete upstream patches before tool/module builds. Runtime-loaded Wii code can use JIT fallback; classify static gameplay coverage separately from that fallback.",
       "projectUrl": "https://github.com/alxblueflame/smgstarlight",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "unavailable",
+          "old": null,
+          "new": true,
+          "source": "https://github.com/alxblueflame/smgstarlight",
+          "note": "Project repository can no longer be reached on GitHub (private, renamed or deleted). Kept and marked unavailable; clear this if it comes back."
+        }
+      ],
+      "unavailable": true,
+      "unavailableSince": "2026-11-19"
     },
     {
       "id": "wii-wii-party",
@@ -11794,15 +11979,32 @@
       "console": "Wii",
       "status": "Mostly Playable",
       "project": "arelkair/wiiparty-recomp",
-      "release": "v0.1.9-alpha (2026-10-10)",
+      "release": "v0.1.20-alpha (2026-11-13)",
       "method": "Custom PowerPC / DSP → C++",
       "gameVersion": "PAL SUPP01 or NTSC-U per project metadata; exact retail revisions not specified",
       "platform": "Windows 10/11 x64; Linux x86_64 experimental",
-      "filesUrl": "https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.9-alpha",
-      "verified": "2026-10-18",
+      "filesUrl": "https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.20-alpha",
+      "verified": "2026-11-19",
       "notes": "Mostly: Complete 17-round Board Game Island and all 79 Free Play minigames hand-tested. Other modes have not been played through and pair minigames remain unqualified. The roadmap start-to-finish wording is broader than this specific evidence. Evidence: https://github.com/arelkair/wiiparty-recomp/blob/627abecf4e012ecc4b75789fa37d31e668c3a85a/README.md\nBuild/setup: Verified release assets: Windows launcher, offline pack, source pack and Linux AppImage. Windows: about 5 GB free, 4 GB RAM minimum/8 GB recommended. Launcher builds from your disc; online tools or offline pack. Manual build: Python 3.11+, CMake 3.20+, Ninja, MinGW-w64 GCC 13+, nodtool. Linux: glibc 2.38+, OpenGL 4.1 and documented development libraries. macOS is planned, not an available target.\n\nMIGRATION CHECKPOINT 12 • reconciled 2026-10-18 from dated Work research (Oct 12–17); release facts attributed to maintainer. v0.1.9-alpha (Oct 10) Wii Remote speaker decoding, rendering register work and mouse settings; subsystem percentages do not mean completion. Source: https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.9-alpha",
       "projectUrl": "https://github.com/arelkair/wiiparty-recomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.1.9-alpha (2026-10-10)",
+          "new": "v0.1.20-alpha (2026-11-13)",
+          "source": "https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.20-alpha",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.9-alpha",
+          "new": "https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.20-alpha",
+          "source": "https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.20-alpha",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        }
+      ]
     },
     {
       "id": "wii-arc-rise-fantasia",
@@ -11918,17 +12120,42 @@
       "title": "New Super Mario Bros. Wii",
       "year": 2009,
       "console": "Wii",
-      "status": "Early Development",
+      "status": "Mostly Playable",
       "project": "ral1009/NSMBWiicompiled",
-      "release": "Source build; no release listed\nSource 2dab8aa",
+      "release": "v0.2.2 (2026-11-07)",
       "method": "WiiCompiled-derived PowerPC → C++; Aurora",
       "gameVersion": "PAL SMNP01 revision 1; own wiimj2d.dol + four original RELs",
       "platform": "Windows x64; AVX2 / x86-64-v3",
-      "filesUrl": "https://github.com/ral1009/NSMBWiicompiled/blob/2dab8aad667d788778ffec7726fd729c0a59aa85/projects/nsmbw/nsmbw.yml",
-      "verified": "2026-10-04",
-      "notes": "Early: World 1 levels 1-1, 1-2, Tower and Castle/bosses plus persistent saves documented. Audible output and complete control/progression coverage remain unverified. Evidence: https://github.com/ral1009/NSMBWiicompiled/blob/2dab8aad667d788778ffec7726fd729c0a59aa85/README.md\nBuild/setup: Build: .NET 8, CMake 3.16+, Ninja, Clang/LLVM-MinGW; MSVC is not the tested route. Separate NSMBW-Decomp checkout and own DOL/four RELs required. Translate each module, generate combined data/build shards, build NSMBWCompiled. Player needs extracted disc, correct dvd_root, bundled runtime DLLs, dsp_coef.bin/bootstrap files and D3D12 or Vulkan GPU. No one-command packaged build; licensing questions remain in project docs.",
+      "filesUrl": "https://github.com/ral1009/NSMBWiicompiled/releases/tag/v0.2.2",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README, v0.2.2): native Windows release; World 1 to World 4 gameplay shown, saves, up to four players, HD texture packs; USA version tested through World 1 so far. No stated start-to-finish play-through.",
       "projectUrl": "https://github.com/ral1009/NSMBWiicompiled",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "Source build; no release listed\nSource 2dab8aa",
+          "new": "v0.2.2 (2026-11-07)",
+          "source": "https://github.com/ral1009/NSMBWiicompiled/releases/tag/v0.2.2",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/ral1009/NSMBWiicompiled/blob/2dab8aad667d788778ffec7726fd729c0a59aa85/projects/nsmbw/nsmbw.yml",
+          "new": "https://github.com/ral1009/NSMBWiicompiled/releases/tag/v0.2.2",
+          "source": "https://github.com/ral1009/NSMBWiicompiled/releases/tag/v0.2.2",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Mostly Playable",
+          "source": "https://github.com/ral1009/NSMBWiicompiled",
+          "note": "Re-rated by Claude: README for v0.2.2 now presents a full Windows release with save anywhere, four-player co-op and gameplay through World 4 shown; no stated full play-through, so Mostly Playable."
+        }
+      ]
     },
     {
       "id": "wii-the-last-story",
@@ -11954,17 +12181,42 @@
       "title": "Sonic and the Black Knight",
       "year": 2009,
       "console": "Wii",
-      "status": "Early Development",
+      "status": "Mostly Playable",
       "project": "yunophilia/BlackKnightRecomp",
-      "release": "Public source / no recertified binary",
+      "release": "v1.0.1 (2026-10-22)",
       "method": "Wii PPC static recompilation to native host runtime",
       "gameVersion": "User-owned game, supported revision per README",
       "platform": "Windows/macOS/Linux variants differ; see source",
-      "filesUrl": "https://github.com/yunophilia/BlackKnightRecomp",
-      "verified": "2026-10-18",
-      "notes": "Wii static source reaches menus and gameplay with audio/saves/controller input, but no sustained stage or complete route evidence. Conservatively Early. | Classification: Early Development; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
+      "filesUrl": "https://github.com/yunophilia/BlackKnightRecomp/releases/tag/v1.0.1",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README and docs/progress.md, v1.0.1): playable from boot to gameplay with graphics, audio, saves and controller; mission 1 cleared; all stage types, bosses and Battle mode exercised; launcher and settings overlay. No full play-through claim.",
       "projectUrl": "https://github.com/yunophilia/BlackKnightRecomp",
-      "history": []
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "Public source / no recertified binary",
+          "new": "v1.0.1 (2026-10-22)",
+          "source": "https://github.com/yunophilia/BlackKnightRecomp/releases/tag/v1.0.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/yunophilia/BlackKnightRecomp",
+          "new": "https://github.com/yunophilia/BlackKnightRecomp/releases/tag/v1.0.1",
+          "source": "https://github.com/yunophilia/BlackKnightRecomp/releases/tag/v1.0.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Mostly Playable",
+          "source": "https://github.com/yunophilia/BlackKnightRecomp",
+          "note": "Re-rated by Claude: progress log (docs/progress.md) says mission 1 cleared, every location, mission type, boss and Battle arena exercised, and play-tested through the first boss fights; no full play-through claim, so Mostly Playable."
+        }
+      ]
     },
     {
       "id": "psp-ace-combat-x-skies-of-deception",
@@ -13298,12 +13550,12 @@
       "console": "Original Xbox",
       "status": "Mostly Playable",
       "project": "roz1077/true-crime-new-york-city-recomp",
-      "release": "v0.9.2-beta.4.2 (2026-11-18)",
+      "release": "v0.9.2-beta.4.3 (2026-11-19)",
       "method": "Xbox XBE Recomp static recompilation to C++ (native, no emulator)",
       "gameVersion": "Own US NTSC Xbox disc; European PAL discs experimental",
       "platform": "Windows; Linux / SteamOS native build",
-      "filesUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.2",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.3",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (README): beta. Widescreen, controller and raw mouse input, texture replacement, save fixes, and mission-specific fixes (e.g. Human Cargo can now be finished reliably). No claim yet that the whole game has been completed. Found by the owner.",
       "projectUrl": "https://github.com/roz1077/true-crime-new-york-city-recomp",
       "history": [
@@ -13322,6 +13574,22 @@
           "new": "Mostly Playable",
           "source": "https://github.com/roz1077/true-crime-new-york-city-recomp",
           "note": "Rated by Claude from the project README: beta with mission-level fixes, no start-to-finish claim -> Mostly Playable."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.9.2-beta.4.2 (2026-11-18)",
+          "new": "v0.9.2-beta.4.3 (2026-11-19)",
+          "source": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.3",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.2",
+          "new": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.3",
+          "source": "https://github.com/roz1077/true-crime-new-york-city-recomp/releases/tag/v0.9.2-beta.4.3",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -13473,12 +13741,12 @@
       "console": "Dreamcast",
       "status": "Mostly Playable",
       "project": "GnomeChimpsky/Draconus-Recomp",
-      "release": "v1.0.0 (2026-11-17)",
+      "release": "v1.1.0 (2026-11-18)",
       "method": "Static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "See project README",
-      "filesUrl": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.0.0",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.1.0",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): the first three levels have been played end to end; later levels not yet verified; full play-through is the open milestone.",
       "projectUrl": "https://github.com/GnomeChimpsky/Draconus-Recomp",
       "history": [
@@ -13497,6 +13765,22 @@
           "new": "Mostly Playable",
           "source": "https://github.com/GnomeChimpsky/Draconus-Recomp",
           "note": "Rated by Claude: three full levels documented, full game not verified -> Mostly Playable."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v1.0.0 (2026-11-17)",
+          "new": "v1.1.0 (2026-11-18)",
+          "source": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.1.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.0.0",
+          "new": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.1.0",
+          "source": "https://github.com/GnomeChimpsky/Draconus-Recomp/releases/tag/v1.1.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -13858,12 +14142,12 @@
       "console": "Xbox 360",
       "status": "Early Development",
       "project": "AliEnes2/nfsuc-recomp",
-      "release": "v0.1.0 (2026-11-18)",
+      "release": "v0.2.0 (2026-11-19)",
       "method": "Static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "See project README",
-      "filesUrl": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.1.0",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.2.0",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): work in progress, stage 1 (toolchain and skeleton); nothing playable yet.",
       "projectUrl": "https://github.com/AliEnes2/nfsuc-recomp",
       "history": [
@@ -13882,6 +14166,22 @@
           "new": "Early Development",
           "source": "https://github.com/AliEnes2/nfsuc-recomp",
           "note": "Rated by Claude: maintainer says nothing playable yet -> Early Development."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.1.0 (2026-11-18)",
+          "new": "v0.2.0 (2026-11-19)",
+          "source": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.2.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.1.0",
+          "new": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.2.0",
+          "source": "https://github.com/AliEnes2/nfsuc-recomp/releases/tag/v0.2.0",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -13893,12 +14193,12 @@
       "console": "Xbox 360",
       "status": "Fully Playable",
       "project": "PopSmokeThe2nd/jurassic-the-hunted-recompiled",
-      "release": "v1.0.0 (2026-11-17)",
+      "release": "v1.0.1 (2026-11-18)",
       "method": "Static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "See project README",
-      "filesUrl": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.0",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.1",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): the whole campaign loads and plays (all 14 missions, plus Survivor mode) (maintainer).",
       "projectUrl": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled",
       "history": [
@@ -13917,6 +14217,22 @@
           "new": "Fully Playable",
           "source": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled",
           "note": "Rated by Claude: whole campaign documented as playable -> Fully Playable (maintainer claim)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v1.0.0 (2026-11-17)",
+          "new": "v1.0.1 (2026-11-18)",
+          "source": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.0",
+          "new": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.1",
+          "source": "https://github.com/PopSmokeThe2nd/jurassic-the-hunted-recompiled/releases/tag/v1.0.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -14068,12 +14384,12 @@
       "console": "PlayStation 3",
       "status": "Mostly Playable",
       "project": "Tsamiuy/jsp-vs-ex",
-      "release": "v0.5.0 (2026-11-18)",
+      "release": "v0.5.1 (2026-11-19)",
       "method": "ps3recomp static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "Windows",
-      "filesUrl": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.0",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.1",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): pre-release 0.5.0, work in progress; menus, fights and online matches played by testers on Windows 11; known issues listed.",
       "projectUrl": "https://github.com/Tsamiuy/jsp-vs-ex",
       "history": [
@@ -14092,6 +14408,22 @@
           "new": "Mostly Playable",
           "source": "https://github.com/Tsamiuy/jsp-vs-ex",
           "note": "Rated by Claude: fights documented by testers, pre-release -> Mostly Playable."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.5.0 (2026-11-18)",
+          "new": "v0.5.1 (2026-11-19)",
+          "source": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.0",
+          "new": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.1",
+          "source": "https://github.com/Tsamiuy/jsp-vs-ex/releases/tag/v0.5.1",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -14138,12 +14470,12 @@
       "console": "PlayStation 2",
       "status": "Fully Playable",
       "project": "God-Hand-Rearmed/God-Hand-Rearmed",
-      "release": "No published version yet",
+      "release": "v0.6.9 (2026-11-19)",
       "method": "Static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "Windows",
-      "filesUrl": "",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed/releases/tag/v0.6.9",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): beta; plays from the first punch to the credits at 60 fps, expect the odd bug.",
       "projectUrl": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
       "history": [
@@ -14162,6 +14494,22 @@
           "new": "Fully Playable",
           "source": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
           "note": "Rated by Claude: maintainer says it plays start to credits -> Fully Playable (maintainer claim)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "No published version yet",
+          "new": "v0.6.9 (2026-11-19)",
+          "source": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed/releases/tag/v0.6.9",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "",
+          "new": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed/releases/tag/v0.6.9",
+          "source": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed/releases/tag/v0.6.9",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -16413,12 +16761,12 @@
       "console": "Dreamcast",
       "status": "Mostly Playable",
       "project": "DCRecomp/BlueStingerRecomp",
-      "release": "v0.9.7-2 (2026-11-18)",
+      "release": "v0.9.7-3 (2026-11-19)",
       "method": "Static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "Windows",
-      "filesUrl": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-2",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-3",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): Portuguese README: native audio done, Vulkan renderer working and default; releases up to v0.9.7.",
       "projectUrl": "https://github.com/DCRecomp/BlueStingerRecomp",
       "history": [
@@ -16437,6 +16785,22 @@
           "new": "Mostly Playable",
           "source": "https://github.com/DCRecomp/BlueStingerRecomp",
           "note": "Rated by Claude: mature released builds -> Mostly Playable."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.9.7-2 (2026-11-18)",
+          "new": "v0.9.7-3 (2026-11-19)",
+          "source": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-3",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-2",
+          "new": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-3",
+          "source": "https://github.com/DCRecomp/BlueStingerRecomp/releases/tag/v0.9.7-3",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -16518,12 +16882,12 @@
       "console": "PlayStation 3",
       "status": "Early Development",
       "project": "gustavomorinaga/Project-Vekta",
-      "release": "v0.5.2 (2026-11-18)",
+      "release": "v0.5.3 (2026-11-19)",
       "method": "Static recompilation",
       "gameVersion": "Own copy of the game (see the project README for the supported release)",
       "platform": "Windows; Linux",
-      "filesUrl": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.2",
-      "verified": "2026-11-18",
+      "filesUrl": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.3",
+      "verified": "2026-11-19",
       "notes": "Source 2026-11-18 (project README): release v0.5.2; README points to separate status docs.",
       "projectUrl": "https://github.com/gustavomorinaga/Project-Vekta",
       "history": [
@@ -16542,6 +16906,22 @@
           "new": "Early Development",
           "source": "https://github.com/gustavomorinaga/Project-Vekta",
           "note": "Rated by Claude: no documented gameplay in the README -> Early Development (insufficient evidence)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "release",
+          "old": "v0.5.2 (2026-11-18)",
+          "new": "v0.5.3 (2026-11-19)",
+          "source": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.3",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "filesUrl",
+          "old": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.2",
+          "new": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.3",
+          "source": "https://github.com/gustavomorinaga/Project-Vekta/releases/tag/v0.5.3",
+          "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
         }
       ]
     },
@@ -18082,6 +18462,181 @@
           "new": "Early Development",
           "source": "https://github.com/theweathervane/A3MX",
           "note": "Rated by Claude: no documented progress, build-it-yourself -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-shadow-the-hedgehog",
+      "legacyId": null,
+      "title": "Shadow the Hedgehog",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "FlyinRabit205/STH-Recompiled",
+      "release": "v1.2 (2026-11-05)",
+      "method": "Static recompilation (Xbox XBE Recomp SDK)",
+      "gameVersion": "Own USA Xbox disc image",
+      "platform": "Windows; Linux/Steam Deck via Proton or Wine",
+      "filesUrl": "https://github.com/FlyinRabit205/STH-Recompiled/releases/tag/v1.2",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): native Windows port with Setup.exe, 60 FPS, cutscene skipping, HD texture pack support, controllers. No statement on how far the game can be played.",
+      "projectUrl": "https://github.com/FlyinRabit205/STH-Recompiled",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/FlyinRabit205/STH-Recompiled",
+          "note": "Found via a web search (heldgames.com) (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/FlyinRabit205/STH-Recompiled",
+          "note": "Rated by Claude: no documented progress statement in the README -> Early Development (insufficient evidence)."
+        }
+      ]
+    },
+    {
+      "id": "ps3-asuras-wrath",
+      "legacyId": null,
+      "title": "Asura's Wrath",
+      "year": 2012,
+      "console": "PlayStation 3",
+      "status": "Fully Playable",
+      "project": "RecompPort/asura-wrath-pc",
+      "release": "Tag \"asura\" (2026-11-16); README calls this release 1.0",
+      "method": "Static recompilation",
+      "gameVersion": "Own European PS3 disc (BLES01227)",
+      "platform": "Windows 10/11; Linux and Steam Deck experimental",
+      "filesUrl": "https://github.com/RecompPort/asura-wrath-pc/releases/tag/asura",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README, \"Status (1.0)\"): Windows playable (main platform); main story playable; update 01.02 and DLC episodes working, all 53 trophies; 30/60/90 fps stable. Installer is unsigned.",
+      "projectUrl": "https://github.com/RecompPort/asura-wrath-pc",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/RecompPort/asura-wrath-pc",
+          "note": "Found via a web search (heldgames.com) (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/RecompPort/asura-wrath-pc",
+          "note": "Rated by Claude: README says the main story, update and DLC episodes are playable, with all trophies -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "switch-the-legend-of-zelda-links-awakening",
+      "legacyId": null,
+      "title": "The Legend of Zelda: Link's Awakening",
+      "year": 2019,
+      "console": "Nintendo Switch",
+      "status": "Mostly Playable",
+      "project": "peiikai/LASRecomp",
+      "release": "nightly (2026-11-18)",
+      "method": "Static recompilation (made almost entirely with AI, per the README)",
+      "gameVersion": "Own Switch game dump",
+      "platform": "Windows 10/11 (x86-64, AVX2, Vulkan 1.3); Linux; macOS; Android; iOS",
+      "filesUrl": "https://github.com/peiikai/LASRecomp/releases/tag/nightly",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): beta; native Windows build; randomizer, saves, upscaling. Bugs, crashes and graphics issues still expected. No stated full play-through.",
+      "projectUrl": "https://github.com/peiikai/LASRecomp",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/peiikai/LASRecomp",
+          "note": "Found via a web search (aiidelist.com, techspot.com) (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/peiikai/LASRecomp",
+          "note": "Rated by Claude: beta with playable game and save fixes documented, but no start-to-finish claim -> Mostly Playable."
+        }
+      ]
+    },
+    {
+      "id": "switch-the-legend-of-zelda-tears-of-the-kingdom",
+      "legacyId": null,
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "year": 2023,
+      "console": "Nintendo Switch",
+      "status": "Early Development",
+      "project": "valentderah/totk-pc-recomp",
+      "release": "v0.4.1 (2026-11-15)",
+      "method": "Static recompilation",
+      "gameVersion": "Own Switch dump: base game plus update 1.1.0, 1.2.1 or 1.4.3",
+      "platform": "Windows 10+; Linux",
+      "filesUrl": "https://github.com/valentderah/totk-pc-recomp/releases/tag/v0.4.1",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): \"Early development. The game is playable on Windows and Linux; visual bugs and crashes are still expected.\" Emulator mods supported.",
+      "projectUrl": "https://github.com/valentderah/totk-pc-recomp",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/valentderah/totk-pc-recomp",
+          "note": "Found via a GitHub search (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/valentderah/totk-pc-recomp",
+          "note": "Rated by Claude: the project itself calls its status early development (playable, but crashes expected) -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "switch-super-mario-odyssey",
+      "legacyId": null,
+      "title": "Super Mario Odyssey",
+      "year": 2017,
+      "console": "Nintendo Switch",
+      "status": "Fully Playable",
+      "project": "rwwo8/OdysseyRecomp",
+      "release": "0.2.7 (2026-11-17)",
+      "method": "Static recompilation",
+      "gameVersion": "Own Switch dump, version 1.0.0 only",
+      "platform": "Windows 10/11 (x64); Linux/Steam Deck; macOS early test",
+      "filesUrl": "https://github.com/rwwo8/OdysseyRecomp/releases/tag/0.2.7",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): \"Playable from start to finish: the whole game has been played through\" (every kingdom, the bosses); steady 60 fps. Only game version 1.0.0.",
+      "projectUrl": "https://github.com/rwwo8/OdysseyRecomp",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/rwwo8/OdysseyRecomp",
+          "note": "Found via a GitHub search (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/rwwo8/OdysseyRecomp",
+          "note": "Rated by Claude: README says the whole game has been played through -> Fully Playable (maintainer claim)."
         }
       ]
     }
@@ -24195,6 +24750,117 @@
           "new": "gamecube-animal-crossing",
           "source": "https://github.com/digdat0/ACGC-Switch-Port",
           "note": "Linked to the game it is an alternate of (checked by hand), so the app can show it next to that game."
+        }
+      ]
+    },
+    {
+      "id": "switch-the-legend-of-zelda-tears-of-the-kingdom-kuraeow-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "gameId": "switch-the-legend-of-zelda-tears-of-the-kingdom",
+      "title": "The Legend of Zelda: Tears of the Kingdom — kuraeow/ultratears, alternate",
+      "console": "Nintendo Switch",
+      "year": 2023,
+      "project": "kuraeow/ultratears",
+      "projectUrl": "https://github.com/kuraeow/ultratears",
+      "release": "v0.4.0 (2026-11-12)",
+      "method": "Static recompilation",
+      "gameVersion": "Own Switch dump, version 1.4.3",
+      "platform": "Windows 10/11; Linux; Steam Deck",
+      "filesUrl": "https://github.com/kuraeow/ultratears/releases/tag/v0.4.0",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): UltraTears builds a native version from your own copy; emulator mods work. No progress statement.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/kuraeow/ultratears",
+          "note": "Found via a GitHub search (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "gameId",
+          "old": null,
+          "new": "switch-the-legend-of-zelda-tears-of-the-kingdom",
+          "source": "https://github.com/kuraeow/ultratears",
+          "note": "Linked to the game it is an alternate of (same game and console), so the app can show it next to that game."
+        }
+      ]
+    },
+    {
+      "id": "switch-super-mario-odyssey-simon3sarkis-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "gameId": "switch-super-mario-odyssey",
+      "title": "Super Mario Odyssey — Simon3Sarkis/super-odyssey-pc-recomp, alternate",
+      "console": "Nintendo Switch",
+      "year": 2017,
+      "project": "Simon3Sarkis/super-odyssey-pc-recomp",
+      "projectUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+      "release": "v0.4.10 (2026-11-19)",
+      "method": "Static recompilation",
+      "gameVersion": "Own Switch dump, version 1.0.0 or 1.4.1",
+      "platform": "Windows 10/11; Linux/Steam Deck experimental",
+      "filesUrl": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases/tag/v0.4.10",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): \"early preview. The whole game can be played, but there are known issues\"; frame generation, DLSS/FSR. Supports 1.0.0 and 1.4.1.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+          "note": "Found via a GitHub search (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "gameId",
+          "old": null,
+          "new": "switch-super-mario-odyssey",
+          "source": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+          "note": "Linked to the game it is an alternate of (same game and console), so the app can show it next to that game."
+        }
+      ]
+    },
+    {
+      "id": "switch-super-mario-odyssey-coz-0-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "gameId": "switch-super-mario-odyssey",
+      "title": "Super Mario Odyssey — Coz-0/smo-recomp, alternate",
+      "console": "Nintendo Switch",
+      "year": 2017,
+      "project": "Coz-0/smo-recomp",
+      "projectUrl": "https://github.com/Coz-0/smo-recomp",
+      "release": "Source build; no tagged release (updated 2026-10-28)",
+      "method": "Static recompilation",
+      "gameVersion": "Own Switch dump, version 1.4.1",
+      "platform": "Windows 10/11 x64",
+      "filesUrl": "https://github.com/Coz-0/smo-recomp#readme",
+      "verified": "2026-11-19",
+      "notes": "Source 2026-11-19 (project README): \"Early, not finished\"; Cap and Cascade Kingdom runs measured at 60 fps. Build from source.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-19",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Coz-0/smo-recomp",
+          "note": "Found via a GitHub search (tip only); entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-19",
+          "field": "gameId",
+          "old": null,
+          "new": "switch-super-mario-odyssey",
+          "source": "https://github.com/Coz-0/smo-recomp",
+          "note": "Linked to the game it is an alternate of (same game and console), so the app can show it next to that game."
         }
       ]
     }
