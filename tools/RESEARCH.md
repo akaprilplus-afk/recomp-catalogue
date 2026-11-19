@@ -1,6 +1,6 @@
-# Daily research run
+# Weekly research run
 
-How the daily RECOMP research task updates `catalogue.json`. Run from the repo root.
+How the weekly RECOMP research task (Tuesdays, since 2026-11-19; it was daily before) updates `catalogue.json`. Run from the repo root.
 
 ## Policy (updated 2026-11-18: the owner asked Claude to decide ratings)
 1. **Apply automatically:**
@@ -25,16 +25,13 @@ Nintendo 64, PlayStation 1, PlayStation 2, PlayStation 3, PSP, Original Xbox, Xb
 If a project's repository can't be reached (`git ls-remote` asks for a username), set `unavailable: true` and `unavailableSince`, add a history entry, and list it in proposals. If an `unavailable` project is reachable again, remove the flag with a history entry.
 For `unavailable` games without a replacement, web-search "<game title> recomp" (the owner's method) and propose any project found as a replacement, after checking it is the same game and console, runs on Windows, and is a recompilation. Rotate through a few per day.
 
-## Which games each day
-- Every day: all Fully Playable games, plus all Original Xbox, Xbox 360, PlayStation 2 and PlayStation 3 games.
-- Plus by weekday (America/Toronto): Mon Nintendo 64, PC · Tue PlayStation 1, PlayStation 4 · Wed PSP, GameCube, Nintendo Switch · Thu Wii, Dreamcast, PC · Fri Nintendo 64, PlayStation 4 · Sat PlayStation 1, Nintendo Switch · Sun PSP, GameCube, Wii, Dreamcast.
+## Which games each run
+Every weekly run checks **all** games on every console. `check_tags.py` with no filter checks every game; it works through them one by one with git and takes a while (roughly 30–60 minutes for ~750 games), so run it in the background with a long timeout and wait for it.
 
 ## Steps
 ```
-python3 -I tools/check_tags.py catalogue.json /tmp/a.json --status "Fully Playable"
-python3 -I tools/check_tags.py catalogue.json /tmp/b.json --console "Original Xbox,Xbox 360,PlayStation 2,PlayStation 3"
-python3 -I tools/check_tags.py catalogue.json /tmp/c.json --console "<today's rotation>"
-python3 -I tools/classify.py catalogue.json /tmp/a.json /tmp/b.json /tmp/c.json /tmp/classified.json
+python3 -I tools/check_tags.py catalogue.json /tmp/all.json
+python3 -I tools/classify.py catalogue.json /tmp/all.json /tmp/classified.json
 cp catalogue.json /tmp/catalogue.before.json
 python3 -I tools/apply_updates.py catalogue.json /tmp/classified.json YYYY-MM-DD
 python3 -I tools/verify_catalogue.py catalogue.json /tmp/catalogue.before.json
@@ -46,9 +43,9 @@ Kinds from `classify.py`: `update` and `vague-fill` are applied; `needs-look` an
 Before applying, glance over the `update` list for anything implausible (a huge jump, a 2025 date, a label like `windows-latest`). Move doubtful ones to proposals instead.
 
 ## Finding new projects
-- Read https://recomp.fyi/feed.xml: its newest additions (about two days' worth, dozens of projects a day). The main recomp.fyi page only shows its first 50 rows, and the rest loads by script; don't try to pull the full table. Its terms allow reading, including by an assistant; do **not** copy the table or large parts of it. Use it only to spot candidates, and write every entry from the project's own repo.
+- Look back over the **past 7 days** (since the previous weekly run). Read https://recomp.fyi/feed.xml: it only holds the newest additions (about two days' worth, dozens of projects a day), so it does not cover a whole week on its own. The main recomp.fyi page only shows its first 50 rows, and the rest loads by script; don't try to pull the full table. Its terms allow reading, including by an assistant; do **not** copy the table or large parts of it. Use it only to spot candidates, and write every entry from the project's own repo.
 - Include native PC ports built from decompilations (recomp.fyi rows marked "source port", or "decomp" rows that ship a playable Windows build); set `method` to say it's decompilation-based. Skip decompilation projects that only rebuild the original game for its console, and Android-only, Mac-only or console-only ports (owner decisions 2026-11-18).
-- Also: web search for new static recompilation releases; allrecomps.com, recompedia.com, recomp.gg as tip sources.
+- To cover the rest of the week: several web searches for static recompilations / PC ports released or announced in the past week (per covered console, including Nintendo Switch), and allrecomps.com, recompedia.com, recomp.gg as tip sources. Coverage of the full week is best-effort; say in the report if a source could not be read.
 - For each candidate: check it is not already in `catalogue.json` (match `projectUrl` and title, in both `games` and `otherProjects`), then confirm it exists with `git ls-remote --tags <url>` and read its README (a `--depth 1 --filter=blob:none --no-checkout` clone, then `git show HEAD:README.md`). Confirmed candidates are added and rated (policy 1); for the newest version use `tools/check_tags.py` (sorted by date, not name).
 - Consoles not covered (see above) are skipped.
 
