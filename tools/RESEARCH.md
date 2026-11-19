@@ -1,6 +1,6 @@
-# Weekly research run
+# Research run (twice a week)
 
-How the weekly RECOMP research task (Tuesdays, since 2026-11-19; it was daily before) updates `catalogue.json`. Run from the repo root.
+How the RECOMP research task (Tuesdays and Fridays at 5:15 AM Toronto since 2026-11-19; it was daily before) updates `catalogue.json`. Run from the repo root.
 
 ## Policy (updated 2026-11-18: the owner asked Claude to decide ratings)
 1. **Apply automatically:**
@@ -26,7 +26,7 @@ If a project's repository can't be reached (`git ls-remote` asks for a username)
 For `unavailable` games without a replacement, web-search "<game title> recomp" (the owner's method) and propose any project found as a replacement, after checking it is the same game and console, runs on Windows, and is a recompilation. Rotate through a few per day.
 
 ## Which games each run
-Every weekly run checks **all** games on every console. `check_tags.py` with no filter checks every game; it works through them one by one with git and takes a while (roughly 30–60 minutes for ~750 games), so run it in the background with a long timeout and wait for it.
+Every run checks **all** games on every console. `check_tags.py` with no filter checks every game; it works through them one by one with git and takes a while (roughly 30–60 minutes for ~750 games), so run it in the background with a long timeout and wait for it.
 
 ## Steps
 ```
@@ -43,9 +43,9 @@ Kinds from `classify.py`: `update` and `vague-fill` are applied; `needs-look` an
 Before applying, glance over the `update` list for anything implausible (a huge jump, a 2025 date, a label like `windows-latest`). Move doubtful ones to proposals instead.
 
 ## Finding new projects
-- Look back over the **past 7 days** (since the previous weekly run). Read https://recomp.fyi/feed.xml: it only holds the newest additions (about two days' worth, dozens of projects a day), so it does not cover a whole week on its own. The main recomp.fyi page only shows its first 50 rows, and the rest loads by script; don't try to pull the full table. Its terms allow reading, including by an assistant; do **not** copy the table or large parts of it. Use it only to spot candidates, and write every entry from the project's own repo.
+- Look back over the days **since the previous run** (3–4 days; see the latest `catalogueVersion` / git log). Read https://recomp.fyi/feed.xml: it only holds the newest additions (about two days' worth, dozens of projects a day), so it does not cover the whole gap on its own. The main recomp.fyi page only shows its first 50 rows, and the rest loads by script; don't try to pull the full table. Its terms allow reading, including by an assistant; do **not** copy the table or large parts of it. Use it only to spot candidates, and write every entry from the project's own repo.
 - Include native PC ports built from decompilations (recomp.fyi rows marked "source port", or "decomp" rows that ship a playable Windows build); set `method` to say it's decompilation-based. Skip decompilation projects that only rebuild the original game for its console, and Android-only, Mac-only or console-only ports (owner decisions 2026-11-18).
-- To cover the rest of the week: several web searches for static recompilations / PC ports released or announced in the past week (per covered console, including Nintendo Switch), and allrecomps.com, recompedia.com, recomp.gg as tip sources. Coverage of the full week is best-effort; say in the report if a source could not be read.
+- To cover the rest of the week: several web searches for static recompilations / PC ports released or announced since the previous run (per covered console, including Nintendo Switch), and allrecomps.com, recompedia.com, recomp.gg as tip sources. Coverage of the whole gap is best-effort; say in the report if a source could not be read.
 - For each candidate: check it is not already in `catalogue.json` (match `projectUrl` and title, in both `games` and `otherProjects`), then confirm it exists with `git ls-remote --tags <url>` and read its README (a `--depth 1 --filter=blob:none --no-checkout` clone, then `git show HEAD:README.md`). Confirmed candidates are added and rated (policy 1); for the newest version use `tools/check_tags.py` (sorted by date, not name).
 - Consoles not covered (see above) are skipped.
 

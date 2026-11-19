@@ -2,7 +2,7 @@
 
 Static recompilation catalogue for **RECOMP Library**.
 
-This repository is the single source of truth for the game catalogue. The weekly research (Tuesdays) updates it, and the RECOMP Library app reads it.
+This repository is the single source of truth for the game catalogue. The research task (twice a week) updates it, and the RECOMP Library app reads it.
 
 ## What's here
 
@@ -12,7 +12,7 @@ This repository is the single source of truth for the game catalogue. The weekly
 | `archive/Static_Recompilation_Master_2026-10-18_Merged_601.xlsx` | The original master workbook this catalogue was converted from, kept unchanged for reference. |
 | `archive/workbook-notes-2026-10-18.json` | The workbook's section, audit and scope notes, preserved word for word. |
 | `proposals/` | Dated lists of things that need the owner's yes or no. |
-| `tools/` | The research scripts. `tools/RESEARCH.md` describes the weekly run. |
+| `tools/` | The research scripts. `tools/RESEARCH.md` describes the research run. |
 
 ## How entries work
 
