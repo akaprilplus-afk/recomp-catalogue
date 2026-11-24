@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogueVersion": "2026.11.20-1",
-  "updated": "2026-11-20",
+  "catalogueVersion": "2026.11.24-1",
+  "updated": "2026-11-24",
   "source": "Static_Recompilation_Master_2026-10-18_Merged_601.xlsx (SHA-256 781634e318adf50bc5e94626996b2b49f523ef19404a0e14dcd6d4339123d9b5)",
   "counts": {
-    "rated": 767,
-    "Fully Playable": 72,
-    "Mostly Playable": 386,
-    "Early Development": 309,
-    "otherProjects": 270
+    "rated": 777,
+    "Fully Playable": 76,
+    "Mostly Playable": 390,
+    "Early Development": 311,
+    "otherProjects": 272
   },
   "games": [
     {
@@ -13603,15 +13603,15 @@
       "title": "Burnout Dominator",
       "year": 2007,
       "console": "PlayStation 2",
-      "status": "Early Development",
+      "status": "Fully Playable",
       "project": "literalynn/BurnoutDominatorReversed",
       "release": "v1.6.1 (2026-11-19)",
       "method": "PS2 MIPS-to-C++ static recompilation; native PS2 hardware runtime",
       "gameVersion": "User-owned game, supported revision per README",
       "platform": "Windows/Linux source or builds as documented per project",
       "filesUrl": "https://github.com/literalynn/BurnoutDominatorReversed/releases/tag/v1.6.1",
-      "verified": "2026-11-20",
-      "notes": "PS2 static recompilation in development; native runtime reaches memory-card/profile checking. Racing and save operations are not yet established. | Classification: Early Development; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README, v1.6.1): \"The game is complete and playable from start to finish\" (maintainer); Windows 10/11 is the main tested platform, Linux less tested. Needs your own European disc (SLES-54627); BurnoutDominator.exe installs and builds the game locally.\n\nPS2 static recompilation in development; native runtime reaches memory-card/profile checking. Racing and save operations are not yet established. | Classification: Early Development; project/maintainer evidence only, not independently played. Work source notes Oct 12–17; rechecked 2026-10-18.",
       "projectUrl": "https://github.com/literalynn/BurnoutDominatorReversed",
       "history": [
         {
@@ -13645,6 +13645,14 @@
           "new": "https://github.com/literalynn/BurnoutDominatorReversed/releases/tag/v1.6.1",
           "source": "https://github.com/literalynn/BurnoutDominatorReversed/releases/tag/v1.6.1",
           "note": "Newest version tag on GitHub; date is the tagged code's date (approximate release date)."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": "Early Development",
+          "new": "Fully Playable",
+          "source": "https://github.com/literalynn/BurnoutDominatorReversed/releases/tag/v1.6.1",
+          "note": "Owner's 22 Nov audit: README says \"The game is complete and playable from start to finish\" (maintainer claim; developed and tested on one Windows PC). BurnoutDominator.exe builds locally from the European disc SLES-54627."
         }
       ]
     },
@@ -22484,6 +22492,356 @@
           "note": "Rated by Claude: Early port by its own description -> Early Development."
         }
       ]
+    },
+    {
+      "id": "switch-monster-hunter-generations-ultimate",
+      "legacyId": null,
+      "title": "Monster Hunter Generations Ultimate",
+      "year": 2017,
+      "console": "Nintendo Switch",
+      "status": "Fully Playable",
+      "project": "morerokk/MHGURecomp",
+      "release": "0.19.2 (2026-11-23)",
+      "method": "Static recompilation",
+      "gameVersion": "Own Switch dump of the base game plus update 1.4.0",
+      "platform": "Windows 10/11 64-bit; Linux; Android",
+      "filesUrl": "https://github.com/morerokk/MHGURecomp/releases/tag/0.19.2",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README, Spanish): \"Estado: totalmente jugable, en solitario y en multijugador\" (fully playable, solo and multiplayer); online play through the game's Local Wireless mode with a ready-made server. The 22 Nov audit checked release 0.18.1 with a Windows ZIP.",
+      "projectUrl": "https://github.com/morerokk/MHGURecomp",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/morerokk/MHGURecomp/releases/tag/0.19.2",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/morerokk/MHGURecomp/releases/tag/0.19.2",
+          "note": "Rated by Claude: README says fully playable, solo and multiplayer -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps2-sly-2-band-of-thieves",
+      "legacyId": null,
+      "title": "Sly 2: Band of Thieves",
+      "year": 2004,
+      "console": "PlayStation 2",
+      "status": "Fully Playable",
+      "project": "FridiNaTor1/SafeHouse",
+      "release": "v0.2.144 (2026-11-22)",
+      "method": "Native port (SafeHouse launcher)",
+      "gameVersion": "Own PS2 disc image (USA, Europe v1.00/v2.01, Japan or Korea)",
+      "platform": "Windows x86-64 and ARM64; Linux/Steam Deck; macOS; Android",
+      "filesUrl": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): SafeHouse installs each Sly game from your own disc and runs it natively; Sly 2 is \"a native port, fully playable from start to finish\". Windows installer or portable zip. The same launcher also carries Sly 1 and Sly 3, rated separately.",
+      "projectUrl": "https://github.com/FridiNaTor1/SafeHouse",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+          "note": "Rated by Claude: README says fully playable from start to finish -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps2-sly-cooper-and-the-thievius-raccoonus-native",
+      "legacyId": null,
+      "title": "Sly Cooper and the Thievius Raccoonus",
+      "year": 2002,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "FridiNaTor1/SafeHouse",
+      "release": "v0.2.144 (2026-11-22)",
+      "method": "Native port built on ProjectCane (SafeHouse launcher)",
+      "gameVersion": "Own PS2 disc image (USA, Europe, Japan or Korea)",
+      "platform": "Windows x86-64 and ARM64; Linux/Steam Deck",
+      "filesUrl": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): Sly 1 is listed as \"Playable\", built on theclub654's ProjectCane PC port; no start-to-finish statement for this game.",
+      "projectUrl": "https://github.com/FridiNaTor1/SafeHouse",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+          "note": "Rated by Claude: Listed as playable without a completion statement -> Mostly Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps2-sly-3-honor-among-thieves",
+      "legacyId": null,
+      "title": "Sly 3: Honor Among Thieves",
+      "year": 2005,
+      "console": "PlayStation 2",
+      "status": "Early Development",
+      "project": "FridiNaTor1/SafeHouse",
+      "release": "v0.2.144 (2026-11-22)",
+      "method": "Native port on the Sly 2 port's engine (SafeHouse launcher)",
+      "gameVersion": "Own PS2 disc image",
+      "platform": "Windows x86-64 and ARM64; Linux/Steam Deck; macOS",
+      "filesUrl": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): Sly 3 is \"Early in development, not fully playable\", being ported episode by episode; expect missing features and visual and audio problems.",
+      "projectUrl": "https://github.com/FridiNaTor1/SafeHouse",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/FridiNaTor1/SafeHouse/releases/tag/v0.2.144",
+          "note": "Rated by Claude: README says early in development, not fully playable -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "ps1-driver-2",
+      "legacyId": null,
+      "title": "Driver 2",
+      "year": 2000,
+      "console": "PlayStation 1",
+      "status": "Fully Playable",
+      "project": "OpenDriver2/REDRIVER2",
+      "release": "8.0 (2026-06-26)",
+      "method": "Decompilation-based source port (MIPS code translated back to C by hand; no emulation)",
+      "gameVersion": "Own copies of both Driver 2 CDs (PAL EU or NTSC US, rev 1.0 or 1.1)",
+      "platform": "Windows; Linux",
+      "filesUrl": "https://github.com/OpenDriver2/REDRIVER2/releases/tag/8.0",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README and wiki): REDRIVER2, a full reverse-engineered C port; README log says \"Sep 19, 2020 - reimplementing game complete - game is fully playable\". Setup (wiki Installation instructions): dump both of your CDs, extract the release, then use the OpenDriver2 Launcher's Setup wizard (needs Java) to install the game data from CD1 and CD2. Newest tag 8.0 (2026-06-26); the 22 Nov audit checked the 7.4-rc2 release package REDRIVER2_Win32_Release.zip.",
+      "projectUrl": "https://github.com/OpenDriver2/REDRIVER2",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/OpenDriver2/REDRIVER2/releases/tag/8.0",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Fully Playable",
+          "source": "https://github.com/OpenDriver2/REDRIVER2/releases/tag/8.0",
+          "note": "Rated by Claude: Maintainer states the game is complete and fully playable -> Fully Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "ps2-ridge-racer-v",
+      "legacyId": null,
+      "title": "Ridge Racer V",
+      "year": 2000,
+      "console": "PlayStation 2",
+      "status": "Mostly Playable",
+      "project": "danisandoval/fukami",
+      "release": "v1.1.0 (2026-10-14)",
+      "method": "Static recompilation (PS2 GS from PCSX2)",
+      "gameVersion": "Own USA disc (SLUS-20002) as CHD or cue/bin; other releases are rejected",
+      "platform": "Windows 10/11 x86-64 (Direct3D 11 or Vulkan); macOS Apple silicon; Steam Deck",
+      "filesUrl": "https://github.com/danisandoval/fukami/releases/tag/v1.1.0",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): Fukami, a native port with races, widescreen, 60 fps and memory-card saves; known issues are limited to race-start frame dips on Steam Deck and a one-frame menu offset. No explicit statement that every mode has been completed.",
+      "projectUrl": "https://github.com/danisandoval/fukami",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/danisandoval/fukami/releases/tag/v1.1.0",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/danisandoval/fukami/releases/tag/v1.1.0",
+          "note": "Rated by Claude: Races and Grand Prix play are documented without a completion statement -> Mostly Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-the-lord-of-the-rings-the-return-of-the-king",
+      "legacyId": null,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "Shagg88/Athelas",
+      "release": "1.9.1 (2026-11-21)",
+      "method": "Static recompilation (Athelas package)",
+      "gameVersion": "Own US Xbox disc image (.iso); other regions don't work",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/Shagg88/Athelas/releases/tag/1.9.1",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): Athelas includes a native PC port of the Xbox version, with local co-op on one PC, experimental online co-op and fixes for slowdowns. No start-to-finish statement. The package also has a separate mod for the commercial PC game (not a port; not counted here) and The Two Towers (Xbox), listed as an alternate.",
+      "projectUrl": "https://github.com/Shagg88/Athelas",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Shagg88/Athelas/releases/tag/1.9.1",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/Shagg88/Athelas/releases/tag/1.9.1",
+          "note": "Rated by Claude: Native port with co-op documented, no completion statement -> Mostly Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-darkwatch",
+      "legacyId": null,
+      "title": "Darkwatch",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Mostly Playable",
+      "project": "Linkssy2/DarkwatchDarkerEdition",
+      "release": "v0.8.1 (2026-11-16)",
+      "method": "Static recompilation (xbexbe runtime)",
+      "gameVersion": "Own original Xbox disc; optional PAL PS2 disc for extra languages",
+      "platform": "Windows; Linux/Proton experimental",
+      "filesUrl": "https://github.com/Linkssy2/DarkwatchDarkerEdition/releases/tag/v0.8.1",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README and docs/RELEASE-0.8.1.md): Darker Edition 0.8.1 with campaign, local split-screen co-op and versus; release checks cover install and campaign startup, \"not full-campaign acceptance\". Chosen as the main project over clergyman0013/arizona-vamp-recomp (listed as an alternate): more releases, more features, and the base of other ports.",
+      "projectUrl": "https://github.com/Linkssy2/DarkwatchDarkerEdition",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Linkssy2/DarkwatchDarkerEdition/releases/tag/v0.8.1",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Mostly Playable",
+          "source": "https://github.com/Linkssy2/DarkwatchDarkerEdition/releases/tag/v0.8.1",
+          "note": "Rated by Claude: Campaign, co-op and versus available, no full-campaign check -> Mostly Playable (maintainer claim)."
+        }
+      ]
+    },
+    {
+      "id": "xbox-007-from-russia-with-love",
+      "legacyId": null,
+      "title": "007: From Russia with Love",
+      "year": 2005,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "TGP482/007FRWL-XBERecomp",
+      "release": "V2 (2026-10-29)",
+      "method": "Static recompilation (Xbox XBE Recomp)",
+      "gameVersion": "Own Xbox game files or ISO (USA or Europe)",
+      "platform": "Windows 10 64-bit",
+      "filesUrl": "https://github.com/TGP482/007FRWL-XBERecomp/releases/tag/V2",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): Windows release; put your game files in `assets` and run 007FRWL.exe, which compiles the game's code once. Lists graphics options, keyboard and mouse and autosave at the end of every level, but makes no statement on how far the game has been played.",
+      "projectUrl": "https://github.com/TGP482/007FRWL-XBERecomp",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TGP482/007FRWL-XBERecomp/releases/tag/V2",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/TGP482/007FRWL-XBERecomp/releases/tag/V2",
+          "note": "Rated by Claude: Windows build confirmed, progression not documented -> Early Development."
+        }
+      ]
+    },
+    {
+      "id": "xbox-tom-clancys-splinter-cell-double-agent",
+      "legacyId": null,
+      "title": "Tom Clancy's Splinter Cell: Double Agent",
+      "year": 2006,
+      "console": "Original Xbox",
+      "status": "Early Development",
+      "project": "TGP482/SCDA-XBERecomp",
+      "release": "V3 (2026-10-28)",
+      "method": "Static recompilation (Xbox XBE Recomp)",
+      "gameVersion": "Own original Xbox game files or ISO",
+      "platform": "Windows 10 64-bit",
+      "filesUrl": "https://github.com/TGP482/SCDA-XBERecomp/releases/tag/V3",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): native port of the original Xbox version (not the Xbox 360 or PC versions); put your game files in `assets` and run SCDA.exe. No statement on how far the game has been played.",
+      "projectUrl": "https://github.com/TGP482/SCDA-XBERecomp",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/TGP482/SCDA-XBERecomp/releases/tag/V3",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "status",
+          "old": null,
+          "new": "Early Development",
+          "source": "https://github.com/TGP482/SCDA-XBERecomp/releases/tag/V3",
+          "note": "Rated by Claude: Windows build confirmed, progression not documented -> Early Development."
+        }
+      ]
     }
   ],
   "otherProjects": [
@@ -28927,6 +29285,80 @@
           "old": null,
           "new": "psp-dragon-ball-z-tenkaichi-tag-team",
           "source": "https://github.com/MarquitoK/TTTRecomp",
+          "note": "Linked to the game it is an alternate of (same game and console), so the app can show it next to that game."
+        }
+      ]
+    },
+    {
+      "id": "xbox-the-lord-of-the-rings-the-two-towers-athelas-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "gameId": "xbox-the-lord-of-the-rings-the-two-towers",
+      "title": "The Lord of the Rings: The Two Towers — Shagg88/Athelas, alternate",
+      "console": "Original Xbox",
+      "year": 2002,
+      "project": "Shagg88/Athelas",
+      "projectUrl": "https://github.com/Shagg88/Athelas",
+      "release": "1.9.1 (2026-11-21)",
+      "method": "Static recompilation (Athelas package)",
+      "gameVersion": "Own US Xbox disc image (.iso)",
+      "platform": "Windows",
+      "filesUrl": "https://github.com/Shagg88/Athelas/releases/tag/1.9.1",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): native PC port of the Xbox version with an in-game settings menu (F10) and fast forward (F9); same package as The Return of the King (Xbox).",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/Shagg88/Athelas/releases/tag/1.9.1",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-the-lord-of-the-rings-the-two-towers",
+          "source": "https://github.com/Shagg88/Athelas",
+          "note": "Linked to the game it is an alternate of (same game and console), so the app can show it next to that game."
+        }
+      ]
+    },
+    {
+      "id": "xbox-darkwatch-clergyman0013-alternate",
+      "legacyId": null,
+      "type": "alternate",
+      "gameId": "xbox-darkwatch",
+      "title": "Darkwatch — clergyman0013/arizona-vamp-recomp, alternate",
+      "console": "Original Xbox",
+      "year": 2005,
+      "project": "clergyman0013/arizona-vamp-recomp",
+      "projectUrl": "https://github.com/clergyman0013/arizona-vamp-recomp",
+      "release": "v0.5.5 (2026-10-24)",
+      "method": "Static recompilation",
+      "gameVersion": "Own original Xbox disc image",
+      "platform": "Windows 10/11 x64",
+      "filesUrl": "https://github.com/clergyman0013/arizona-vamp-recomp/releases/tag/v0.5.5",
+      "verified": "2026-11-24",
+      "notes": "Source 2026-11-24 (project README): \"Beta, playable on Windows\"; boots through the front end into the campaign, tested through the start of the first chapter; restores the disc's hidden co-op mode.",
+      "section": "Alternates added by research",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "field": "entry",
+          "old": null,
+          "new": "added",
+          "source": "https://github.com/clergyman0013/arizona-vamp-recomp/releases/tag/v0.5.5",
+          "note": "From the owner's 22 November 2026 audit handoff; entry written from the project's own README and tags."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "gameId",
+          "old": null,
+          "new": "xbox-darkwatch",
+          "source": "https://github.com/clergyman0013/arizona-vamp-recomp",
           "note": "Linked to the game it is an alternate of (same game and console), so the app can show it next to that game."
         }
       ]
