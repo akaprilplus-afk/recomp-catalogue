@@ -21833,7 +21833,7 @@
       "legacyId": null,
       "title": "New Legends",
       "year": 2002,
-      "console": "Xbox",
+      "console": "Original Xbox",
       "status": "Mostly Playable",
       "project": "mkalkhoven-po/New-Legends-Recomp",
       "release": "v0.9.0 (2026-11-18)",
@@ -21860,6 +21860,14 @@
           "new": "Mostly Playable",
           "source": "https://github.com/mkalkhoven-po/New-Legends-Recomp",
           "note": "Rated by Claude: Every level runs, but no full play-through -> Mostly Playable (maintainer claim)."
+        },
+        {
+          "date": "2026-11-24",
+          "field": "console",
+          "old": "Xbox",
+          "new": "Original Xbox",
+          "source": "https://github.com/mkalkhoven-po/New-Legends-Recomp",
+          "note": "Owner approved 2026-11-24: corrects a labelling mistake made when the entry was added on 2026-11-20; the catalogue's name for this console is \"Original Xbox\"."
         }
       ]
     },
